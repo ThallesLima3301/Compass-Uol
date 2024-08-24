@@ -1,39 +1,30 @@
 # Compass-Uol
 
-# Instruções
+<h1>Olá, eu sou o Thalles</h1>
+<h2>Esse aqui sou eu ⬇⬇</h>
 
-Neste arquivo você fará a sua apresentação, assim como a organização geral das suas entregas ao longo das Sprints. Esperamos que haja, minimamente:
+![Texto alternativo](foto.jpeg)
  
-- Uma seção de apresentação, com informações como cidade de residência, instituição de ensino, curso e semestre atual, experiências na área de tecnologia (se houver), hobbies e outras informações que você julgar importante para os monitores.
+- Olá, eu sou Thalles, mora em Mogi das Cruzes, SP. Atualmente, estou cursando Logística e Análise e Desenvolvimento de Sistemas no Senac estou no 3 semestre. Sou formado em Sistemas de Informação pela Anhembi Morumbi, onde  fiz estágio na área de desenvolvimento web. Tenho experiência como desenvolvedor web em uma empresa chamada Tikinet.
+- Meus hobbies sao gosto de jogar CS e Sneak Out entre outro jogos (esses sao os que eu mais jogo atualemnte) com amigos, alem de praticar esportes como futebol e basquete. Também frequento a academia quase todos os dias. Eu amo filmes com plot twists, séries como Friends e animes como Attack on Titan.
+- Atualmente, estou me autoconhecendo, explorando diferentes áreas da tecnologia para descobrir onde me encaixo melhor. Estou seguindo a trilha C e estou gostando muito (gostaria de trabalha na area de analise de dados), mas também tenho bastante interesse nas trilhas A e B. A trilha B, em particular, eu ja entendo um pouco devido aos estudos que fiz por conta própria pois tenho planos de, no futuro próximo, abrir uma loja de moletons online. Assim que me sentir mais confortável com os conteúdos da trilha C, pretendo estudar, de forma independente, os materiais das trilhas A e B.
 
-- Uma ou mais seções para descrever o que estiver aprendendo (resumo), de maneira estruturada. Na medida que você avança no programa de bolsas, deverá alimentar para criar um portfólio de seus estudos.
+- A longo prazo, meus objetivos incluem continuar me conhecendo e explorar o mundo(morro de vontade de ir para paises nordicos). Em um futuro mais distante, tenho um grande interesse em trabalhar com Inteligência Artificial, especialmente com redes neurais. Durante minha faculdade de Sistemas de Informação, tive contato com IA, e um dos trabalhos foi utilizando regressão linear para análises de dados, o que despertou ainda mais meu interesse pela área. Estou ansioso para aprender mais sobre IA e aprofundar meus conhecimentos.
 
-- De forma opcional, sugerimos que você adicione uma foto ao seu perfil do GitHub, pois utilizamos tal informação para facilitar a sua identificação ao longo do processo. Lembre-se que a informação é pública, tal qual você pode testar no exemplo do repositório da [
-The Apache Software Foundation](https://github.com/apache.png?size=250).
+-Atualemnte eu eu ja fiz o curso de linux e git, tive mais dificuldade com o linux pois eu nunca tinha usado ele antes (nao me dei muito bem)
 
-
-Para cada Sprint, crie um arquivo README.md na respectiva pasta. Este arquivo será o relato da sua entrega. Considere organizar neste arquivo a entrega do desafio, a apresentação dos códigos desenvolvidos, imagens que evidenciam a execução (se necessário) e as imagens dos certificados dos cursos solicitados.
+[//]: # (Para cada Sprint, crie um arquivo README.md na respectiva pasta)
 
 
-Veja um modelo de estrutura básica a seguir:
 
-___
-
-## Apresentação
-
-Olá, sou ...
 
 ## Sprints 
 
-1. [Sprint 1](Sprint%201/README.md)
-2. [Sprint 2](Sprint%202/README.md)
-3. [Sprint 3](Sprint%203/README.md)
-4. ...
+1. [Sprint 1](Sprint_1/README.md)
 
-___
 
 
 # Dicas
+<h3>Testando parar se posso colocar links que usei para fazer o desafio</h3>
 
-- [Mark Down - Basic Syntax](https://www.markdownguide.org/basic-syntax/)
-- [Github - Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [O editor rápido e simples para expressões de agendamento cron ](https://crontab.guru)
