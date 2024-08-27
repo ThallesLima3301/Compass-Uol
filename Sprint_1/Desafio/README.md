@@ -16,7 +16,7 @@ ou
 `mv ~/Desktop/dados_de_vendas.csv ~/ecommerce/`
 
 verificando se foi movido
-![Texto alternativo](/Compass-Uol/Sprint_1/evidencias/image_1.jpg)
+![Texto alternativo](../evidencias/image_1.jpg)
 ecommerce/
 └── dados_de_vendas.csv
 
