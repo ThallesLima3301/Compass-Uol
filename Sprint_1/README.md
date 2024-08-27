@@ -5,8 +5,7 @@ Utilize o arquivo README.md da Sprint para organizar todas as suas entregas.V
 
  [ Certificados](/Sprint_1/certificados/vazio.md)
 
-
-![Cursos](/Sprint_1/certificados/vazio.md)
+![Cursos](..//evidencias//img/imagem%20desafio%204.png)
 
 # Exercícios
 

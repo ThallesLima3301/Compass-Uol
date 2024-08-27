@@ -12,12 +12,14 @@
 mkdir ecommerce
 `mkdir /ecommerce`
 
-`mv /home/ubuntu/Desktop/dados_de_vendas.csv ecommerce/l`
+`mv /home/ubuntu/Desktop/dados_de_vendas.csv ecommerce/`
 ou
-`mv ~/Desktop/dados_de_vendas.csv ~/ecommerce/`
+`mv /home/ubuntu//Downloads/dados_de_vendas.csv ~/ecommerce/`
+
 
 verificando se foi movido
 ![Texto alternativo](../evidencias/img//image_1.jpg)
+
 ecommerce/
 └── dados_de_vendas.csv
 
@@ -44,20 +46,20 @@ nano processamento_de_vendas.sh
 ![Texto alternativo](..//evidencias/img//image_2.png)
 
 Ficando assim o codigo
-`# Cria o diretório 'vendas' e copia o arquivo dados_de_vendas.csv para ele `
+ Criar o diretório 'vendas' e copiar o arquivo dados_de_vendas.csv para ele 
 `mkdir -p vendas`
 `cp dados_de_vendas.csv vendas/`
-`# Navega até o diretório 'vendas'`
+ Navegando até o diretório 'vendas'
 `cd vendas`
-`# Crie o subdiretório 'backup'`
+ Crie o subdiretório 'backup'
 `mkdir -p backup`
-`# Define a data atual no formato yyyymmdd`
+ Define a data atual no formato yyyymmdd
 `DATA_ATUAL=$(date +%Y%m%d)`
-`# Copia o arquivo dados_de_vendas.csv para o diretório backup com a data no nome`
+ Copia o arquivo dados_de_vendas.csv para o diretório backup com a data no nome
 `cp dados_de_vendas.csv backup/dados-$DATA_ATUAL.csv`
-`# Renomeia o arquivo no diretório backup para o novo nome "backup"`
+
 `mv backup/dados-$DATA_ATUAL.csv backup/backup-dados-$DATA_ATUAL.csv`
-`# Exibe uma mensagem de conclusão`
+exibir uma mensagem de conclusão
 `echo "Deu certo. Arquivo backup criado: backup-dados-$DATA_ATUAL.csv"`
 
 ![Texto alternativo](..//evidencias//img/image_3.jpg)
@@ -74,7 +76,7 @@ para navegar até o diretório cd vendas/backup
 
 <h4> Terceiro Passo:</h4>
 
-![Texto alternativo](..//evidencias//img/imagem%20desafio%203.png)
+![Texto alternativo](..//evidencias/img/imagem%20desafio%203.png)
 
 Criando o Arquivo relatorio.txt
 `touch relatorio.txt`
@@ -99,10 +101,10 @@ Ficando assim.
 `echo "Data do primeiro registro de venda: $FIRST_DATE" >> relatorio.txt`
 `echo "Data do último registro de venda: $LAST_DATE" >> relatorio.txt`
 Agora eu preciso contar a Quantidade Total de Itens Diferentes Vendidos
-`TOTAL_ITENS=$(cut -d',' -f2 backup-dados-$DATA_ATUAL.csv | tail -n +2 | sort | uniq | wc -l)`
 
 #Contando a quantidade total de itens diferentes vendidos
-TOTAL_ITENS=$(cut -d',' -f2 backup-dados-$DATA_ATUAL.csv | tail -n +2 | sort | uniq | wc -l)
+`TOTAL_ITENS=$(cut -d',' -f2 backup-dados-$DATA_ATUAL.csv | tail -n +2 | sort | uniq | wc -l)`
+
 `echo "Quantidade total de itens diferentes vendidos: $TOTAL_ITENS" >> relatorio.txt`
 #Inclui as primeiras 10 linhas do arquivo no relatorio.txt
 `echo -e "\nPrimeiras 10 linhas do arquivo:" >> relatorio.txt`
@@ -126,9 +128,13 @@ cat vendas/backup/relatorio.txt
 ![Texto alternativo](..//evidencias//img/image_8.png)
 
 vou mostra uma comparação de um para o outro
+
 Antes 	
+
 ![Texto alternativo](..//evidencias//img/image_7.png)
+
 depois
+
 ![Texto alternativo](..//evidencias//img/image_9.png)
 
 Agendar a Execução Automática do Script
@@ -148,7 +154,8 @@ digitei 1 e dei enter.
 
 Ajustei o agendamento temporário: usei o cron para que ele execute o script 
 Tive que usar o `“ /ecommerce$ tree” `eu não sabia qual caminho eu tinha que fazer
-    	 /ecommerce$ tree.
+
+/ecommerce$ tree.
 ├── dados_de_vendas.csv
 ├── processamento_de_vendas.sh
 └── vendas
@@ -157,6 +164,7 @@ Tive que usar o `“ /ecommerce$ tree” `eu não sabia qual caminho eu tinha qu
     	├── dados-20240823.zip
     	├── processamento_de_vendas.sh
     	└── relatorio.txt
+
 entendendo como funciona
 ![Texto alternativo](..//evidencias//img/image_10.png)
 
@@ -197,11 +205,80 @@ Beleza deu certo agora vamos de fato agendar
 
 ![Texto alternativo](..//evidencias//img/imagem%20desafio%204.png)
 fui até o diretório onde está o script processamento_de_vendas.sh:
+
 `cd /home/ubuntu/ecommerce/`
+
 Criando o script consolidador_de_processamento_de_vendas.sh
 
 nano consolidador_de_processamento_de_vendas.sh
 
+
+#Caminho do diretório de backup
+
+`BACKUP_DIR="/home/ubuntu/ecommerce/vendas/backup"`
+
+#Arquivo final consolidado
+`OUTPUT_FILE="/home/ubuntu/ecommerce/relatorio_final.txt"`
+
+#Cria o arquivo final consolidado (vazio)
+`> $OUTPUT_FILE`
+
+#Adiciona um cabeçalho ao arquivo final para facilitar a vizualização
+`echo "Relatório Consolidado de Vendas" > $OUTPUT_FILE`
+`echo "------------------------------" >> $OUTPUT_FILE`
+
+#Itera sobre todos os arquivos de relatório dentro do diretório de backup
+`for RELATORIO in $BACKUP_DIR/relatorio-*.txt; do`
+`echo "Processando: $RELATORIO" >> $OUTPUT_FILE`
+`cat $RELATORIO >> $OUTPUT_FILE`
+`echo -e "\n------------------------------\n" >> $OUTPUT_FILE`
+`done`
+
+#Exibe uma mensagem de conclusão
+`echo "Consolidação concluída. Relatório final gerado em $OUTPUT_FILE"`
+
+dando permissao
+
+`chmod +x consolidador_de_processamento_de_vendas.sh`
+
+Fazendo testes:
+Modificando o arquivo dados_de_vendas.csv manualmente:
+
+Abri o arquivo e modifiquei uma linha 
+nano dados_de_vendas.csv
+execute o script
+`./consolidador_de_processamento_de_vendas.sh`
+Verificando o resultado
+`cat relatorio-20240825_15/2738.txt`
+
+fiz alteração no valor da calca e deu certo 
+![Texto alternativo](..//evidencias//img/image_13.png)
+agora vamos rodar o script que consolida todos os relatórios em um único arquivo final.
+
+./consolidador_de_processamento_de_vendas.sh
+
+`cat relatorio_final.txt`
+
+fiz alteração no valor da calca 
+
+![Texto alternativo](..//evidencias//img/image_13.png)
+
+Deu certo
+apos diversos teste 
+
+![Texto alternativo](..//evidencias//img/image_14.png)
+<!-- fala sobre os testes, que eu mudei data preço add produto entre outros --> 
+
+
+
+
+agora fazendo os relatorio.
+
+ ![Texto alternativo](..//evidencias//img/image_15.png)
+
+resultado dia 26/08/2024
+
+![Texto alternativo](..//evidencias//img/image_16.png)
 
 
 
