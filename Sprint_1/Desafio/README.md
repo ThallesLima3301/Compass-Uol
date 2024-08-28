@@ -258,24 +258,57 @@ apos diversos teste
 **(Nota: eu deletei tudo que nao era relevante para ficar mais facil a vizualicao de voces.)**
 <!-- fala sobre os testes, que eu mudei data preço add produto entre outros --> 
 
+# Relatorio
 
+ <h5>Fazendo o relatório dia 26.</h5>
 
-agora fazendo o relatório dia 26.
 
  ![Texto alternativo](..//evidencias//img/image_15.png)
 
-resultado dia 26/08/2024
+
+<h5>resultado dia 26/08/2024</h5>
 
 ![Texto alternativo](..//evidencias//img/image_16.png)
 
 
-agora fazendo o relatorio dia 27.
+<h5>resultado dia 27/08/2024 </h5>
 
-resultado dia 27/08/2024
+ <h5>o relatorio dia 27.</h5>
+ 
+ ![Texto alternativo](..//evidencias//img/image_17.png)
+
+ <h5>o resultado dia 27/08/2024.</h5>
+
+![Texto alternativo](..//evidencias//img/image_17.1.png)
+
+**Acabei realizando um teste e, por conta disso, a data no relatório final foi alterada para (2024/08/27). No entanto, a última venda registrada ocorreu em (2024/08/28), o que resultou em um erro no cálculo, indicando 68 em vez de 67.**
 
 
 
 
+  <h5>o relatorio dia 28/08/2024.</h5>
+
+![Texto alternativo](..//evidencias//img/image_19.png)
 
 
+ <h5>o resultado dia 28/08/2024.</h5>
 
+![Texto alternativo](..//evidencias//img/image_20.png)
+
+
+<h5>o relatorio dia 29/08/2024.</h5>
+
+![Texto alternativo](..//evidencias//img/image_20.png)
+
+
+ <h5>o resultado dia 28/08/2024.</h5>
+
+![Texto alternativo](..//evidencias//img/image_21.png)
+
+
+# FIM
+agora vamos rodar o script que consolida todos os relatórios em um único arquivo final.
+
+./consolidador_de_processamento_de_vendas.sh
+
+cat relatorio_final.txt
