@@ -285,7 +285,6 @@ apos diversos teste
 
 
 
-
   <h5>o relatorio dia 28/08/2024.</h5>
 
 ![Texto alternativo](..//evidencias//img/image_19.png)
@@ -298,17 +297,25 @@ apos diversos teste
 
 <h5>o relatorio dia 29/08/2024.</h5>
 
-![Texto alternativo](..//evidencias//img/image_20.png)
-
-
- <h5>o resultado dia 28/08/2024.</h5>
-
 ![Texto alternativo](..//evidencias//img/image_21.png)
 
 
+ <h5>o resultado dia 29/08/2024.</h5>
+
+![Texto alternativo](..//evidencias//img/image_22.png)
+
+
+
 # FIM
-agora vamos rodar o script que consolida todos os relatórios em um único arquivo final.
+Agora vamos rodar o script que consolida todos os relatórios em um único arquivo final.
 
-./consolidador_de_processamento_de_vendas.sh
+`./consolidador_de_processamento_de_vendas.sh`
 
-cat relatorio_final.txt
+`cat relatorio_final.txt`
+
+
+![Texto alternativo](..//evidencias//img/image_23.png)
+
+![Texto alternativo](..//evidencias//img/image_24.png)
+
+![Texto alternativo](..//evidencias//img/image_25.png)

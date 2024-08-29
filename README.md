@@ -11,7 +11,6 @@
 
 - A longo prazo, meus objetivos incluem continuar me conhecendo e explorar o mundo(morro de vontade de ir para paises nordicos). Em um futuro mais distante, tenho um grande interesse em trabalhar com Inteligência Artificial, especialmente com redes neurais. Durante minha faculdade de Sistemas de Informação, tive contato com IA, e um dos trabalhos foi utilizando regressão linear para análises de dados, o que despertou ainda mais meu interesse pela área. Estou ansioso para aprender mais sobre IA e aprofundar meus conhecimentos.
 
--Atualemnte eu eu ja fiz o curso de linux e git, tive mais dificuldade com o linux pois eu nunca tinha usado ele antes (nao me dei muito bem)
 
 [//]: # (Para cada Sprint, crie um arquivo README.md na respectiva pasta)
 
