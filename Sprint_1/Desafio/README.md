@@ -61,11 +61,13 @@ Salvei e sai do editor (Ctrl + O para salvar e Ctrl + X para sair no nano).
 
 Testando o script no terminal:
 `./processamento_de_vendas.sh`
+
 ![Texto alternativo](..//evidencias//img/image_4.jpg)
 
 Confirmando  que os arquivos foram criados e renomeados corretamente:
 
 ![Texto alternativo](..//evidencias//img/image_5.jpg)
+
 para navegar até o diretório cd vendas/backup
 `cd vendas/backup`
 
@@ -88,6 +90,7 @@ ficando assim.
 
 tenho que Obter as Datas do Primeiro e Último Registro de Venda
 Eu notei que as datas de vendas estão na coluna 5 do arquivo CSV. Vamos pegar a primeira e última datas do arquivo:
+
 ![Texto alternativo](..//evidencias//img/image_6.png)
 
 ficando assim no resultado final
@@ -239,6 +242,7 @@ Verificando o resultado
 `cat relatorio-20240825_15/2738.txt`
 
 fiz alteração no valor da calca e deu certo 
+
 ![Texto alternativo](..//evidencias//img/image_13.png)
 agora vamos rodar o script que consolida todos os relatórios em um único arquivo final.
 
@@ -255,6 +259,7 @@ Deu certo, decidi fazer varios teste para confirma os resultados
 apos diversos teste 
 
 ![Texto alternativo](..//evidencias//img/image_14.png)
+
 **(Nota: eu deletei tudo que nao era relevante para ficar mais facil a vizualicao de voces.)**
 <!-- fala sobre os testes, que eu mudei data preço add produto entre outros --> 
 
