@@ -119,6 +119,7 @@ A lógica geral desta etapa é garantir que os dados de vendas sejam processados
 Bom vamos ao codigo
 
 ![Texto alternativo](../Sprint_1/evidencias/img/image_3.2.png)
+
 # LOGICA 
 
 Exibição da Data do Sistema:
@@ -216,7 +217,7 @@ Fui pedir ajuda para o meu squad e o pessoal de outros grupos, mas todo mundo di
 
 **De forma resumida eu nao consegui fazer a parte do cron**
 
-Bom.. vamos continuar
+Bom... vamos continuar
 
 ![Texto alternativo](../Sprint_1/evidencias/img/imagem%20desafio%204.png)
 
@@ -268,3 +269,27 @@ usei echo para exibir uma mensagem no terminal informando que o processo de cons
 Resumindo: O script coleta e combina o conteúdo de vários arquivos de relatórios de vendas em um único arquivo consolidado.
 
 # Fim relatorios 
+
+aqui eu vou so mostrar os resultados dos relatorios, nao tenho muito oque explicar tirando o dia 27 que eu acabei fazendo uma mudança se querer de resto foi bem tranquilo
+
+![Texto alternativo](../Sprint_1/evidencias/img/image_23.png)
+
+![Texto alternativo](../Sprint_1/evidencias/img/image_24.png)
+
+![Texto alternativo](../Sprint_1/evidencias/img/image_25.png)
+
+# Feedback
+
+Bom, vou dar meu próprio feedback sobre o que achei da Sprint de modo geral e sobre meu desempenho.
+
+O que mais me incomodou, de longe, foi minha falta de organização. Eu me perdia nas pastas no Linux, usei comandos errados no Git (durante o curso) e, na hora de escrever na pasta do desafio, me perdi um pouco. Não me senti muito confortável com isso e pretendo melhorar nas próximas Sprints.
+
+Sobre o desafio, tive MUITA, mas MUITA dificuldade de interpretação de texto. Fiquei relendo várias vezes e não entendia direito. No começo (nao sabia nem por onde começar), estava bem desconfortável, mas assim que comecei a fazer testes, as coisas foram saindo.
+
+Não tem como não falar sobre minha decepção com o cron. Fiquei bem chateado com isso 😢, não tenho muito o que dizer (já falei sobre), mas pretendo fazer funcionar. Vou resetar a VirtualBox qualquer dia e focar só no cron.
+
+Agora, um desabafo sobre a VirtualBox. No dia em que comecei o desafio (23, se não me engano), eu só queria ver em que parte ia travar ou ter dificuldade, e para minha surpresa, parei no cron. Mas minha VirtualBox simplesmente travou. Desliguei o PC, reiniciei, esperei 10 minutos e nada. Até que tive a brilhante ideia de clicar em reiniciar dentro da VirtualBox e, para minha tristeza, a VirtualBox foi formatada kkkk(Por isso acabei fazendo algumas mudanças no codigo pois esta um pouco confuso algumas coisas e tambem por que achei que poderia ser util as mudança para o futuro). Fiquei muito bravo com isso.
+
+Acho que é isso. Foi bem divertido aprender tudo isso um mix de sensaçoes e sentimentos. Fiquei com medo de não conseguir fazer, me senti inseguro, mas conforme a Sprint foi avançando, fui pegando confiança.
+
+Agora eu queria saber a opinião de vocês sobre minha Sprint. Vocês acharam que o `Readme` do desafio ficou muito grande? Ficou curto? Sentiram falta de evidências? O que acharam da minha explicação? Muitos detalhes? Poucos detalhes? Foquei em coisas inúteis? Ficou muito grande ou muito curto? Gostaria de saber para poder melhorar nas próximas e oque vc acham da ideia de toda Sprint eu dar o meu feedback sobre ela, acham algo interessante ou nao muito relevante.
