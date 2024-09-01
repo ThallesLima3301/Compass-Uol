@@ -5,11 +5,10 @@ Sobre o Readme sem problemas bem simples, utiizei uma extensão chamada **Markdo
 
 
 Atualmente, já concluí os dois cursos e estou gostando bastante da trilha. Estou ansioso pela próxima sprint e pelos novos aprendizados que ela trará 😊.
+
 # Certificados
 
  [ Certificados](/Sprint_1/certificados/vazio.md)
-
-![Cursos](../Sprint_1/certificados/vazio.md)
 
 # Exercícios
 
@@ -54,7 +53,7 @@ entao vamos explicar o meu codigo.
 
 Criando o diretório vendas e copiando o arquivo:
 
-eu criei `cd $BASE_DIR` pois achei q pdoeria ser util
+eu criei `cd $BASE_DIR` pois achei q poderia ser util
 o comando nele é `BASE_DIR="/home/ubuntu/ecommerce"` sempre que eu tivesse que voltar pro "ecommerce" eu usaria ele.
 
 O código usa `mkdir -p` vendas para garantir que o diretório vendas seja criado( caso ainda não exista).
@@ -86,8 +85,7 @@ Passando para proxima parte
 
 ![Texto alternativo](../Sprint_1/evidencias/img/imagem%20desafio%203.png)
 
-Eu tive que reler varias e varias vezes para entender, tive dificuldade de interpretação
-entao preferi ir por partes. Vamos la
+Nessa parte eu tive que reler varias e varias vezes para entender, tive dificuldade de interpretação entao preferi ir por partes. Vamos la!
 
 Criação do arquivo relatorio.txt:
 
@@ -169,8 +167,7 @@ fazendo os testes
 
 ![Texto alternativo](../Sprint_1/evidencias/img/image_14.png)
 
-fiz teste de tudo, mudei a data, mudei valor, mudei as primeiras 10 linhas fiz tudo que eu achei importante para ter certeza que eu estava no caminho certo.
-apaguei eles usando o `rm` para nao ficar poluido pra vcs quando verem os relatorios.
+Realizei testes em todos os aspectos necessários, incluindo a alteração da data, dos valores, e das primeiras 10 linhas. Fiz tudo o que considerei importante para garantir que estou no caminho certo. Após concluir os testes, utilizei o comando `rm` para apagar os arquivos temporários, evitando assim que os relatórios fiquem poluídos quando vocês os revisarem.
 
 Bom agora vamos falar sobre o problema com o cron
 
@@ -183,6 +180,8 @@ Pois bem, tentei, mas notei que minha virtual box não atualizava o horário. Fe
 
 Arrumei isso nas configurações e deixei o PC aberto por 24h para testar. Para minha infelicidade, **NÃO FOI**. Percebi que ele não estava executando por conta própria, o que me deixou frustrado. 
 Então, cansei do cron e fui testar outra solução (nisso já era dia 25). Eu queria deixar meu cron funcionando para segunda (26), então fui atrás de outra solução e descobri que no Linux da para usar um tal de "Timer".
+(**Notas:** algumas ideias do código vieram de um site. 
+https://www.certificacaolinux.com.br/systemd-timer-no-linux-mulplexar-terminal-guia-basico/)
  Bom, moleza! Em 5 minutos, eu criei.
 
 `sudo nano etc/systemd/system/processamento_de_vendas.timer`
@@ -211,8 +210,7 @@ Então, cansei do cron e fui testar outra solução (nisso já era dia 25). Eu q
 
 E FOI, MAS FOI SÓ DE 1 MINUTO EM 1 MINUTO DE NOVO. Desisti.
 
-Fui pedir ajuda para o meu squad e o pessoal de outros grupos, mas todo mundo dizia a mesma coisa: que o problema seria o caminho. Eu mostrava que não era isso falaram que eu nao dei permissao enfim...  mas nada adiantava. Então, deixei de lado e executei o script manualmente.
-
+Fui pedir ajuda para o meu squad e o pessoal de outros grupos, mas todo mundo dizia a mesma coisa: que o problema seria o caminho. Eu mostrava que não era isso falaram que eu nao dei permissao e coisas assim, mas enfim... nada adiantava. Então, deixei de lado e executei o script manualmente.
 
 
 **De forma resumida eu nao consegui fazer a parte do cron**
@@ -221,7 +219,7 @@ Bom... vamos continuar
 
 ![Texto alternativo](../Sprint_1/evidencias/img/imagem%20desafio%204.png)
 
-Ja parte do desafio tem como objetivo a criação de um novo relatório a partir dos dados processados anteriormente. 
+Ja essa parte do desafio tem como objetivo a criação de um novo relatório a partir dos dados processados anteriormente. 
 
 Modificar manualmente os dados: A ideia aqui é fazer alterações no arquivo dados_de_vendas.csv uma vez por dia, atualizando-o com novas informações de vendas. Isso deve ser feito diretamente no diretório ecommerce.
 
@@ -270,7 +268,7 @@ Resumindo: O script coleta e combina o conteúdo de vários arquivos de relatór
 
 # Fim relatorios 
 
-aqui eu vou so mostrar os resultados dos relatorios, nao tenho muito oque explicar tirando o dia 27 que eu acabei fazendo uma mudança se querer de resto foi bem tranquilo
+aqui eu vou so mostrar os resultados dos relatorios, nao tenho muito oque explicar tirando o dia 27 que eu acabei fazendo uma mudança sem querer de resto foi bem tranquilo
 
 ![Texto alternativo](../Sprint_1/evidencias/img/image_23.png)
 
@@ -292,4 +290,4 @@ Agora, um desabafo sobre a VirtualBox. No dia em que comecei o desafio (23, se n
 
 Acho que é isso. Foi bem divertido aprender tudo isso um mix de sensaçoes e sentimentos. Fiquei com medo de não conseguir fazer, me senti inseguro, mas conforme a Sprint foi avançando, fui pegando confiança.
 
-Agora eu queria saber a opinião de vocês sobre minha Sprint. Vocês acharam que o `Readme` do desafio ficou muito grande? Ficou curto? Sentiram falta de evidências? O que acharam da minha explicação? Muitos detalhes? Poucos detalhes? Foquei em coisas inúteis? Ficou muito grande ou muito curto? Gostaria de saber para poder melhorar nas próximas e oque vc acham da ideia de toda Sprint eu dar o meu feedback sobre ela, acham algo interessante ou nao muito relevante.
+Agora eu queria saber a opinião de vocês sobre minha Sprint. Oque vocês do meu `Readme` do desafio ficou muito grande? Ficou curto? sobre esse `Readme` Sentiram falta de evidências? O que acharam da minha explicação? Muitos detalhes? Poucos detalhes? Foquei em coisas inúteis? Ficou muito grande ou muito curto? Gostaria de saber para poder melhorar nas próximas e oque vc acham da ideia de toda Sprint eu dar o meu feedback sobre ela, acham algo interessante ou nao muito relevante.
