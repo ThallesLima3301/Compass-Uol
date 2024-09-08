@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "C:\\Users\\User\\Desktop\\biblioteca\\biblioteca.sqlite",
+            "name": "BibliotecaDB"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
