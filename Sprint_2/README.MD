@@ -32,6 +32,7 @@ Minha lógica ja esta documentada nos aquivos, vou usar imagens colocando que fu
 2. [Resposta Caso de Estudo Loja](../Sprint_2/exercicios/Caso_de_Estudo_Loja/loja/Exercicio_8_ao_16.sql)
 
 Bom ja esse exercicios eu vou documentar aqui o meu passo a passo
+
 3. [exportacao_Biblioteca Ex3](../Sprint_2/exercicios/exportacao_Biblioteca/biblioteca2/query.sql)
 
     # Seção 6: Linguagem SQL - Exercícios II
@@ -53,6 +54,7 @@ Eu tive uns probleminhas, mas resolvi
 ![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/SQL_Tools_4.png)
 
 confirmando se foi:
+
 ![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/SQL_Tools_5.png)
 
 
@@ -147,12 +149,19 @@ ORDER BY
     QuantidadeLivros DESC
 LIMIT 5;`
 
+![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image8.png)
+
+![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image9.png)
+
 Mesmo esquema para tranformar em arquivo.csv
+
 
 ![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image5.png)
 
 ![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image6.png)
 
 [Resultado](exercicios/exportacao_Biblioteca/biblioteca2/maiores_editoras.csv)
+
+[Meu banco de dados](../../Sprint2.session.sql)
 
 # Feedback
