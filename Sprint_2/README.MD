@@ -165,3 +165,7 @@ Mesmo esquema para tranformar em arquivo.csv
 [Meu banco de dados](../../Sprint2.session.sql)
 
 # Feedback
+
+Bom, vou dar meu próprio feedback sobre o que achei da Sprint de modo geral e sobre meu desempenho.
+
+Bom
