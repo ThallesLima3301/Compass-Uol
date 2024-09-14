@@ -165,7 +165,6 @@ Mesmo esquema para tranformar em arquivo.csv
 
 [Resultado](exercicios/exportacao_Biblioteca/biblioteca2/maiores_editoras.csv)
 
-[Meu banco de dados](../../Sprint2.session.sql)
 
 # Desafios
 
@@ -205,6 +204,10 @@ eu  estudei bastante sobre.
 Tirando a parte de  de fazer o dim_data (foi complciado), o processo foi bem tranquilo. Criei várias views que considero importantes no desenvolvimento, com perguntas que provavelmente são comuns no dia a dia. Alguns exemplos incluem: uma view para mostrar informações de locações feitas por vendedores de um estado específico e outra para calcular o valor total pago em uma locação (multiplicando o número de dias pelo valor da diária).
 
 Ainda me sinto um pouco inseguro em relação ao SQL, mas acredito que essa sprint está me ajudando bastante a aprender. Mesmo assim, ainda tenho muitas dúvidas, especialmente em relação aos modelos. Consegui fazer, mas não foi algo fácil. Espero que esteja tudo certo.
+
+# Resultados
+
+![Texto alternativo](../Sprint_2/evidencias/Img_Desafio/Desafio11.png)
 
 # Feedback
 
