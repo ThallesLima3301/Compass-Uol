@@ -36,11 +36,16 @@ Entao vamos la fazer isso ai:
 
 Formato Estrela e criando dim_tempo
 
-
 ![Texto alternativo](../evidencias/Img_Desafio/Dimensão%20estrela.png)
 
-
 (**eu sei que não é a estrela mais bonita que vcs ja viram**)
+
+**Desenho do Modelo Dimensional:**
+
+sem o "tb"
+
+![Texto alternativo](../evidencias/Img_Desafio/Desafio12.png)
+
 
 Bom agora vou mostrar como ficou no sql.
 
