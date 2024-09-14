@@ -64,7 +64,7 @@ FROM tb_locacao;
 -- Inserindo dados na dimensão de Tempo (tb_dim_tempo) com a data separada
 INSERT INTO tb_dim_tempo (idData, data, ano, mes, dia, diaSemana, trimestre)
 SELECT DISTINCT 
-    dataLocacao AS idData,  -- Mantemos o idData no formato YYYYMMDD
+    dataLocacao AS idData,  --  idData no formato YYYYMMDD
     SUBSTR(dataLocacao, 1, 4) || '-' || SUBSTR(dataLocacao, 5, 2) || '-' || SUBSTR(dataLocacao, 7, 2) AS data, 
     CAST(SUBSTR(dataLocacao, 1, 4) AS INT) AS ano,  -- Extraindo o ano
     CAST(SUBSTR(dataLocacao, 5, 2) AS INT) AS mes,  -- Extraindo o mês
@@ -200,3 +200,18 @@ FROM tb_dim_cliente;
 
 
 SELECT * FROM vw_dim_cliente;  -- Consulta todos os clientes
+
+CREATE VIEW vw_locacao_vendedor_estado AS
+SELECT 
+    nomeVendedor,
+    sexoVendedor,
+    estadoVendedor,
+    nomeCliente,
+    marcaCarro,
+    modeloCarro,
+    dataLocacao
+FROM tb_locacao
+WHERE estadoVendedor = 'São Paulo';
+
+
+SELECT * FROM vw_locacao_vendedor_estado;

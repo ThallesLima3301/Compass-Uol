@@ -5,6 +5,15 @@ Vou lá vou começar comentando sobre as dificuldades que enfrentei. Primeiramen
 
 Vou ser mais direto nessa Sprint.
 
+# Explicação simples
+
+Diferenças entre os modelos:
+Modelo Conceitual: Representa as entidades e seus relacionamentos sem muitos detalhes técnicos, focado mais em entender o problema do negócio. É mais abstrato.
+
+Modelo Lógico: É uma etapa mais detalhada, onde você define as entidades, atributos, relacionamentos, mas sem ainda pensar em limitações específicas do SGBD. Já aparece a normalização, as relações entre tabelas, mas sem pensar ainda em tipos de dados do SGBD.
+
+Modelo Físico: Representa a implementação prática no SGBD, com detalhes como tipos de dados, constraints (chaves primárias, estrangeiras), e sintaxe SQL para criar as tabelas e relações.
+
 **Desenho da Modelagem Relacional:**
 
 ![Texto alternativo](../evidencias/Img_Desafio/Relacional.png)
@@ -23,22 +32,34 @@ Eu particularmente usaria modelo estrela, pois facilita a consulta, evitando faz
 
 Entao vamos la fazer isso ai:
 
+**Desenho do Modelo Dimensional:**
+
+Formato Estrela e criando dim_tempo
+
+
 ![Texto alternativo](../evidencias/Img_Desafio/Dimensão%20estrela.png)
+
 
 (**eu sei que não é a estrela mais bonita que vcs ja viram**)
 
-Bom agora vou mostrar 
-Beleza agora vou mostrar como ficou no sql.
+Bom agora vou mostrar como ficou no sql.
 
-Mas antes vou dar um explicada de cada coisa que eu fiz
+Mas antes vou dar um explicada de cada coisa que eu fiz vamo Avaliar as fromas
 
 Avaliação das Formas Normais:
 
+Analisar as tabelas e seus esquemas.
+Verificar possíveis redundâncias ou anomalias de inserção/atualização.
+Aplicar regras de normalização (1ª, 2ª e 3ª forma normal).
+
 1FN: Todas as tabelas apresentam valores atômicos e possuem chaves primárias corretas.
+
 2FN: Todas as dependências parciais foram eliminadas, com os atributos não-chave dependendo das chaves primárias.
+
 3FN: As dependências transitivas foram removidas, assegurando que não haja atributos não-chave dependendo de outros não-chave.
 
 Bom crei as tabelas.
+
 ![Texto alternativo](../evidencias/Img_Desafio/Desafio0.png)
 
 CREATE TABLE tb_localizacao (
@@ -111,11 +132,13 @@ CREATE TABLE tb_locacao (
 
 Agora vamos falar sobre as views
 
-comecei fazer um view simples 
+comecei fazer uma view simples 
 
 ![Texto alternativo](../evidencias/Img_Desafio/Desafio1.png)
 
 eu tomei um tapa na cara da anne kkkkkk.
+
+Ela disse:
 
 "não esta não
  
@@ -143,9 +166,9 @@ mas em cliente deve existir apenas UM registro seu
  
 e esse registro deve ser o mais atualizado"
 
-Beleza entendi oque ela queria entao vamo la. 
+Beleza acho que entendi oque ela queria entao vamo la. 
 
-crie e ficou assim
+criei e ficou assim
 # Documentação da View `vw_fato_locacao`
 
 Esta view foi criada para consolidar informações de locação, cliente, carro e vendedor, facilitando a consulta de dados completos sobre as locações realizadas.
@@ -177,7 +200,7 @@ LEFT JOIN tb_dim_vendedor vend ON loc.idVendedor = vend.idVendedor;
 
 ```
 
-(**Nota: tive muitos problemas fazendo essa view mas na que precise ser destacado**)
+(**Nota: tive muitos problemas fazendo essa view mas nada que precise ser destacado**)
 
 fui todo feliz falar com a anne e entao recebi.
 
@@ -195,13 +218,19 @@ mas o valor total do vendedor x.
  
 pego a fato e faço o meu join com dimensao vendedor para pegar o nome dele"
 
-Comecei de novo. agora vou começar a mandar o codigo + os resultados
+Comecei de novo. 
+
+# Fazendo a View 
+
+Agora vou começar a mandar o codigo + os resultados
 
 ![Texto alternativo](../evidencias/Img_Desafio/Desafio2.png)
 
 Minhas tabelas estavam assim (Não vou colocar o codigo pois ele ficou muito grande).
 
-mas vale resaltar que o acabei inserindo dados na minah tabela(atutalmente eu tirei pois não sei se é permitido).
+mas vale resaltar que o acabei inserindo dados na minha tabela(atutalmente eu tirei pois não sei se é permitido).
+
+Mas ficou aassim. 
 
 ```sql
 INSERT INTO tb_dim_cliente (idCliente, nomeCliente, cidadeCliente, estadoCliente, paisCliente)
@@ -233,7 +262,7 @@ rodei o
 
 beleza agora seguindo as recomendaçoes 
 
-Vamos revisar o que sua Anne sugeriu para garantir que a view esteja correta e siga as boas práticas mencionadas.
+Vamos revisar o que a Anne sugeriu para garantir que a view esteja correta e siga as boas práticas mencionadas.
 
 Revisão dos Pontos:
 Chaves das Dimensões (PKs): Ao invés de usar diretamente os IDs da tabela tb_locacao, eu teria que fazer JOIN com as tabelas de dimensão (por exemplo, tb_dim_cliente, tb_dim_carro, tb_dim_vendedor), garantindo que estamos usando as Primary Keys (PK) das dimensões.
@@ -241,6 +270,7 @@ Chaves das Dimensões (PKs): Ao invés de usar diretamente os IDs da tabela tb_l
 Distinct (Clientes únicos): Para garantir que um cliente apareça apenas uma vez, devemos usar os dados da dimensão cliente, onde o cliente tem um único registro.
 
 Atualização do Cliente: Caso precise, a dimensão cliente deve ter apenas o registro mais atualizado para cada cliente.
+
 ```sql
 -- Ajustando a View de Fato para usar apenas os IDs das dimensões
 -- Não é necessário incluir os atributos (nomeCliente, modeloCarro, etc.) diretamente aqui, eles podem ser acessados por meio de junções com as dimensões quando necessário.
@@ -283,7 +313,7 @@ resultado do comando `SELECT * FROM vw_fato_locacao;`
 
 ![Texto alternativo](../evidencias/Img_Desafio/Desafio5.png)
 
-na imagem nao da pra ver mais aqui eu ja tinha abandonado a ideia de inserir dados e usei somente os dados do arquivo 
+Aqui da pra ver eu ja tinha abandonado a ideia de inserir dados e usei somente os dados do arquivo 
 
 ```sql
 SELECT idCliente, COUNT(*)
@@ -294,7 +324,8 @@ HAVING COUNT(*) > 1;
 usei esse codigo para verificar a integridade dos dados:
 
 
-Agora eu vou falar da Dimensão de Tempo, creie um view 
+Agora eu vou falar da Dimensão de Tempo, eu criei uma view 
+
 ```sql
 INSERT INTO tb_dim_tempo (idData, data, ano, mes, dia, diaSemana, trimestre)
 SELECT DISTINCT 
@@ -597,4 +628,19 @@ FROM tb_dim_cliente;
 
 SELECT * FROM vw_dim_cliente;  -- Consulta todos os clientes
 
+-- View para mostrar informações de locações feitas por vendedores de um estado específico:
+
+CREATE VIEW vw_locacao_vendedor_estado AS
+SELECT 
+    nomeVendedor,
+    sexoVendedor,
+    estadoVendedor,
+    nomeCliente,
+    marcaCarro,
+    modeloCarro,
+    dataLocacao
+FROM tb_locacao
+WHERE estadoVendedor = 'São Paulo';
+
+SELECT * FROM vw_locacao_vendedor_estado;
 ```
