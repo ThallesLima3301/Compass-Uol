@@ -49,7 +49,7 @@ sem o "tb"
 
 Bom agora vou mostrar como ficou no sql.
 
-Mas antes vou dar um explicada de cada coisa que eu fiz vamo Avaliar as fromas
+Mas antes vou dar um explicada de cada coisa que eu fiz vamo Avaliar as formas
 
 Avaliação das Formas Normais:
 
@@ -174,6 +174,7 @@ e esse registro deve ser o mais atualizado"
 Beleza acho que entendi oque ela queria entao vamo la. 
 
 criei e ficou assim
+
 # Documentação da View `vw_fato_locacao`
 
 Esta view foi criada para consolidar informações de locação, cliente, carro e vendedor, facilitando a consulta de dados completos sobre as locações realizadas.
@@ -358,7 +359,9 @@ FROM tb_locacao
 WHERE dataLocacao IS NOT NULL;
 ```
 
-Isso vai gerar automaticamente as datas e seus componentes, como ano, mês, dia, dia da semana e trimestre, para todas as locações na tabela tb_locacao.
+Eu sei que tinhas outros meios mais simples de fazer, não era necessario usar o `CASE` mas optei por esse caminho simplesmente por que eu nao esatava conseguindo fazer ele, entao eu levei pro pessoal. (Mas deu certo no final)
+
+Isso vai gerar automaticamente as datas e meus componentes, como ano, mês, dia, dia da semana e trimestre, para todas as locações na tabela tb_locacao.
 
 (**Nota: Ficaria muita coisa se eu tentasse colcoar todos os links que eu usei para fazer porem os destaques ficam para https://www.youtube.com/watch?v=5OieIJeNXZA e https://www.mssqltips.com/sqlservertip/4054/creating-a-date-dimension-or-calendar-table-in-sql-server/**)
 
