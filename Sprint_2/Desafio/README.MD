@@ -350,7 +350,8 @@ SELECT DISTINCT
         WHEN STRFTIME('%w', SUBSTR(dataLocacao, 1, 4) || '-' || SUBSTR(dataLocacao, 5, 2) || '-' || SUBSTR(dataLocacao, 7, 2)) = '6' THEN 'Sábado'
     END AS diaSemana,  -- Dia da semana
     CASE 
-        WHEN CAST(SUBSTR(dataLocacao, 5, 2) AS INT) IN (1, 2, 3) THEN 1
+        WHEN CAST(SUBSTR(dataLocacao,
+         5, 2) AS INT) IN (1, 2, 3) THEN 1
         WHEN CAST(SUBSTR(dataLocacao, 5, 2) AS INT) IN (4, 5, 6) THEN 2
         WHEN CAST(SUBSTR(dataLocacao, 5, 2) AS INT) IN (7, 8, 9) THEN 3
         ELSE 4

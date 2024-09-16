@@ -306,4 +306,6 @@ Gostaria de compartilhar meu feedback sobre a Sprint de forma geral e meu desemp
 
 Um ponto positivo foi que ajudei muitas pessoas, o que me deu uma perspectiva diferente, pois as dúvidas delas ampliaram minha compreensão. Isso me fez evoluir bastante e ter uma logica diferente da minha.
 
+Gostei do primeiro contato com aws 
+
 Este resumo de Sprint foi menos detalhado e mais direto do que o anterior. Para a próxima, vou experimentar uma abordagem diferente resultando em 3 tipos. Após o feedback da terceira Sprint, decidirei qual modelo de resumo vou adotar daqui em diante com base o feedback de voces (talvez um pouco dos 3).
