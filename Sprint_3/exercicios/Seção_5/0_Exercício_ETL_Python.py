@@ -13,7 +13,7 @@ A seguir, vou implementar um código que busca esse ator e imprime o resultado.
 
 # Definir o caminho do arquivo corretamente
 #optei fazer um try pois eu estava fazendo alguma coisa errada
-file_path = 'actors.csv'
+file_path = '../actors.csv'
 try:
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -23,6 +23,6 @@ try:
     for line in lines[:5]:
         print(line.strip())
 except FileNotFoundError:
-    print(f"Arquivo '{file_path}' não encontrado. Verifique o caminho.")
+    print(f"Arquivo '{file_path}' nao encontrado. Verifique o caminho.")
 
 

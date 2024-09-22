@@ -56,6 +56,7 @@ except FileNotFoundError:
 """
 
 eu achei mais legal de ler assim, mas vc me obrigaram a fazer "(nome do autor)- (receita total bruna)"
+
  with open(output_file, 'w') as output:
         output.write("Lista dos atores com maior receita bruta de bilheteria:\n\n")
         for ator, total_gross in atores_total_gross:
