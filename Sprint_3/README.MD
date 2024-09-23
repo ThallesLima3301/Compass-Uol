@@ -1,6 +1,6 @@
 
 
-Durante a Sprint 3, aprendi muita coisa, 
+Durante a Sprint 3, aprendi muita coisa,  dsadadas
 
 
 Atualmente, já concluí os dois cursos (python e AWS) e estou gostando bastante da trilha. 
