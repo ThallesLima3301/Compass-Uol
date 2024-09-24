@@ -1,14 +1,14 @@
 # etapa-2.py
 """
 Plano:
-Ler o arquivo CSV e extrair a coluna "Total Gross".
+Ler o arquivo CSV e extrair a coluna "Gross".
 Somar os valores dessa coluna.
 Calcular a média dividindo a soma total pelo número de atores (linhas).
 Imprimir o resultado.
 Pseudocódigo:
 Abrir o arquivo CSV.
 Pular o cabeçalho.
-Iterar pelas linhas para extrair a coluna "Total Gross".
+Iterar pelas linhas para extrair a coluna "Gross".
 Somar os valores e contar quantas entradas foram processadas.
 Dividir a soma pelo total de entradas e exibir a média.
 """

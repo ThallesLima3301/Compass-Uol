@@ -7,8 +7,6 @@ Average per Movie: Receita bruta dividida pelo número de filmes.
 #1 Movie: Filme de maior receita bruta em que o ator participou.
 Gross: Receita bruta, em milhões de dólares, do filme de maior receita.
 Vamos começar pela Etapa 1: Encontrar o ator/atriz com o maior número de filmes.
-A seguir, vou implementar um código que busca esse ator e imprime o resultado.
-
 """
 
 # Definir o caminho do arquivo corretamente

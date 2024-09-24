@@ -12,15 +12,208 @@ Estou ansioso pela próxima sprint e pelos novos aprendizados que ela trará �
 
 # Exercícios
 
-1. [Resposta Caso de Estudo Biblioteca](../Sprint_3/exercicios/Seção_3/)
+1. [Respostas Seção_3](../Sprint_3/exercicios/Seção_3/)
 
-2. [Resposta Caso de Estudo Loja](../Sprint_3/exercicios/Seção_4/)
+2. [Resposta Seção_4](../Sprint_3/exercicios/Seção_4/)
+
+3. [Resposta Seção_5](../Sprint_3/exercicios/Seção_5/)
 
 
 # Desafios
 
-[Desafio 2](../Sprint_3/Desafio/README.MD)
+[Desafio 3](../Sprint_3/Desafio/README.MD)
 
 
-# # Evidências
+# Evidências
 
+Minha lógica ja esta documentada nos aquivos, vou usar imagens colocando que funcionou dentro da plataforma. A ideia é mostrar de forma clara e direta os resultados
+
+1. [Respostas Seção_3](../Sprint_3/exercicios/Seção_3/)
+
+![Texto alternativo](../Sprint_3/evidencias/Seção_3/Seção_3.png)
+
+fiu bem simples de se fazer, nao tive problemas.
+
+2. [Resposta Seção_4](../Sprint_3/exercicios/Seção_4/)
+
+![Texto alternativo](../Sprint_3/evidencias/Seção_4/Seção_4.png)
+
+Já esses exercícios eu tive problemas Principalmente com a saida dos resultado, os exercícios em sí não são difíceis.
+Eu particularmente gostei dos exercícios mas por ter que usar a udemy como forma de validação acaba se tornando um situação meio frustante, eu adotei o método  simples de se eu não fizer o exercício de primeira eu simplesmente pulava para o próximo e depois eu voltava e via oq estava acontecendo, tirando um ou outro que eu realemtne fiz com a lógica errada kkkk a maioria que deu errado foi o formato da saida esperado.
+Achei que foram muitos exercícios. 
+
+Bom ja esse exercicio (Seção_5) eu vou documentar aqui o meu passo a passo
+
+
+![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_enunciado.png)
+
+Antes de começar, aqui esta uma explicação de como eu fiz para abrir o aquivo CSV.
+
+Abrir o arquivo CSV usando o modo de leitura ("r").
+Ler as linhas do arquivo.
+Separar os valores em cada linha, já que o CSV usa vírgulas para separar os campos.
+Guardar as informações para processá-las e descobrir qual ator tem o maior número de filmes.
+
+[Respostas Seção_3](../Sprint_3/exercicios/Seção_5/0_Exercício_ETL_Python.py)
+
+Belza agora vamos fezer o exercício
+
+![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_enunciado_2.png)
+
+Vamos começar pela Etapa 1, que pede para encontrar o ator ou atriz com o maior número de filmes, baseado na coluna "Number of movies". Lembrando de que não posso usar bibliotecas como Pandas ou NumPy, então vou usar a manipulação de arquivos CSV diretamente no Python.
+
+1. Identificar a coluna correta de "Number of Movies":
+Depois de verificar as primeiras linhas do CSV, confirmar em qual posição da linha está a coluna "Number of Movies".
+
+2. Extrair o número de filmes e o nome do ator:
+
+3. Comparar e encontrar o ator com mais filmes:
+
+comparando com o maior valor atual e mantenha o nome do ator correspondente.
+
+Bom vale resaltar que usei o strip() me ajudou bastante.
+
+´strip() aplicado ao nome do ator para garantir que nenhum espaço extra seja considerado no resultado.´
+
+ <h1>Resultado</h1>
+
+![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta1.png)
+
+![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_enunciado_3.png)
+
+Etapa 2:
+A Etapa 2 pede para apresentar a média de receita bruta de bilheteria doméstica dos principais filmes, considerando todos os atores. Eu precisa calcular a média da coluna "Gross", que representa a receita bruta.
+
+Gross: Receita bruta de bilheteria doméstica está na segunda coluna.
+
+Ideia:
+Ler o arquivo CSV e extrair a coluna "Gross".
+Somar os valores dessa coluna.
+Calcular a média dividindo a soma total pelo número de atores (linhas).
+Imprimir o resultado.
+
+**Nota: estava fazendo o Total Gross inves de apenas Gross**
+
+ <h1>Resultado</h1>
+
+![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta2.png)
+
+Etapa 3:
+
+encontrar o ator ou atriz que tem a maior média de receita bruta por filme, utilizando a coluna "Average per Movie".
+
+Ideia do que 
+fazer:
+Ler a coluna "Average per Movie" 
+Verificar a coluna "Average per Movie" para cada linha e comparar os valores.
+Encontrar o valor mais alto nessa coluna.
+Armazenar o nome do ator/atriz com o maior valor dessa coluna.
+Exibir o nome do ator/atriz com a maior média.
+
+Passo a passo do cálculo:
+
+Como é calculada a média "Average per Movie":
+Somar o total de receita bruta do ator: Isso está na coluna "Total Gross", que representa a receita total de todos os filmes em que o ator participou.
+Dividir pelo número de filmes: O número de filmes em que o ator participou está na coluna "Number of Movies".
+A fórmula da média seria:
+
+Average per Movie = Total Gross
+                ------------------
+                Number of Movies
+
+Exemplo com números:
+Vamos pegar o exemplo de Anthony Daniels, que teve a maior média:
+
+Total Gross (Receita total bruta): 4957.8 milhões de dólares
+Number of Movies (Número de filmes): 11
+Agora aplicamos a fórmula: 4957.8/11 = 451.8M
+
+Isso significa que, em média, cada filme em que Anthony Daniels participou gerou 451.8 milhões de dólares em receita bruta.
+
+ <h1>Resultado</h1>
+
+![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta3.png)
+
+
+Etapa 4:
+
+Bom aqui eu ja vou avisando q eu fiz de 3 formas diferentes.(mais irei comentar somente 2)
+Vamos la.
+
+Explicação:
+
+Contagem de filmes: usando a coluna "#1 Movie" para extrair o nome do filme de cada linha e armazená-lo na lista filmes.
+Contagem de ocorrências: usando o objeto Counter da biblioteca collections para contar quantas vezes cada filme aparece ou apenas utilziando py.
+Ordenação: Ordenamos primeiro pela quantidade (em ordem decrescente) e depois alfabeticamente em caso de empate.
+Formato da saída: A saída segue o formato solicitado, com a sequência de aparição, o nome do filme e o número de vezes que ele aparece.
+
+<h2>Vou explicar cada uma da minhas Abordagens.</h2>
+
+Abordagem sem Counter:
+
+criar um dicionário vazio para armazenar os filmes e suas quantidades.
+Iterar sobre as linhas do CSV e verificar se o filme já está no dicionário:
+Se o filme já estiver no dicionário, incrementamos a contagem.
+Se não estiver, adicionamos o filme ao dicionário com uma contagem inicial de 1.
+Ordenar os filmes de acordo com a quantidade de aparições.
+Imprimir ou salvar o resultado no formato solicitado.
+
+Abordagem com Counter:
+
+Explicação:
+Contagem de filmes: usei a coluna "#1 Movie" (índice 4) para extrair o nome do filme de cada linha e armazená-lo na lista filmes.
+Contagem de ocorrências: Usei o objeto Counter da biblioteca collections para contar quantas vezes cada filme aparece.
+Ordenação: ordenei primeiro pela quantidade (em ordem decrescente) e depois alfabeticamente em caso de empate.
+Formato da saída: A saída segue o formato solicitado, com a sequência de aparição, o nome do filme e o número de vezes que ele aparece.
+
+
+![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta4.png)
+
+**Nota: no meu codigo esta explciado melhor**
+
+1. [Respostas Seção_3](../Sprint_3/exercicios/Seção_5/etapa-4.py) 
+aqui eu explico com mais detalahes sobre minahs abordagens e sobre minhas ideas pro tras
+
+vale ressaltar que eu fiz um codigo para me dar uma ideia da minha situação 
+"destacando os filmes que tem a mesma quantidade de aparicoes:"
+
+![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_enunciado_fim.png)
+
+Na última etapa, o desafio pede para para apresentar a lista dos atores ordenada pela receita bruta de bilheteria dos seus filmes (coluna "Total Gross") em ordem decrescente, e depois salvar essa lista em um arquivo seguindo o padrão:
+
+
+Extração de dados: O nome do ator (coluna 0) e a receita bruta total "Total Gross" (coluna 1) são extraídos e armazenados em uma lista chamada atores_total_gross.
+Ordenação: A lista é ordenada pela receita bruta em ordem decrescente usando a função sort() com reverse=True.
+Escrita no arquivo: Os resultados são salvos no arquivo atores_total_gross.txt 
+
+no formato: (nome do ator) - (receita total bruta)
+
+O script irá gerar um arquivo atores_total_gross.txt com a lista de atores e suas receitas totais, ordenados em ordem decrescente de receita.
+
+acabei cometendo o seguinte erro, que vale apena ser comentado.
+
+Tive um erro ao tentar converter a coluna "Total Gross" para um valor numérico, o Python encontrou um valor inválido. Esse erro occoreu pq o arquivo CSV tem vírgulas em campos de texto (como o nome do ator) e isso acaba quebrando o formato esperado. 
+Eu acabo quebrando a cabeça
+
+bom continuando 
+
+Solução:
+Em vez de simplesmente usar split(','), que pode causar problemas se houver vírgulas nos campos de texto, precisamo garantir que esta pegando as colunas corretamente.
+Verificar a integridade de cada linha: verifiquei se a linha tem a quantidade correta de colunas antes de tentar processá-la.
+
+
+![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta_5.png)
+
+
+![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta_5_1.png)
+
+
+![Texto alternativo](../Sprint_3/exercicios/Seção_5/atores_total_gross.txt)
+
+deu certo!! 
+
+beleza Finalizando a ultimo ex.
+
+agora vamos falar sobre o desafio.
+
+# Desafio
