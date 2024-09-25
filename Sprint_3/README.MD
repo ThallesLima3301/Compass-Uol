@@ -32,7 +32,7 @@ Minha lógica ja esta documentada nos aquivos, vou usar imagens colocando que fu
 
 ![Texto alternativo](../Sprint_3/evidencias/Seção_3/Seção_3.png)
 
-fiu bem simples de se fazer, nao tive problemas.
+foi bem simples de se fazer, nao tive problemas.
 
 2. [Resposta Seção_4](../Sprint_3/exercicios/Seção_4/)
 
@@ -54,9 +54,9 @@ Ler as linhas do arquivo.
 Separar os valores em cada linha, já que o CSV usa vírgulas para separar os campos.
 Guardar as informações para processá-las e descobrir qual ator tem o maior número de filmes.
 
-[Respostas Seção_3](../Sprint_3/exercicios/Seção_5/0_Exercício_ETL_Python.py)
+[Respostas Seção_5](../Sprint_3/exercicios/Seção_5/0_Exercício_ETL_Python.py)
 
-Belza agora vamos fezer o exercício
+Beleza agora vamos fezer o exercício
 
 ![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_enunciado_2.png)
 
@@ -118,7 +118,7 @@ Dividir pelo número de filmes: O número de filmes em que o ator participou est
 A fórmula da média seria:
 
 Average per Movie = Total Gross
-                ------------------
+               /
                 Number of Movies
 
 Exemplo com números:
@@ -171,10 +171,11 @@ Formato da saída: A saída segue o formato solicitado, com a sequência de apar
 
 **Nota: no meu codigo esta explciado melhor**
 
-1. [Respostas Seção_3](../Sprint_3/exercicios/Seção_5/etapa-4.py) 
-aqui eu explico com mais detalahes sobre minahs abordagens e sobre minhas ideas pro tras
+1. [Respostas Seção_5](../Sprint_3/exercicios/Seção_5/etapa-4.py) 
+aqui eu explico com mais detalahes sobre minahs abordagens e sobre minhas ideas por tras
 
 vale ressaltar que eu fiz um codigo para me dar uma ideia da minha situação 
+
 "destacando os filmes que tem a mesma quantidade de aparicoes:"
 
 ![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_enunciado_fim.png)
@@ -208,7 +209,7 @@ Verificar a integridade de cada linha: verifiquei se a linha tem a quantidade co
 ![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta_5_1.png)
 
 
-![Texto alternativo](../Sprint_3/exercicios/Seção_5/atores_total_gross.txt)
+![atores_total_gross.txt](../Sprint_3/exercicios/Seção_5/atores_total_gross.txt)
 
 deu certo!! 
 
@@ -217,3 +218,9 @@ beleza Finalizando a ultimo ex.
 agora vamos falar sobre o desafio.
 
 # Desafio
+
+
+notei alguns erros no meu git 
+
+
+entao vamos arrumar

@@ -10,7 +10,7 @@ Vamos começar pela Etapa 1: Encontrar o ator/atriz com o maior número de filme
 """
 
 # Definir o caminho do arquivo corretamente
-#optei fazer um try pois eu estava fazendo alguma coisa errada
+# Optei por utilizar um bloco try porque percebi que estava cometendo alguns erros durante o processo.
 file_path = '../actors.csv'
 try:
     with open(file_path, 'r') as file:
