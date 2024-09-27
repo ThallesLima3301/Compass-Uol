@@ -240,7 +240,7 @@ Documentação detalhada de cada célula de código usando Markdown para explica
 Preparação:
 
 fiz o download do arquivo googleplaystore.csv.
-Configure o ambiente de trabalho no Jupyter.
+Configurei o ambiente de trabalho no Jupyter.
 Etapas do Desafio:
 
 Etapa 1: Ambiente
@@ -254,11 +254,13 @@ Etapa 2: Desenvolvimento
 atividades no dataset utilizando as bibliotecas Pandas e Matplotlib:
 
 # Importar as bibliotecas
+
 import pandas as pd
+
 import matplotlib.pyplot as plt
 
 
-Ler o arquivo googleplaystore.csv e remova as linhas duplicadas.
+# Ler o arquivo googleplaystore.csv e remova as linhas duplicadas.
 
 ![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_1.png)
 
@@ -286,11 +288,11 @@ Mostre quantos aplicativos estão classificados como 'Mature 17+'.
 
 ![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_resultado_6.png)
 
-Realize mais dois cálculos sobre o dataset e apresente-os em formato gráfico ou de lista.
+Realizei mais dois cálculos sobre o dataset e apresente-os em formato gráfico ou de lista.
 
 ![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_7_Resultado.png)
 
-Crie pelo menos mais duas formas gráficas de exibição dos indicadores utilizando Matplotlib, como gráficos de linha ou dispersão.
+Criei pelo menos mais duas formas gráficas de exibição dos indicadores utilizando Matplotlib, como gráficos de linha ou dispersão.
 ![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_8_grafico2.png)
 
 ![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_8_grafico1.png)
