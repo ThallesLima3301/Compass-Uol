@@ -21,5 +21,6 @@
   
 2. [Sprint 2](Sprint_2/README.MD)
 
-2. [Sprint 2](Sprint_3/README.MD)
+3. [Sprint 3](Sprint_3/README.MD)
+
 

@@ -67,6 +67,8 @@ print(f"Linhas após a remoção: {google_play_data_cleaned.shape[0]}")
 
 Isso remove as linhas duplicadas e exibe quantas linhas foram eliminadas no processo. Se estiver pronto, posso gerar gráficos usando o Matplotlib e continuar com as próximas etapas.
 
+![Desafio_etapa_1](../evidencias/Desafio/Desafio_desenvolvimento_etapa_1.png)
+
 ![Desafio_etapa_1](../evidencias/Desafio/Desafio_desenvolvimento_etapa_2.1.png)
 
 aqui eu tive dificuldade.
@@ -82,29 +84,29 @@ ficando assim meu codigo.
 # Recarregar os dados para garantir que a variável esteja definida
 import pandas as pd
 
-# Carregar o arquivo CSV
+<h1> Carregar o arquivo CSV</h1>
 file_path = '../Desafio_Sprint_3/googleplaystore.csv'
 google_play_data = pd.read_csv(file_path)
 
-# Remover valores inválidos como 'Free' e '0+'
+<h1> Remover valores inválidos como 'Free' e '0+'</h1>
 google_play_data_cleaned = google_play_data[~google_play_data['Installs'].isin(['Free', '0+'])]
 
-# Remover símbolos e converter a coluna 'Installs' para numérico
+<h1> Remover símbolos e converter a coluna 'Installs' para numérico</h1>
 google_play_data_cleaned['Installs'] = google_play_data_cleaned['Installs'].str.replace('[+,]', '', regex=True).astype(int)
 
-# Selecionar os top 5 aplicativos por número de instalações
+<h1> Selecionar os top 5 aplicativos por número de instalações</h1>
 top_5_apps = google_play_data_cleaned.sort_values(by='Installs', ascending=False).head(5)
 
-# Exibir os top 5 aplicativos sem gerar gráfico
+<h1> Exibir os top 5 aplicativos sem gerar gráfico</h1>
 top_5_apps[['App', 'Installs']]
 
 e meu grafico ficando.
 
-# Remover valores inválidos como 'Free' e '0+'
+<h1> Remover valores inválidos como 'Free' e '0+'</h1>
 google_play_data_cleaned = google_play_data[~google_play_data['Installs'].isin(['Free', '0+'])]
 
-# Remover símbolos e converter a coluna 'Installs' para numérico
-# Remover símbolos e converter a coluna 'Installs' para numérico usando .loc[]
+ Remover símbolos e converter a coluna 'Installs' para numérico
+ Remover símbolos e converter a coluna 'Installs' para numérico usando .loc[]
 google_play_data_cleaned.loc[:, 'Installs'] = google_play_data_cleaned['Installs'].str.replace('[+,]', '', regex=True).astype(int)
 
 
@@ -159,17 +161,19 @@ O aplicativo mais caro no dataset é:
 
 I'm Rich - Trump Edition com um preço de 400.0 dólares.
 
+![Resultado4](../evidencias/Desafio/Desafio_desenvolvimento_etapa_4_Resultado.png)
+
 bom eu acabei dando uma olhada de modo geral nos preços pois Todos os apps estavam com o preço zero, entao fui a fundo para entender oque estava acontecendo, mas depois arrumei. 
 
 bom agora vou falar sobre esse codigo.
 
-# Converter a coluna 'Price' para string para evitar o erro
+ Converter a coluna 'Price' para string para evitar o erro
 google_play_data['Price'] = google_play_data['Price'].astype(str)
 
-# Filtrar apenas os valores que começam com '$'
+ Filtrar apenas os valores que começam com '$'
 google_play_data = google_play_data[google_play_data['Price'].str.startswith('$')]
 
-# Remover o símbolo de dólar e converter a coluna para numérico
+ Remover o símbolo de dólar e converter a coluna para numérico
 google_play_data['Price'] = google_play_data['Price'].str.replace('$', '').astype(float)
 
 # Encontrar o app mais caro
@@ -184,20 +188,20 @@ esta me resultado um **Empty** e eu n faço ideia do porque, essa foi aperte mai
 ![Desafio_etapa_1](../evidencias/Desafio/Desafio_desenvolvimento_etapa_5.png)
 
 
-# Contar o número de apps classificados como 'Mature 17+' na coluna 'Content Rating'
+<h2> Contar o número de apps classificados como 'Mature 17+' na coluna 'Content Rating'
 mature_17_apps_count = google_play_data_cleaned[google_play_data_cleaned['Content Rating'] == 'Mature 17+'].shape[0]
 
-# Exibir o resultado
+<h2> Exibir o resultado </h2>
 mature_17_apps_count
 
 Existem 499 aplicativos classificados como Mature 17+ no dataset. 
 
 vou tratar agora 
 
-# Remover duplicatas com base no nome do aplicativo
+<h2> Remover duplicatas com base no nome do aplicativo</h2>
 mature_17_unique_apps = google_play_data_cleaned[google_play_data_cleaned['Content Rating'] == 'Mature 17+'].drop_duplicates(subset='App')
 
-# Contar o número de apps únicos classificados como 'Mature 17+'
+<h2> Contar o número de apps únicos classificados como 'Mature 17+'</h2>
 mature_17_apps_unique_count = mature_17_unique_apps.shape[0]
 
 # Exibir o resultado
@@ -208,10 +212,10 @@ Quantidade de apps classificados como 'Mature 17+': 393
 
 # Aqui eu achei legal confirir se realmente tinha dados duplciados.
 
-# Encontrar os apps duplicados (com base no nome do app)
+ Encontrar os apps duplicados (com base no nome do app)
 duplicated_apps = google_play_data_cleaned[google_play_data_cleaned.duplicated(subset='App', keep=False)]
 
-# Exibir as primeiras 10 duplicatas para mostrar o que foi removido
+# Exibir as primeiras 10 duplicatas para mostrar o que foi removido (so pra confirmar)
 duplicated_apps.head(10)
 
 
@@ -239,7 +243,8 @@ Facebook, WhatsApp Messenger e Instagram
 entao vamos entender oque aconteceu.
 
 # Remover duplicatas com base no nome do aplicativo
-# selecionar os top 10 únicos
+
+<h2> selecionar os top 10 únicos </h2>
 top_10_reviews_unique = google_play_data_cleaned[['App', 'Reviews']].drop_duplicates(subset='App', keep='first').sort_values(by='Reviews', ascending=False).head(10)
 
 # Exibir o resultado sem duplicatas
@@ -251,18 +256,20 @@ top_10_reviews_unique
 
 ![Desafio_etapa_1](../evidencias/Desafio/Desafio_desenvolvimento_etapa_7.png)
 
+<h2>Excplicação do que fazer</h2>
 
 1. Lista de apps por categoria com mais instalações (formato de lista):
 Essa lista apresentará as categorias que têm o maior número de instalações somadas.
 
-2. Média de classificações (ratings) de todos os apps (formato de valor):
-Calcular a média das classificações (ratings) de todos os apps no dataset.
+2. Média de classificações  de todos os apps:
+Calcular a média das classificações  de todos os apps no dataset.
 
 Vou implementar esses dois cálculos agora.
 
 Aqui estão os dois Resultados:
 
-1. Top 10 categorias por número de instalações (em formato de lista):
+1. 
+Top 10 categorias por número de instalações (em formato de lista):
 GAME: 35,086,024,415 instalações
 COMMUNICATION: 32,647,276,251 instalações
 PRODUCTIVITY: 14,176,091,369 instalações
@@ -293,3 +300,30 @@ Gráfico de dispersão mostrando a média de classificações dos aplicativos.
 ![Desafio_etapa_1](../evidencias/Desafio/Desafio_desenvolvimento_etapa_8_grafico2.png)
 
 **Nota: eu sei que n foi o grafico mais criativo que eu poderia ter feito**
+
+Ao pesquisar mais sobre gráficos, identifiquei os seguintes tipos:
+
+Histogramas
+Gráficos de linhas
+Gráficos de dispersão
+Gráficos de barras
+Gráficos de pizza
+Diagramas de caixa
+
+o unico que me deu medo foi **"Diagramas de caixa"**
+
+mas depois pesquisei um pouco direto e saiu:
+
+Gráficos de área: 
+Gráficos de erro: 
+Gráficos de bolhas: 
+Gráficos de radar (ou gráficos de aranha): 
+Heatmaps (mapas de calor):
+Gráficos de treemap:
+Gráficos de densidade: 
+Gráficos de violino: 
+Gráficos de vetor (quiver):
+
+e sai traumatizado, não me senti muito seguro sobre Matplotlib ainda...
+
+falo melhor sobre isso no meu feedback da Sprint 

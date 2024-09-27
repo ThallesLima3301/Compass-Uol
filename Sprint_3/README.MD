@@ -1,7 +1,12 @@
 
 
-Durante a Sprint 3, aprendi muita coisa,  dsadadas
+Durante a Sprint 3, tive a oportunidade de aprofundar meus conhecimentos em Python. Embora tenha enfrentado algumas dificuldades com o pandas, e com o Anaconda, que travava meu computador com frequência, a experiência me foi um aprendizado valioso(aprendi o suficiente usando Anaconda e depois voltei pro vscode).
 
+Após essa Sprint, me identifiquei mais com o papel de analista de dados. A facilidade em explorar os dados e visualizar os resultados me motivou.
+
+O que mais gostei na sprint foi a facilidade em realizar pesquisas e resolver problemas. Os processos se mostraram extremamente práticos e intuitivos, especialmente ao utilizar bibliotecas como Pandas e Matplotlib.
+
+No futuro, pretendo explorar outras ferramentas e técnicas de análise de dados, como o aprendizado de máquina.
 
 Atualmente, já concluí os dois cursos (python e AWS) e estou gostando bastante da trilha. 
 Estou ansioso pela próxima sprint e pelos novos aprendizados que ela trará 😊.
@@ -50,8 +55,11 @@ Bom ja esse exercicio (Seção_5) eu vou documentar aqui o meu passo a passo
 Antes de começar, aqui esta uma explicação de como eu fiz para abrir o aquivo CSV.
 
 Abrir o arquivo CSV usando o modo de leitura ("r").
+
 Ler as linhas do arquivo.
+
 Separar os valores em cada linha, já que o CSV usa vírgulas para separar os campos.
+
 Guardar as informações para processá-las e descobrir qual ator tem o maior número de filmes.
 
 [Respostas Seção_5](../Sprint_3/exercicios/Seção_5/0_Exercício_ETL_Python.py)
@@ -172,9 +180,11 @@ Formato da saída: A saída segue o formato solicitado, com a sequência de apar
 **Nota: no meu codigo esta explciado melhor**
 
 1. [Respostas Seção_5](../Sprint_3/exercicios/Seção_5/etapa-4.py) 
-aqui eu explico com mais detalahes sobre minahs abordagens e sobre minhas ideas por tras
+aqui eu explico com mais detalahes sobre minhas abordagens e sobre minhas ideas por tras
 
 vale ressaltar que eu fiz um codigo para me dar uma ideia da minha situação 
+
+creie um codigo que faz:
 
 "destacando os filmes que tem a mesma quantidade de aparicoes:"
 
@@ -219,8 +229,94 @@ agora vamos falar sobre o desafio.
 
 # Desafio
 
+Resumo do Desafio da Sprint
+Objetivo:
+O desafio consiste em aplicar conhecimentos de Python para manipulação e análise de dados utilizando bibliotecas como Pandas e Matplotlib. O objetivo é processar um arquivo CSV com informações da Google Play Store e gerar gráficos para análise.
+
+Entregáveis:
+
+Arquivo .IPYNB contendo o código, criado no Jupyter Notebook ou VS Code com a extensão Jupyter.
+Documentação detalhada de cada célula de código usando Markdown para explicações e insights.
+Preparação:
+
+fiz o download do arquivo googleplaystore.csv.
+Configure o ambiente de trabalho no Jupyter.
+Etapas do Desafio:
+
+Etapa 1: Ambiente
+
+bibliotecas Pandas e Matplotlib estejam instaladas.
+
+Etapa 2: Desenvolvimento
+
+![Texto alternativo](../Sprint_3/evidencias/Desafio/)
+
+atividades no dataset utilizando as bibliotecas Pandas e Matplotlib:
+
+# Importar as bibliotecas
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+Ler o arquivo googleplaystore.csv e remova as linhas duplicadas.
+
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_1.png)
+
+Crie um gráfico de barras com os top 5 aplicativos por número de instalações.
+
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_resultado_1.png)
+
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_resultado_1_1.png)
+
+Crie um gráfico de pizza para mostrar a distribuição de categorias de aplicativos.
+
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_resultado.png)
+
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_resultado_limpo.png)
+
+Identifique e exiba o aplicativo mais caro no dataset.
+
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_4_Resultado.png)
+
+Mostre quantos aplicativos estão classificados como 'Mature 17+'.
+
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_5_Resultado.png)
+
+ top 10 aplicativos por número de avaliações (reviews).
+
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_resultado_6.png)
+
+Realize mais dois cálculos sobre o dataset e apresente-os em formato gráfico ou de lista.
+
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_7_Resultado.png)
+
+Crie pelo menos mais duas formas gráficas de exibição dos indicadores utilizando Matplotlib, como gráficos de linha ou dispersão.
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_8_grafico2.png)
+
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_8_grafico1.png)
+
+
+Desafios Enfrentados:
+
+Durante a realização do desafio, tive dificuldades na limpeza de dados e transformação das colunas Installs e Price, que apresentavam valores inconsistentes. Além disso, foi necessário resolver problemas com duplicação de registros e manipulação de tipos de dados para que os gráficos fossem gerados corretamente.
+
+O desafio foi uma oportunidade para explorar ferramentas de visualização e aprofundar conhecimentos em manipulação de dados com Python.
+
+
 
 notei alguns erros no meu git 
 
 
 entao vamos arrumar
+
+
+# Feedback
+
+Feedback da Sprint
+Eu achei o desafio em si relativamente simples e não tive muitas dificuldades. Consegui completar a atividade em dois dias: e o ETL em um  demorei mais para fazer os exercícios.
+
+O que achei mais desafiador(CHATO) foram os exercícios que acompanharam a sprint. A quantidade de exercícios foi exaustiva e um pouco cansativa de resolver. Acredito que seria mais interessante se houvesse uma redução na quantidade de exercícios, mas que eles tivessem um nível de dificuldade maior. Isso exigiria mais raciocínio e aplicação de conhecimento, o que acho que faz as pessoas aprenderem mais rapido.
+
+Observando a Sprint 4, percebi que há uma menor quantidade de exercícios, mas com um nível de dificuldade maior. Esse modelo me parece mais eficaz, pois força os participantes a se dedicarem mais a cada problema. Pessoalmente, aprendo melhor com exercícios mais complexos pois acabo levando pro lado pessoal de nao conseguir fazer, enquanto as atividades mais simples acabam não proporcionando o mesma velocidade de aprendizado.
+
+No geral, gostei bastante do desafio e do aprendizado que ele proporcionou, apesar de ainda não me sentir totalmente confortável com algumas partes. Acredito que com mais prática e desafios mais avançados, a confiança no processo aumentará.
