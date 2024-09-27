@@ -307,9 +307,21 @@ O desafio foi uma oportunidade para explorar ferramentas de visualização e apr
 
 
 notei alguns erros no meu git 
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Erro1.png)
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Erro2.png)
+![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Erro3.png)
 
+entao vamos arrumar:
 
-entao vamos arrumar
+ERRO_1
+O erro SyntaxWarning: invalid escape sequence '\\$' está ocorrendo porque o símbolo $ está sendo tratado como um caractere de escape. Para corrigir isso, eu  add um r antes da string para indicar que ela é uma "raw string" (string literal), o que faz com que os caracteres especiais sejam ignorados.
+
+ERRO_2
+O aviso SettingWithCopyWarning indica que EU estava tentando modificar um DataFrame que é uma cópia de uma fatia de outro DataFrame, o que pode levar a comportamentos inesperados. Para resolver isso, usei o método .loc para realizar a alteração diretamente no DataFrame. 
+
+ERRO_3
+
+ja o erro 3 sumiu sozinho
 
 
 # Feedback
