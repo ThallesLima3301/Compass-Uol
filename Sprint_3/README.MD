@@ -249,7 +249,7 @@ bibliotecas Pandas e Matplotlib estejam instaladas.
 
 Etapa 2: Desenvolvimento
 
-![Texto alternativo](../Sprint_3/evidencias/Desafio/)
+![Texto alternativo](../Sprint_3/evidencias/Desafio/Desafio_enunciado_1.png)
 
 atividades no dataset utilizando as bibliotecas Pandas e Matplotlib:
 
@@ -306,7 +306,7 @@ O desafio foi uma oportunidade para explorar ferramentas de visualização e apr
 
 
 
-notei alguns erros no meu git 
+**Notei alguns erros no meu git**
 ![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Erro1.png)
 ![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Erro2.png)
 ![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Erro3.png)

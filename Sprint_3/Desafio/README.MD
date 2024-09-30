@@ -84,25 +84,25 @@ ficando assim meu codigo.
 # Recarregar os dados para garantir que a variável esteja definida
 import pandas as pd
 
-<h1> Carregar o arquivo CSV</h1>
+<h5> Carregar o arquivo CSV</h5>
 file_path = '../Desafio_Sprint_3/googleplaystore.csv'
 google_play_data = pd.read_csv(file_path)
 
-<h1> Remover valores inválidos como 'Free' e '0+'</h1>
+<h5> Remover valores inválidos como 'Free' e '0+'</h5>
 google_play_data_cleaned = google_play_data[~google_play_data['Installs'].isin(['Free', '0+'])]
 
-<h1> Remover símbolos e converter a coluna 'Installs' para numérico</h1>
+<h5> Remover símbolos e converter a coluna 'Installs' para numérico</h5>
 google_play_data_cleaned['Installs'] = google_play_data_cleaned['Installs'].str.replace('[+,]', '', regex=True).astype(int)
 
-<h1> Selecionar os top 5 aplicativos por número de instalações</h1>
+<h5> Selecionar os top 5 aplicativos por número de instalações</h5>
 top_5_apps = google_play_data_cleaned.sort_values(by='Installs', ascending=False).head(5)
 
-<h1> Exibir os top 5 aplicativos sem gerar gráfico</h1>
+<h5> Exibir os top 5 aplicativos sem gerar gráfico</h5>
 top_5_apps[['App', 'Installs']]
 
 e meu grafico ficando.
 
-<h1> Remover valores inválidos como 'Free' e '0+'</h1>
+<h5> Remover valores inválidos como 'Free' e '0+'</h5>
 google_play_data_cleaned = google_play_data[~google_play_data['Installs'].isin(['Free', '0+'])]
 
  Remover símbolos e converter a coluna 'Installs' para numérico
@@ -188,20 +188,20 @@ esta me resultado um **Empty** e eu n faço ideia do porque, essa foi aperte mai
 ![Desafio_etapa_1](../evidencias/Desafio/Desafio_desenvolvimento_etapa_5.png)
 
 
-<h2> Contar o número de apps classificados como 'Mature 17+' na coluna 'Content Rating'
+<h5> Contar o número de apps classificados como 'Mature 17+' na coluna 'Content Rating'
 mature_17_apps_count = google_play_data_cleaned[google_play_data_cleaned['Content Rating'] == 'Mature 17+'].shape[0]
 
-<h2> Exibir o resultado </h2>
+<h5> Exibir o resultado </h5>
 mature_17_apps_count
 
 Existem 499 aplicativos classificados como Mature 17+ no dataset. 
 
 vou tratar agora 
 
-<h2> Remover duplicatas com base no nome do aplicativo</h2>
+<h5> Remover duplicatas com base no nome do aplicativo</h5>
 mature_17_unique_apps = google_play_data_cleaned[google_play_data_cleaned['Content Rating'] == 'Mature 17+'].drop_duplicates(subset='App')
 
-<h2> Contar o número de apps únicos classificados como 'Mature 17+'</h2>
+<h5> Contar o número de apps únicos classificados como 'Mature 17+'</h5>
 mature_17_apps_unique_count = mature_17_unique_apps.shape[0]
 
 # Exibir o resultado
@@ -244,7 +244,7 @@ entao vamos entender oque aconteceu.
 
 # Remover duplicatas com base no nome do aplicativo
 
-<h2> selecionar os top 10 únicos </h2>
+<h5> selecionar os top 10 únicos </h5>
 top_10_reviews_unique = google_play_data_cleaned[['App', 'Reviews']].drop_duplicates(subset='App', keep='first').sort_values(by='Reviews', ascending=False).head(10)
 
 # Exibir o resultado sem duplicatas
@@ -256,7 +256,7 @@ top_10_reviews_unique
 
 ![Desafio_etapa_1](../evidencias/Desafio/Desafio_desenvolvimento_etapa_7.png)
 
-<h2>Excplicação do que fazer</h2>
+<h5>Excplicação do que fazer</h5>
 
 1. Lista de apps por categoria com mais instalações (formato de lista):
 Essa lista apresentará as categorias que têm o maior número de instalações somadas.
@@ -312,7 +312,7 @@ Diagramas de caixa
 
 o unico que me deu medo foi **"Diagramas de caixa"**
 
-mas depois pesquisei um pouco direto e saiu:
+mas depois pesquisei um pouco direito e saiu:
 
 Gráficos de área: 
 Gráficos de erro: 
