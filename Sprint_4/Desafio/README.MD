@@ -2,6 +2,8 @@
 
 ![enunciado](../evidencias/Desafio/enunciado/Desafio_enunciado1.png)
 
+![aaa](../evidencias/Desafio/Desafio_enunciado_1.png)
+
 Vamos começar 
 
 mas aneste disso vamo fazer um lista de comando importantes.
