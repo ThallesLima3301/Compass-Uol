@@ -75,6 +75,7 @@ Primeiro, criei um arquivo chamado Dockerfile no mesmo diretório onde estava o 
 No Dockerfile, defini a imagem base e configurei a cópia do script para dentro do container.
 Após configurar o Dockerfile, construi a imagem com o comando docker build, atribuindo um nome específico para facilitar o gerenciamento.
 ![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_1.png)
+
 ![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_2.png)
 
 Em seguida, executei um container a partir da imagem criada para garantir que tudo estava funcionando como esperado.
@@ -102,7 +103,9 @@ Testei o container com o comando docker run -it, garantindo que ele estivesse pr
 
 5. Conclusão
 Por fim, compilei todos os prints de tela, o conteúdo do Dockerfile, o script Python e os comandos de inicialização do container para compor o material de entrega.
+como sempre esta melhor documentado no meu 
 
+![Desafio](../Sprint_4/Desafio/README.MD)
 
 
 # Feedback

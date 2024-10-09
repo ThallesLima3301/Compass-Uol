@@ -19,7 +19,7 @@ COPY mascarar.py .
 #segunda vez 
 
  CMD ["python", "mascarar.py"]
-
+                                                             
 
 # resumo do processo
 # listar containers: docker ps ou docker ps -a. todos se quiser so os em em execução é docker ps

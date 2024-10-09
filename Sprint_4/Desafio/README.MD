@@ -1,6 +1,6 @@
 # Desafio da Sprint 
 
-![](../evidencias/Desafio/enunciado/Desafio_enunciado1.png)
+![enunciado](../evidencias/Desafio/enunciado/Desafio_enunciado1.png)
 
 Vamos começar 
 
