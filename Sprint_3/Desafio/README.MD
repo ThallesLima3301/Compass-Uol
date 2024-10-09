@@ -7,7 +7,6 @@ Vamos começar
 Baixar o arquivo CSV (Google Play Store).
 Criar um ambiente de trabalho usando Jupyter Notebook no VS Code ou Jupyter Lab. 
 Documentar cada célula de código no Notebook usando Markdown.
-Como posso te ajudar mais especificamente? Você já baixou o arquivo googleplaystore.csv e configurou o ambiente no Jupyter? Ou precisa de ajuda com o código e análise dos dados?
 
 **Nota: fiz pelo VS Code pois o anaconda travava muito**
 
