@@ -14,7 +14,7 @@ rodar
 `docker run carguru-app`
 `docker run -it mascarar-dados`
 
-romando uteis
+comandos uteis
 `clear`
 `docker images`
 `docker ps -a`
@@ -23,27 +23,32 @@ romando uteis
 `docker rm $(docker ps -a -q)`
 `docker rm `
 
+Oque preciso fazer?
 
-Baixar o arquivo CSV (carguru.py)
+Baixar o arquivo CSV:  download do arquivo necessário para o projeto (carguru.py).
 
-Criei um ambiente de trabalho usando Docker. 
+Criar um ambiente de trabalho utilizando Docker: Configurei um ambiente Docker para gerenciar a execução dos scripts.
 
-Configuração do Dockerfile para Executar Scripts Python
+Configurar o Dockerfile: Escrever um Dockerfile que defina as instruções para executar os scripts Python corretamente.
 
-Criação do Dockerfile:
+Entao vamos lá começar o desafio
 
 ![enunciado](../evidencias/desafio/enunciado/Desafio_enunciado2.png)
+
+Criação do Dockerfile:
 
 O primeiro passo foi criar um Dockerfile para configurar e construir a imagem Docker que executaria os scripts Python.
 Conteúdo inicial do Dockerfile:
 
 eu Usei a versão python:3.9-slim mas fiz tambem usando 3.11-slim.
 
+Da na mesma optei sempre de usar o -slim pois fica muito pesa no meu pc acaba travando tudo.
+
+mostrando meu Dockerfile
 
 ![Desafio_resultados](../evidencias/desafio/resultados/desafio_evidencia_1.1.png)
 
 Construção da Imagem com carguru.py:
-
 
 No terminal, dentro do diretório onde estão os arquivos Dockerfile e carguru.py, o comando abaixo foi utilizado para construir a imagem:
 
@@ -56,6 +61,7 @@ Execute o container criado a partir da imagem:
 `docker run -it carguru-container`
 ou apenas
 `docker run  carguru-container`
+
 ![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_2.png)
 
 
@@ -63,9 +69,10 @@ beleza tudo certo meu codigo esta rodando e me retornando qual carro eu dirijo
 
 mas antes disso vale resaltar que eu usei o comando `docker rm $(docker ps -a -q)` para limpar tudo e deixar mais claro pra vc
 
-
 ![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_3.png)
-agora vamos responder a etapa 2
+
+
+Agora vamos responder a etapa 2
 
 Sim, é possível reutilizar containers no Docker. Quando um container está parado (ou seja, foi interrompido, mas ainda existe), ele pode ser reiniciado com o comando certo.
 
@@ -83,7 +90,7 @@ para parar é so usar
 
 ![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_5.png)
 
-optei por mudar o nome.
+optei por mudar o nome. so por curiosidade.
 
 ![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_6.png)
 
@@ -91,7 +98,7 @@ usei o comando `docker run -d --name meu_container carguru-app`
 
 Script Python para a etapa 3:
 
-Beleza vamos para etapa 3 que é crar um hash.
+Beleza vamos para etapa 3 que é criar um hash.
 
 Primeiro eu fui pesquisar oq era um hash.
 
@@ -111,21 +118,44 @@ beleza falta mascarar os dados agora que é a ultima parte do desafio
 
 criei um menu usando while true onde eu posso escolher sair ou continuar gerando hash. 
 
+meu codigo
+
+![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_16.png)
+
+explicação do codigo:
+
+Importação da Biblioteca Necessária:
+
+A primeira etapa  foi importar a biblioteca hashlib, que é essencial para a geração de hashes. O hashlib permite a criação de funções hash, como SHA-1, que são usadas para converter textos em um formato único e criptografado.
+
+Criação da Função de Geração de Hash:
+
+Eu criei uma função que recebe uma string como entrada e a converte em um hash SHA-1. Para isso, a string é transformada em um formato de bytes e, em seguida, o hash é gerado. O resultado é retornado em uma string hexadecimal para facilitar a leitura e visualização.
+
+Implementação do Menu Interativo:
+O próximo passo foi implementar um menu interativo que oferece duas opções ao usuário:
+Opção 1: Permite ao usuário fornecer uma string para gerar o hash SHA-1 correspondente.
+Opção 2: Finaliza o programa.
+Para isso, desenvolvi uma função exibir_menu que exibe as opções na tela e retorna a escolha do usuário.
+
+Estrutura do Loop para Execução Contínua:
+Após definir as funções principais, implementei um loop while para garantir que o menu fosse exibido repetidamente até que o usuário optasse por sair. Isso mantém o programa em execução, aguardando novas interações.
+
+
 ![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_10.2.png)
 
-ficando assim o meu VScode, eu sei que eu pdoeria ter usado outro arquivo Dockerfile um para o carguru e outro para o mascarar, mas optei por usar apenas 1 acredito que esteja certo assim mesmo
+Decidi utilizar um único arquivo Dockerfile para ambos os scripts (carguru.py e mascarar.py) no meu projeto no VS Code. Apesar de saber que poderia ter criado arquivos Dockerfile separados para cada um dos scripts, optei por consolidar tudo em um único arquivo. Acredito que essa abordagem seja mais prática e simplifica o gerenciamento dos containers, mantendo o processo de build mais enxuto.
+
+Ficou assim meu vscode
 
 ![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_10.1.png)
 
-
-ficando assim eu aquivo  Dockerfile 
+E ficando assim meu aquivo  Dockerfile 
 
 ![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_12.png)
 
+Já aqui eu vou mostrar como ficou minha tela de menu
 
-beleza deu tudo certo.
-mostrando a tela de menu
-
-![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_15.png)
+![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_15.png)
 
 **Nota: no video eu pretendo mostras como ficou utilizando o menu q eu crie pois eu achei bem legal kkk, eu fiz um explicação bem breve no video**
