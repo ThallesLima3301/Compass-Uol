@@ -48,6 +48,8 @@ mostrando meu Dockerfile
 
 ![Desafio_resultados](../evidencias/desafio/resultados/desafio_evidencia_1.1.png)
 
+
+
 Construção da Imagem com carguru.py:
 
 No terminal, dentro do diretório onde estão os arquivos Dockerfile e carguru.py, o comando abaixo foi utilizado para construir a imagem:
@@ -64,6 +66,7 @@ ou apenas
 
 ![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_2.png)
 
+![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_5.png)
 
 beleza tudo certo meu codigo esta rodando e me retornando qual carro eu dirijo 
 
@@ -78,17 +81,21 @@ Sim, é possível reutilizar containers no Docker. Quando um container está par
 
 Para reiniciar um container parado, eu vou utilizar o seguinte comando:
 
-`docker start b2e8f6fbed57`
+`docker start 0a4959f7adf4`
 
-![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_4.png)
+![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_17.png)
 
 beleza confirmando que esta sendo reutilizado.
 
+![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_18.png)
+
 para parar é so usar
 
-`docker stop b2e8f6fbed57`
+`docker stop 0a4959f7adf4`
 
-![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_5.png)
+![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_19.png)
+
+![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_20.png)
 
 optei por mudar o nome. so por curiosidade.
 
