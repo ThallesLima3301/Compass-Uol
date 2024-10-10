@@ -38,7 +38,8 @@ Conteúdo inicial do Dockerfile:
 
 eu Usei a versão python:3.9-slim mas fiz tambem usando 3.11-slim.
 
-![](../evidencias/Desafio/resultados/desafio_evidencia_1.1.png)
+
+![Desafio_resultados](../evidencias/desafio/resultados/desafio_evidencia_1.1.png)
 
 Construção da Imagem com carguru.py:
 
@@ -54,16 +55,15 @@ Execute o container criado a partir da imagem:
 `docker run -it carguru-container`
 ou apenas
 `docker run  carguru-container`
+![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_2.png)
 
-![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_2.png)
 
 beleza tudo certo meu codigo esta rodando e me retornando qual carro eu dirijo 
 
 mas antes disso vale resaltar que eu usei o comando `docker rm $(docker ps -a -q)` para limpar tudo e deixar mais claro pra vc
 
 
-![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_3.png)
-
+![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_3.png)
 agora vamos responder a etapa 2
 
 Sim, é possível reutilizar containers no Docker. Quando um container está parado (ou seja, foi interrompido, mas ainda existe), ele pode ser reiniciado com o comando certo.
@@ -72,8 +72,7 @@ Para reiniciar um container parado, eu vou utilizar o seguinte comando:
 
 `docker start b2e8f6fbed57`
 
-
-![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_4.png)
+![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_4.png)
 
 beleza confirmando que esta sendo reutilizado.
 
