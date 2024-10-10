@@ -31,8 +31,7 @@ Criei um ambiente de trabalho usando Docker.
 Configuração do Dockerfile para Executar Scripts Python
 
 Criação do Dockerfile:
-
-![enunciado](../evidencias/Desafio/enunciado/Desafio_enunciado2.png)
+![enunciado](../evidencias/desafio/enunciado/Desafio_enunciado2.png)
 
 O primeiro passo foi criar um Dockerfile para configurar e construir a imagem Docker que executaria os scripts Python.
 Conteúdo inicial do Dockerfile:
@@ -125,6 +124,7 @@ ficando assim eu aquivo  Dockerfile
 
 beleza deu tudo certo.
 mostrando a tela de menu
+
 ![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_15.png)
 
 **Nota: no video eu pretendo mostras como ficou utilizando o menu q eu crie pois eu achei bem legal kkk, eu fiz um explicação bem breve no video**
