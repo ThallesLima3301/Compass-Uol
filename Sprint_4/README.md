@@ -34,19 +34,9 @@ Além disso, foi divertido aprender como construir diferentes ambientes para scr
 
 Aqui vou colocar a prova q Exercícios foram feitos na plataforma 
 
- [Ex](../Sprint_4/evidencias/ex/image%20dos%20ex.png)
+ [Exercícios](../Sprint_4/evidencias/ex/image%20dos%20ex.png)
 
 acho legal comentar q eu gostei do exercícios em si, mas por ser na plataforma acaba ficando bem descantante, particularmente o 5 e 1 foram bem chatos de se fazer mas deu tudo certo no final.
-
-
-
-
-
-
-
-
-
-
 
 
 <h1>Desafio com Docker e Python - Passo a Passo</h1>
@@ -80,30 +70,43 @@ Após configurar o Dockerfile, construi a imagem com o comando docker build, atr
 
 Em seguida, executei um container a partir da imagem criada para garantir que tudo estava funcionando como esperado.
 4.2. Etapa 2: Reutilização de Containers
-Nesta etapa, verifiquei se era possível reutilizar um container parado. respondia no desafio mas de forma simples a resposta é SIM
-![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_5.png)
+Nesta etapa, verifiquei se era possível reutilizar um container parado. 
+respondo no desafio mas de forma simples a resposta é SIM
+
+![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_17.png)
+
+![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_18.png)
+
+agora para parar ele
+
+![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_19.png)
+
 Executei o comando docker ps -a para listar todos os containers existentes, inclusive os que estavam parados.
 Comprovei que um container pode ser reiniciado com o comando docker start <nome_do_container>.
 Justifiquei que um container removido com docker rm não pode ser reutilizado, sendo necessário recriar a partir da imagem original.
+
+![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_20.png)
 
 4.3. Etapa 3: Criação de um Container Interativo
 Nesta etapa, desenvolvi um novo script Python para hash, similar ao script carguru.py, mas com funcionalidades adicionais:
  gera o hash da string com o algoritmo SHA-1 e imprime o resultado no console.
 No Dockerfile, atualizei o comando CMD para permitir que o container execute o script e aceite inputs do usuário.
 Testei o container com o comando docker run -it, garantindo que ele estivesse preparado para receber entradas durante sua execução.
-![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_7.png)
-![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_9.png)
+
+![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_7.png)
+
+![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_9.png)
 
 Agora criação do mascarar_dados script que recebe uma string via input,
 Criei uma nova imagem chamada mascarar-dados e executei o container para mascarar algumas palavras e registrar as evidências do funcionamento correto.
 Testei o container com o comando docker run -it, garantindo que ele estivesse preparado para receber entradas durante sua execução.
 
 ![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_12.png)
-![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_13.png)
+
 
 5. Conclusão
 Por fim, compilei todos os prints de tela, o conteúdo do Dockerfile, o script Python e os comandos de inicialização do container para compor o material de entrega.
-como sempre esta melhor documentado no meu 
+como sempre esta melhor documentado no meu Desafio
 
 ![Desafio](../Sprint_4/Desafio/README.MD)
 
@@ -112,4 +115,5 @@ como sempre esta melhor documentado no meu
 
 Feedback da Sprint:
 Acredito que essa tenha sido a sprint mais fácil até agora. Consegui completar as atividades em menos de 2 horas, mesmo sem ter visto os cursos Docker antes. Foi uma ótima experiência aprender como criar Dockerfiles, construir e gerenciar imagens e containers, além de utilizar comandos como docker build, docker run e docker logs. Gostei bastante de como a documentação do Docker é clara e objetiva, facilitando a busca por soluções.
-Adorei trabalhar com Docker. Tenho interesse em explorar mais a área de Machine Learning e Deep Learning com frameworks como TensorFlow e PyTorch. A ideia de poder treinar e fazer a inferência de modelos dentro de containers, mantendo todo o ambiente controlado e replicável, é algo que quero explorar mais a fundo. Tenho muita curiosidade nessa área e espero ter mais oportunidades para aplicar e adquirir experiência prática."
+Adorei trabalhar com Docker. Tenho interesse em explorar mais a área de Machine Learning e Deep Learning com frameworks como TensorFlow e PyTorch. A ideia de poder treinar e fazer a inferência de modelos dentro de containers, mantendo todo o ambiente controlado e replicável, é algo que quero explorar mais a fundo. Tenho muita curiosidade nessa área e espero ter mais oportunidades para aplicar e adquirir experiência prática.
+Por ser uma sprint muito fácil, acabei me dispersando bastante e ficando desorganizado. Isso fez com que eu demorasse mais do que o necessário para finalizar o README e ainda cometesse muitos erros bobos. Aprendi com essa experiência e não vou repetir esse erro novamente.
