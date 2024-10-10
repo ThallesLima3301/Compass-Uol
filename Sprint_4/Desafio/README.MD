@@ -4,7 +4,7 @@
 
 Vamos começar 
 
-mas aneste disso vamo fazer um lista de comando importantes.
+mas antes disso vamos fazer um lista de comandos importantes.
 
 comandos usados para criar  
 `docker build -t carguru-container .`
@@ -32,7 +32,7 @@ Configuração do Dockerfile para Executar Scripts Python
 
 Criação do Dockerfile:
 
-![/enunciado/Desafio](../evidencias/Desafio/enunciado/Desafio_enunciado2.png)
+![enunciado](../evidencias/Desafio/enunciado/Desafio_enunciado2.png)
 
 O primeiro passo foi criar um Dockerfile para configurar e construir a imagem Docker que executaria os scripts Python.
 Conteúdo inicial do Dockerfile:
@@ -56,14 +56,14 @@ Execute o container criado a partir da imagem:
 ou apenas
 `docker run  carguru-container`
 
-![](../evidencias/Desafio/resultados/Desafio_resultados_2.png)
+![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_2.png)
 
 beleza tudo certo meu codigo esta rodando e me retornando qual carro eu dirijo 
 
 mas antes disso vale resaltar que eu usei o comando `docker rm $(docker ps -a -q)` para limpar tudo e deixar mais claro pra vc
 
 
-![](../evidencias/Desafio/resultados/Desafio_resultados_3.png)
+![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_3.png)
 
 agora vamos responder a etapa 2
 
@@ -74,7 +74,7 @@ Para reiniciar um container parado, eu vou utilizar o seguinte comando:
 `docker start b2e8f6fbed57`
 
 
-![](../evidencias/Desafio/resultados/Desafio_resultados_4.png)
+![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_4.png)
 
 beleza confirmando que esta sendo reutilizado.
 
@@ -82,11 +82,11 @@ para parar é so usar
 
 `docker stop b2e8f6fbed57`
 
-![](../evidencias/Desafio/resultados/Desafio_resultados_5.png)
+![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_5.png)
 
 optei por mudar o nome.
 
-![](../evidencias/Desafio/resultados/Desafio_resultados_6.png)
+![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_6.png)
 
 usei o comando `docker run -d --name meu_container carguru-app`
 
@@ -105,27 +105,26 @@ Para permitir a entrada de dados pelo usuário durante a execução do container
 
 para mostrar como que esta.
 
-![](../evidencias/Desafio/resultados/Desafio_resultados_10.png)
 
 beleza falta mascarar os dados agora que é a ultima parte do desafio
 
-![](../evidencias/Desafio/enunciado/Desafio_enunciado3.png)
+![enunciado](../evidencias/Desafio/enunciado/Desafio_enunciado3.png)
 
 criei um menu usando whilhe true onde eu posso escolher sair ou continuar gerando hash. 
 
-![](../evidencias/Desafio/resultados/Desafio_resultados_10.2.png)
+![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_10.2.png)
 
 ficando assim o meu VScode, eu sei que eu pdoeria ter usado outro arquivo Dockerfile um para o carguru e outro para o mascarar, mas optei por usar apenas 1 acredito que esteja certo assim mesmo
 
-![](../evidencias/Desafio/resultados/Desafio_resultados_10.1.png)
+![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_10.1.png)
 
 ficando assim eu aquivo  Dockerfile 
 
-![](../evidencias/Desafio/resultados/Desafio_resultados_12.png)
+![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_12.png)
 
 
 beleza deu tudo certo.
 mostrando a tela de menu
-![](../evidencias/Desafio/resultados/Desafio_resultados_15.png)
+![Desafio_resultados](../evidencias/Desafio/resultados/Desafio_resultados_15.png)
 
 **Nota: no video eu pretendo mostras como ficou utilizando o menu q eu crie pois eu achei bem legal kkk, eu fiz um explicação bem breve no video**
