@@ -38,10 +38,13 @@ Aqui vou colocar a prova q Exercícios foram feitos na plataforma
 
 acho legal comentar q eu gostei do exercícios em si, mas por ser na plataforma acaba ficando bem descantante, particularmente o 5 e 1 foram bem chatos de se fazer mas deu tudo certo no final.
 
+Agora vou explicar o desafio
 
 <h1>Desafio com Docker e Python - Passo a Passo</h1>
 Neste desafio, vou explicar como foi o processo de desenvolvimento para criar um container Docker que executa um script Python e interage com o usuário para mascarar palavras e criar um hash. 
+
 1. Objetivo
+
 O desafio consiste em combinar conhecimentos de Docker com a linguagem Python para construir containers que executam scripts e permitem a interação com o usuário. 
 A ideia principal é criar containers reutilizáveis e demonstrar o uso de imagens Docker e suas funcionalidades.
 
@@ -52,6 +55,7 @@ Criar um Dockerfile para construir a imagem que executa o script carguru.py.
 Registrar todos os comandos utilizados no processo de execução e reinicialização dos containers.
 Responder às perguntas relacionadas à reutilização de containers no Docker.
 Capturar prints de tela para evidenciar a execução do container e o funcionamento correto do script.
+
 3. Preparação
 Antes de começar, precisei garantir que o ambiente estava configurado corretamente:
 
@@ -66,10 +70,15 @@ No Dockerfile, defini a imagem base e configurei a cópia do script para dentro 
 Após configurar o Dockerfile, construi a imagem com o comando docker build, atribuindo um nome específico para facilitar o gerenciamento.
 ![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_1.png)
 
+**Nota: O copy esta errado na foto mas funciona igual**
+
 ![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_2.png)
 
 Em seguida, executei um container a partir da imagem criada para garantir que tudo estava funcionando como esperado.
+
+
 4.2. Etapa 2: Reutilização de Containers
+
 Nesta etapa, verifiquei se era possível reutilizar um container parado. 
 respondo no desafio mas de forma simples a resposta é SIM
 
@@ -93,12 +102,12 @@ Nesta etapa, desenvolvi um novo script Python para hash, similar ao script cargu
 No Dockerfile, atualizei o comando CMD para permitir que o container execute o script e aceite inputs do usuário.
 Testei o container com o comando docker run -it, garantindo que ele estivesse preparado para receber entradas durante sua execução.
 
-![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_7.png)
-
 ![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_9.png)
 
-Agora criação do mascarar_dados script que recebe uma string via input,
+Agora criação do mascarar_dados script que recebe uma string via input.
+
 Criei uma nova imagem chamada mascarar-dados e executei o container para mascarar algumas palavras e registrar as evidências do funcionamento correto.
+
 Testei o container com o comando docker run -it, garantindo que ele estivesse preparado para receber entradas durante sua execução.
 
 ![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_12.png)
@@ -116,4 +125,4 @@ como sempre esta melhor documentado no meu Desafio
 Feedback da Sprint:
 Acredito que essa tenha sido a sprint mais fácil até agora. Consegui completar as atividades em menos de 2 horas, mesmo sem ter visto os cursos Docker antes. Foi uma ótima experiência aprender como criar Dockerfiles, construir e gerenciar imagens e containers, além de utilizar comandos como docker build, docker run e docker logs. Gostei bastante de como a documentação do Docker é clara e objetiva, facilitando a busca por soluções.
 Adorei trabalhar com Docker. Tenho interesse em explorar mais a área de Machine Learning e Deep Learning com frameworks como TensorFlow e PyTorch. A ideia de poder treinar e fazer a inferência de modelos dentro de containers, mantendo todo o ambiente controlado e replicável, é algo que quero explorar mais a fundo. Tenho muita curiosidade nessa área e espero ter mais oportunidades para aplicar e adquirir experiência prática.
-Por ser uma sprint muito fácil, acabei me dispersando bastante e ficando desorganizado. Isso fez com que eu demorasse mais do que o necessário para finalizar o README e ainda cometesse muitos erros bobos. Aprendi com essa experiência e não vou repetir esse erro novamente.
+Por ser uma sprint muito fácil, acabei me dispersando bastante e ficando desorganizado. Isso fez com que eu demorasse mais do que o necessário para finalizar o README e ainda cometi muitos erros bobos. Aprendi com essa experiência e não vou repetir esse erro novamente.
