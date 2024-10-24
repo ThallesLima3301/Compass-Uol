@@ -165,4 +165,16 @@ Já aqui eu vou mostrar como ficou minha tela de menu
 
 ![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_15.png)
 
+
+
+ADD "As evidências das builds das imagens não estão no repositório"
+
+
+![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_21.png)
+
+![Desafio_resultados](../evidencias/desafio/resultados/Desafio_resultados_22.png)
+
+
+
+
 **Nota: no video eu pretendo mostras como ficou utilizando o menu q eu crie pois eu achei bem legal kkk, eu fiz um explicação bem breve no video**

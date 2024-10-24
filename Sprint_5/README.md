@@ -16,7 +16,7 @@ Atualmente, já concluí os  cursos e estou gostando bastante da trilha. Estou a
 
 # Exercícios
 
-1. [Resposta Ex1](../Sprint_5/exercicios/Ex.py)
+1. [Resposta Ex1](../Sprint_5/exercicios/index.html)
 
 Documentação do Exercício de Hospedagem de Site Estático no AWS S3
 Bom exercício, eu gostei de fazer, de certo modo. Aqui eu vou documentar um pouco melhor sobre. Achei o enunciado muito grande para coisas algo tão simples.
