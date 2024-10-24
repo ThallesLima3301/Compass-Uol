@@ -30,7 +30,7 @@ dei um print(df.head(10))
 ![Img 2](../evidencias/img_resposta/img_resposta2.png)
 
 Fechou agora q eu ja decidi que ia usar essa base de dados. 
-entao vamos prosegur
+entao vamos Proseguir
 
 ![Img 1 EX](../evidencias/img/image.png)
 
@@ -48,18 +48,27 @@ AWS_ACCESS_KEY_ID=SEU_ACCESS_KEY
 AWS_SECRET_ACCESS_KEY=SEU_SECRET_KEY
 AWS_SESSION_TOKEN=SEU_SESSION_TOKEN
 
-Bom era pra ser no máximo isso mas eu acabei ficando muito tempo sem ter oque fazer entao eu acabei invtando coisa.
-ficando assim.
+Bom era pra ser no máximo isso mas eu acabei ficando muito tempo sem ter oque fazer entao eu acabei invetando coisa.
 
+ficando assim.
+```bash
 import boto3
+
 import logging
+
 import os
+
 from dotenv import load_dotenv
+
 from s3_operations import download_file_s3, upload_file_s3
+
 from data_processing import process_dataframe
+
 import pandas as pd
+
 from datetime import datetime
 
+```
 <h1>Resumo de cada import ou from</h1>
 
 import boto3:
@@ -76,10 +85,10 @@ from dotenv import load_dotenv:
 O dotenv é uma biblioteca que permite carregar variáveis de ambiente a partir de um arquivo .env. O load_dotenv carrega essas variáveis para que possam ser usadas no código, como chaves e senhas de API.
 
 from s3_operations import download_file_s3, upload_file_s3:
-Aqui, você está importando funções específicas (download_file_s3 e upload_file_s3) de um módulo chamado s3_operations. Essas funções provavelmente são usadas para baixar e enviar arquivos para o S3.
+Aqui, você está importando funções específicas (download_file_s3 e upload_file_s3) de um módulo chamado s3_operations. Essas funções  são usadas para baixar e enviar arquivos para o S3.
 
 from data_processing import process_dataframe:
-Esta linha importa a função process_dataframe de um módulo chamado data_processing, que provavelmente contém lógica para processar e manipular dataframes (estruturas de dados tabulares).
+Esta linha importa a função process_dataframe de um módulo chamado data_processing, que contém lógica para processar e manipular dataframes (estruturas de dados tabulares).
 
 import pandas as pd:
 O pandas é uma biblioteca popular para manipulação de dados em Python. Ela facilita trabalhar com tabelas e dataframes. pd é o alias comum usado para pandas.
@@ -94,13 +103,12 @@ Esta linha importa a classe datetime do módulo datetime, que é usado para trab
 
 usei o comando aws --version no meu cmd 
 
-![Img 13](../evidencias/img_resposta/img_resposta13.png)
 
 ![Img 3](../evidencias/img_resposta/img_resposta3.png)
 
 Beleza tudo certo agora vamos começar o s3.
 
-A Primeira mao eu fiz por resource
+A Primeira vez eu fiz por resource
 ```bash
 
 s3 = boto3.resource(
@@ -120,7 +128,7 @@ aws configure
 
 ![Img 4](../evidencias/img_resposta/img_resposta4.png)
 
-Porem apos conversando na monitoria me foi recomendo fazer por 
+Porem apos conversar com a monitoria me foi recomendo fazer por client
 ```bash
 s3 = boto3.client(
     's3',
@@ -225,9 +233,7 @@ Limpei os CPFs e formatei nomes para maiúsculas.
 
 ![Img 13](../evidencias/img_resposta/img_resposta11.png)
 
-<h1>  Bom entao vamos fala sobre a analise</h1>
-
-
+<h1>  Bom entao vamos fala sobre o Buckets e a analise</h1>
 
 ```bash
 import logging
@@ -358,25 +364,25 @@ Esse passo a passo documenta todo o processo, desde a configuração inicial do 
 
 # Recapitulação das Etapas
 
-Acho legal fazer uma recapitulação de uma passo a passo
+<p>Acho legal fazer uma recapitulação de uma passo a passo</p>
 
-Cláusula que Filtra Dados Usando Dois Operadores Lógicos:
-Aplicamos uma cláusula que filtra as linhas do DataFrame com base em duas condições lógicas usando as colunas de datas.
-Duas Funções de Agregação:
+<p>Cláusula que Filtra Dados Usando Dois Operadores Lógicos:
+Aplicamos uma cláusula que filtra as linhas do DataFrame com base em duas condições lógicas usando as colunas de datas.</p>
+<p>Duas Funções de Agregação:</p>
 Foi realizada a contagem de registros por ano e o cálculo da média dos anos restantes até a data final.
-Função Condicional:
-Criamos a coluna "Status" para verificar se a "Data Final" era maior ou menor que a data atual, categorizando como "Válido" ou "Expirado".
-Função de Conversão:
+<p>Função Condicional:</p>
+criei a coluna "Status" para verificar se a "Data Final" era maior ou menor que a data atual, categorizando como "Válido" ou "Expirado".
+<p>Função de Conversão:</p>
 Convertido o CPF para um formato sem pontuação e traços, criando a coluna "CPF Limpo".
 Convertida a data para um formato string com o formato "DD-MM-YYYY".
-Função de Data:
+<p>Função de Data:</p>
 Extraímos o ano, mês e dia das colunas de datas e calculamos a diferença entre datas.
-Função de String:
+<p>Função de String:</p>
 Manipulamos os nomes para convertê-los em maiúsculas, criando a coluna "Nome em Maiúsculas".
 
 
 
 Explicações
-Consolidação do Resultado:
+Consolidação do Resultado(oque foi recomendado pelo desafio):
 O código consolida todas as informações em uma única variável (resultado_consolidado), que contém um resumo detalhado de cada etapa e manipulação realizada no DataFrame.
 No final, é exibido se há registros com o status "Expirado" e uma amostra dos mesmos.
