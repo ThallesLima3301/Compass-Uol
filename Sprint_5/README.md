@@ -40,24 +40,24 @@ Vou explicar um pouco sobre o meu diretório:
 
 __pycache__:
 
-È o diretório onde o Python armazena os arquivos compilados (.pyc) dos módulos Python. Nesse caso, ele contém os arquivos compilados data_processing e s3_operations.
+
+Aqui está o texto em primeira pessoa:
+
+No meu projeto, o diretório __pycache__ é onde o Python armazena os arquivos compilados (.pyc) dos módulos que utilizo. No meu caso, ele contém os arquivos compilados dos scripts data_processing e s3_operations.
 
 Arquivos .py:
-data_processing.py: Este é o script onde você provavelmente definiu funções para processar o dataframe, como limpar, manipular ou analisar dados.
-main.py: Este script parece ser o arquivo principal do seu projeto, onde você pode estar coordenando as operações entre os outros módulos e scripts.
-s3_operations.py: Este script deve conter funções relacionadas às operações no S3, como download e upload de arquivos usando boto3.
+data_processing.py: Este é o script onde defini as funções para processar o DataFrame, incluindo tarefas como limpar, manipular e analisar dados.
+main.py: Esse é o arquivo principal do meu projeto, onde coordeno as operações entre os diferentes módulos e scripts que criei.
+s3_operations.py: Esse script contém funções específicas para operações no S3, como download e upload de arquivos usando a biblioteca boto3.
 Arquivos .csv:
-
-relatorio_inabilitado_s3.csv: Parece ser um arquivo que você baixou do S3 ou está manipulando em seu projeto.
-resultado_sprint_5.csv: Este provavelmente é o arquivo resultante do processamento realizado pelo seu script, talvez após aplicar transformações ou agregações com o Pandas.
+relatorio_inabilitado_s3.csv: Este é o arquivo que baixei do S3 e que utilizo para manipulações e análises no meu projeto.
+resultado_sprint_5.csv: Este é o arquivo gerado após o processamento realizado pelo meu script, onde aplico transformações e agregações com o Pandas.
 .env:
+O arquivo .env é onde armazeno minhas variáveis de ambiente, como credenciais e configurações sensíveis que não quero expor diretamente no código. Utilizo a biblioteca dotenv para carregar essas variáveis de maneira segura.
 
-Este é o arquivo onde você deve estar armazenando variáveis de ambiente, como credenciais ou configurações sensíveis que não deseja expor diretamente no código. O arquivo .env é usado junto com a biblioteca dotenv para carregar essas variáveis de forma segura.
+Eu decidi usar o arquivo .env porque não gostava de ver as senhas aparecendo diretamente no código. Por isso, pesquisei uma maneira de escondê-las e proteger essas informações, e encontrei essa solução.
 
-Agora vou explicar um pouco da minha lógica. A ideia de usar o arquivo .env surgiu porque eu não gostava de ver as senhas aparecendo diretamente no meu código. Então, pesquisei uma forma de escondê-las e proteger essas informações.
-
-Eu importei o módulo logging porque pesquisei sobre ele e achei interessante adicioná-lo ao meu código como um bônus. É uma forma de registrar eventos e informações úteis, ajudando a monitorar o comportamento do programa e identificar problemas de maneira mais profissional.
-
+Além disso, importei o módulo logging após fazer uma pesquisa sobre ele e achei interessante adicioná-lo ao meu código como um bônus. Ele é uma forma eficiente de registrar eventos e informações úteis, o que ajuda a monitorar o comportamento do programa e a identificar problemas de maneira mais profissional.
 Vamos fala do desafio. 
 
 # Documentação do Desafio AWS S3
