@@ -41,7 +41,6 @@ Vou explicar um pouco sobre o meu diretório:
 __pycache__:
 
 
-Aqui está o texto em primeira pessoa:
 
 No meu projeto, o diretório __pycache__ é onde o Python armazena os arquivos compilados (.pyc) dos módulos que utilizo. No meu caso, ele contém os arquivos compilados dos scripts data_processing e s3_operations.
 
