@@ -18,7 +18,46 @@ Atualmente, já concluí os  cursos e estou gostando bastante da trilha. Estou a
 
 1. [Resposta Ex1](../Sprint_5/exercicios/Ex.py)
 
-Bom exercicio eu gostei de fazer de certo modo aqui eu vou documentar um pouco melhor sobre
+Documentação do Exercício de Hospedagem de Site Estático no AWS S3
+Bom exercício, eu gostei de fazer, de certo modo. Aqui eu vou documentar um pouco melhor sobre. Achei o enunciado muito grande para coisas algo tão simples.
+
+Passo 1: Criar um Bucket no S3
+O primeiro passo foi acessar o console do AWS S3 e criar um bucket para hospedar o site. Defini o nome e a região do bucket, escolhendo us-east-1 para facilitar a configuração e deixar no padrão.
+
+![Img 17 EX](../Sprint_5/evidencias/img_resposta/img_resposta17.png)
+
+
+Passo 2: Habilitar a Hospedagem Estática
+Depois de criar o bucket, eu habilitei a hospedagem de site estático. Defini o index.html como o documento de índice e o 404.html como o documento de erro. Foi simples, mas achei que poderia ser mais direto no enunciado.
+
+
+Passo 3: Upload dos Arquivos
+Fiz o upload dos arquivos necessários:
+
+![Img 18 EX](../Sprint_5/evidencias/img_resposta/img_resposta18.png)
+
+index.html: Página inicial do site com um link para download do CSV.
+404.html: Página de erro personalizada.
+nomes.csv: O arquivo de dados que será baixado pelo usuário.
+
+Passo 4: Configurar Permissões e Política de Bucket
+Para garantir que o site funcionasse, precisei ajustar as permissões:
+
+![Img 19 EX](../Sprint_5/evidencias/img_resposta/img_resposta19.png)
+
+Editei a Política do Bucket para permitir acesso público de leitura a todos os objetos.
+Verifiquei as permissões individuais de cada arquivo, garantindo que todos tivessem a leitura pública habilitada.
+
+Passo 5: Testar o Endpoint do Site
+Com tudo configurado, testei o endpoint do site. O index.html carregou corretamente, e o link para download do CSV estava funcionando após ajustar as permissões.
+
+![Img 20 EX](../Sprint_5/evidencias/img_resposta/img_resposta20.png)
+
+![Img 20 EX](../Sprint_5/evidencias/img_resposta/img_resposta21.png)
+
+Conclusão
+Achei interessante explorar o AWS S3 para hospedar um site estático, mas percebi que, apesar de ser um processo simples, o enunciado poderia ser mais objetivo. No geral, foi um bom exercício para entender as configurações básicas de permissões e políticas no S3.
+
 
 
 # Desafios
@@ -83,16 +122,32 @@ Escolhi o arquivo relatorio_inabilitado.csv porque ele se encaixava nos critéri
 2. Análise dos dados
 Analisei o conteúdo do arquivo localmente usando um editor de texto para conhecer os dados e planejar as manipulações necessárias.
 
+
+
 3. Carregamento no S3
 Utilizei um script Python para carregar o arquivo relatorio_inabilitado_s3.csv para um bucket no S3, utilizando a biblioteca boto3. Fiz a configuração das credenciais no arquivo .env para manter as informações sensíveis fora do código.
 
 4. Manipulação do DataFrame
 Em outro script, carreguei o arquivo diretamente do S3 e criei um DataFrame usando pandas para aplicar as seguintes manipulações:
 
+![Img 1 EX](../Sprint_5/evidencias/img_resposta/img_resposta7.png)
+
 Usei uma cláusula que filtra dados com dois operadores lógicos: selecionei registros onde a "Data Final" era posterior a 2025 e o "Trânsito em Julgado" era anterior a 2023.
+
+![Img 1 EX](../Sprint_5/evidencias/img_resposta/img_resposta9.png)
+
 Apliquei funções de agregação, como calcular a diferença de anos entre duas colunas de data.
+
+![Img 1 EX](../Sprint_5/evidencias/img_resposta/img_resposta10.png)
+
 Utilizei uma função condicional para determinar se um registro estava "Válido" ou "Expirado" com base na data atual.
+
+![Img 1 EX](../Sprint_5/evidencias/img_resposta/img_resposta11.png)
+
 Fiz conversões de colunas para strings formatadas, incluindo a limpeza de CPFs e transformação de nomes para maiúsculas.
+
+![Img 1 EX](../Sprint_5/evidencias/img_resposta/img_resposta12.png)
+
 5. Salvando e enviando o arquivo
 Depois de processar o DataFrame, salvei o resultado em um arquivo CSV chamado resultado_sprint_5.csv e o enviei de volta para o bucket no S3.
 
