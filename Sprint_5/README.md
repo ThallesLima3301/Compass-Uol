@@ -154,7 +154,9 @@ Além disso, troquei o método .head() pelo .sample() para mostrar amostras alea
 
 Essas mudanças tornaram o código mais flexível e fácil de ajustar para diferentes cenários, deixando o fluxo mais automatizado e eficiente.
 
-![Img 9 EX](../Sprint_5/evidencias/img_resposta/img_resposta24.png)
+![Img 9 EX](../Sprint_5/evidencias/img_resposta/Desafio_resultados_23.png)
+
+![Img 9 EX](../Sprint_5/evidencias/img_resposta/Desafio_resultados_24.png)
 
 5. Salvando e enviando o arquivo
 
