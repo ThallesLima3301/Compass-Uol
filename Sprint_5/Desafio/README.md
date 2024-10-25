@@ -358,6 +358,30 @@ Ficando assim meus arquivos no meus Bucket
 ![Img 6](../evidencias/img_resposta/img_resposta6.png)
 
 ![Img 1 EX](../evidencias/img/image3.png)
+
+8. Criação Automática da Pasta resultados
+O que eu fiz: Adicionei um trecho de código utilizando o módulo os para garantir que a pasta resultados fosse criada automaticamente antes de salvar os arquivos CSV.
+Por que isso foi importante: Antes dessa modificação, o código tentava salvar os arquivos em um caminho que não existia, o que causava erros. Com o uso de os.makedirs('resultados', exist_ok=True), eu garanti que o caminho sempre existirá, independentemente do ambiente onde o script está sendo executado.
+Benefício: Essa mudança tornou o script mais robusto e confiável, já que agora ele não depende de uma configuração manual do ambiente antes de ser executado.
+9. Uso de Variáveis para Maior Flexibilidade
+O que eu fiz: Usei a variável output_file para salvar e nomear o arquivo final processado. Além disso, utilizei a mesma variável para fazer o upload do arquivo para o S3.
+Por que isso foi importante? Utilizar variáveis me permitiu deixar o código mais flexível e fácil de modificar no futuro. Agora, se eu precisar mudar o nome do arquivo final, é possível fazer isso em um único lugar, evitando inconsistências no código.
+Benefício: Essa alteração melhora a manutenção do código, tornando-o mais fácil de ajustar ou adaptar para diferentes cenários e nomes de arquivos.
+
+![Img 23 EX](../evidencias/img_resposta/Desafio_resultados_23.png)
+
+![Img 23 EX](../evidencias/img_resposta/Desafio_resultados_24.png)
+
+10. Upload Estruturado dos Arquivos Processados
+O que eu fiz: Organizei o upload dos arquivos CSV para o S3, salvando cada tipo de arquivo (original, filtrado e registros expirados) dentro da pasta resultados.
+Por que isso foi importante: Ao enviar cada arquivo para uma estrutura de pastas no S3, consegui manter a organização e facilitar a navegação e análise dos resultados diretamente no bucket.
+Benefício: Essa estrutura organizada melhora a clareza e a acessibilidade dos dados na nuvem, facilitando a auditoria e a revisão dos arquivos processados.
+11. Melhoria na Consolidação de Logs e Mensagens
+O que eu fiz: Usei o logging para capturar informações importantes, como o número de registros expirados, e para informar quando os arquivos foram baixados e enviados corretamente.
+Por que isso foi importante: Utilizar o logging em vez de simples print() permite um controle mais sofisticado sobre as mensagens, ajudando na depuração e no monitoramento do código em diferentes ambientes.
+Benefício: As mensagens de log detalhadas facilitam a identificação de problemas e me ajudam a entender exatamente o que está acontecendo durante a execução do script.
+
+
 # Conclusão:
 Esse passo a passo documenta todo o processo, desde a configuração inicial do ambiente até a manipulação avançada dos dados e o upload para o S3. O uso de funções e modularização do código facilita a manutenção e compreensão do processo. Com essa estrutura, consegui concluir todas as etapas com sucesso, garantindo que todas as manipulações foram feitas conforme solicitado.
 
@@ -367,7 +391,7 @@ Esse passo a passo documenta todo o processo, desde a configuração inicial do 
 <p>Acho legal fazer uma recapitulação de uma passo a passo</p>
 
 <p>Cláusula que Filtra Dados Usando Dois Operadores Lógicos:
-Aplicamos uma cláusula que filtra as linhas do DataFrame com base em duas condições lógicas usando as colunas de datas.</p>
+Apliquei uma cláusula que filtra as linhas do DataFrame com base em duas condições lógicas usando as colunas de datas.</p>
 <p>Duas Funções de Agregação:</p>
 Foi realizada a contagem de registros por ano e o cálculo da média dos anos restantes até a data final.
 <p>Função Condicional:</p>
@@ -376,11 +400,9 @@ criei a coluna "Status" para verificar se a "Data Final" era maior ou menor que 
 Convertido o CPF para um formato sem pontuação e traços, criando a coluna "CPF Limpo".
 Convertida a data para um formato string com o formato "DD-MM-YYYY".
 <p>Função de Data:</p>
-Extraímos o ano, mês e dia das colunas de datas e calculamos a diferença entre datas.
+Extrai o ano, mês e dia das colunas de datas e calculamos a diferença entre datas.
 <p>Função de String:</p>
 Manipulamos os nomes para convertê-los em maiúsculas, criando a coluna "Nome em Maiúsculas".
-
-
 
 Explicações
 Consolidação do Resultado(oque foi recomendado pelo desafio):
