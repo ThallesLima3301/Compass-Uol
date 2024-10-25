@@ -134,22 +134,35 @@ Em outro script, carreguei o arquivo diretamente do S3 e criei um DataFrame usan
 
 Usei uma cláusula que filtra dados com dois operadores lógicos: selecionei registros onde a "Data Final" era posterior a 2025 e o "Trânsito em Julgado" era anterior a 2023.
 
-![Img 1 EX](../Sprint_5/evidencias/img_resposta/img_resposta9.png)
+![Img 9 EX](../Sprint_5/evidencias/img_resposta/img_resposta9.png)
 
 Apliquei funções de agregação, como calcular a diferença de anos entre duas colunas de data.
 
-![Img 1 EX](../Sprint_5/evidencias/img_resposta/img_resposta10.png)
+![Img 10 EX](../Sprint_5/evidencias/img_resposta/img_resposta10.png)
 
 Utilizei uma função condicional para determinar se um registro estava "Válido" ou "Expirado" com base na data atual.
 
-![Img 1 EX](../Sprint_5/evidencias/img_resposta/img_resposta11.png)
+![Img 11 EX](../Sprint_5/evidencias/img_resposta/img_resposta11.png)
 
 Fiz conversões de colunas para strings formatadas, incluindo a limpeza de CPFs e transformação de nomes para maiúsculas.
 
-![Img 1 EX](../Sprint_5/evidencias/img_resposta/img_resposta12.png)
+![Img 12 EX](../Sprint_5/evidencias/img_resposta/img_resposta12.png)
+
+Fiz algumas mudanças no meu código para deixá-lo mais prático e organizado. Primeiro, adicionei um comando que cria a pasta resultados automaticamente, garantindo que os arquivos CSV sejam salvos sem erro, independente de onde o script rode. Também usei variáveis para deixar mais fácil mudar o nome dos arquivos no futuro, sem precisar mexer em várias partes do código.
+
+Além disso, troquei o método .head() pelo .sample() para mostrar amostras aleatórias dos dados(somente para o video), dando uma visão mais variada dos registros. Estruturei o upload dos arquivos para o S3 de forma mais organizada, colocando tudo em pastas. E, por fim, implementei o logging para registrar mensagens e monitorar a execução, facilitando a identificação de problemas.
+
+Essas mudanças tornaram o código mais flexível e fácil de ajustar para diferentes cenários, deixando o fluxo mais automatizado e eficiente.
+
+![Img 9 EX](../Sprint_5/evidencias/img_resposta/img_resposta24.png)
 
 5. Salvando e enviando o arquivo
-Depois de processar o DataFrame, salvei o resultado em um arquivo CSV chamado resultado_sprint_5.csv e o enviei de volta para o bucket no S3.
+
+    # Fazer o upload dos arquivos CSV para o bucket S3
+    upload_file_s3(bucket_name, 'resultados/tabela_original.csv', 'resultados/tabela_original.csv')
+    upload_file_s3(bucket_name, 'resultados/tabela_filtrada.csv', 'resultados/tabela_filtrada.csv')
+    upload_file_s3(bucket_name, 'resultados/tabela_expirados.csv', 'resultados/tabela_expirados.csv')
+    upload_file_s3(bucket_name, output_file, output_file)
 
 6. Documentação no Git
 Documentei todo o processo em um arquivo Markdown, incluindo prints das execuções e os códigos utilizados. Armazenei os arquivos .csv e .py, juntamente com as evidências, no meu repositório Git.
