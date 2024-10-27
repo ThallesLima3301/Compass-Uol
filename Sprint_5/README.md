@@ -170,6 +170,10 @@ Essas mudanças tornaram o código mais flexível e fácil de ajustar para difer
 Documentei todo o processo em um arquivo Markdown, incluindo prints das execuções e os códigos utilizados. Armazenei os arquivos .csv e .py, juntamente com as evidências, no meu repositório Git.
 
 
+# Melhor detalhes sobre o desafio 
+
+![Desafio 5](../Sprint_5/Desafio/README.md)
+
 # Feedback
 
 De modo geral, durante essa sprint, percebi que acabei procrastinando bastante, assim como na sprint anterior. Achei as duas muito fáceis, o que me fez finalizar todas as atividades com antecedência, levando-me a enrolar um pouco. No entanto, gostei muito de aprender sobre AWS; até o momento, é a área pela qual desenvolvi mais interesse em todas as sprints.
