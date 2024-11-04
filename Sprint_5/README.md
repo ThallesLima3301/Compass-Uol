@@ -12,7 +12,7 @@ Atualmente, já concluí os  cursos e estou gostando bastante da trilha. Estou a
   [ Link publico](https://www.credly.com/badges/8f42540e-33ce-4e93-b419-5f825c0b4111/public_url)
 
   
- [ Certificados](../Sprint_5/certificados/img/aws-cloud-quest-cloud-practitioner.png)
+ [ Certificados](../Sprint_5/certificados/img/AWS_Cloud_Quest_Badge.png)
 
 # Exercícios
 

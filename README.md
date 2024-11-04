@@ -27,4 +27,7 @@
 
 5. [Sprint 5](Sprint_5/README.md)
 
+6. [Sprint 6](Sprint_6/README.md)
+
+
 
