@@ -10,6 +10,8 @@ LOCATION 's3://ex-labawss3/dados/'
 
 SELECT * FROM meubanco.nomes LIMIT 10
 
+fiz de varias formas 
+
 SELECT nome, COUNT(*) AS total, FLOOR(ano / 10) * 10 AS decada
 FROM meubanco.nomes
 WHERE ano >= 1950
@@ -17,8 +19,8 @@ GROUP BY nome, FLOOR(ano / 10) * 10
 ORDER BY decada, total DESC
 LIMIT 3
 
-SELECT nome 
-FROM meubanco.nomes 
-WHERE ano = 1999 
-ORDER BY nome 
+SELECT ano, nome, sexo, total
+FROM meubanco.nomes
+WHERE ano = 1999
+ORDER BY total
 LIMIT 15;

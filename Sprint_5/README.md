@@ -176,6 +176,8 @@ Documentei todo o processo em um arquivo Markdown, incluindo prints das execuç�
 
 # Feedback
 
-De modo geral, durante essa sprint, percebi que acabei procrastinando bastante, assim como na sprint anterior. Achei as duas muito fáceis, o que me fez finalizar todas as atividades com antecedência, levando-me a enrolar um pouco. No entanto, gostei muito de aprender sobre AWS; até o momento, é a área pela qual desenvolvi mais interesse em todas as sprints.
+Durante a Sprint 6, tive uma experiência bastante positiva, especialmente em relação à implementação do código, que achei relativamente fácil e direta. Não enfrentei grandes dificuldades técnicas nessa parte. Contudo, o maior desafio foi realmente desenvolver uma análise que fosse sólida e envolvente. Confesso que ainda me sinto um pouco incerto sobre qual caminho seguir para criar uma análise que traga insights realmente interessantes e aprofundados.
 
-Minha avaliação para essa sprint é 6/10. A experiência com o jogo de AWS foi ótima, achei-o fácil e muito intuitivo, e espero que haja mais jogos como esse no futuro. Particularmente, gostei bastante de criar a conexão com a AWS e espero continuar explorando essa área.
+De modo geral, aprendi muito e aproveitei bem a oportunidade para expandir meus conhecimentos, especialmente na prática. Inclusive, fiz alguns cursos adicionais por fora para complementar meu aprendizado. No entanto, senti que a sprint foi um pouco superficial em termos de conteúdo. Consegui finalizar todas as atividades com bastante antecedência, e isso acabou me levando a procrastinar um pouco, pois não havia tanto a explorar além do que foi proposto. Apesar disso, me esforcei para buscar maneiras de enriquecer o que foi entregue.
+
+Minha avaliação para essa sprint é 6/10. Foi uma experiência produtiva e enriquecedora em certos aspectos, mas eu gostaria que houvesse mais profundidade em algumas áreas. Ter um conteúdo mais desafiador e um escopo mais amplo permitiria que eu me envolvesse ainda mais e realmente me aprofundasse na análise de dados.
