@@ -1,5 +1,9 @@
 # Desafio da Sprint 
 
+[enunciado 1](../evidencias/Img_Desafio/Img_Desafio.png)
+
+
+
 1. Objetivo
 O propósito deste desafio é praticar e consolidar o que foi aprendido até agora sobre diversas tecnologias e ferramentas, integrando-as em um projeto robusto. A tarefa consiste na construção de um Data Lake que organize, armazene e possibilite o consumo de dados de filmes e séries, com foco em comédia e animação. Esse Data Lake possui uma estrutura de armazenamento em camadas, incluindo a ingestão de dados em um formato bruto, processamento dos dados com Apache Spark, e consumo final através de dashboards analíticos.
 
@@ -12,16 +16,19 @@ Para essa primeira entrega, precisei configurar um ambiente local com Docker par
 
 Uma das principais considerações foi estruturar os dados no S3 de forma organizada para facilitar futuras consultas e análises. Segui o padrão de nomenclatura abaixo para armazenar os arquivos no S3:
 
-    ´# Configurar caminhos para os arquivos´
 
-    ´base_path = f"Raw/Local/CSV"´
+    `# Configurar caminhos para os arquivos`
 
-    ´movies_key = f"{base_path}/Movies/{data_formatada}/movies.csv"´
-    
-    ´series_key = f"{base_path}/Series/{data_formatada}/series.csv"´
+    `base_path = f"Raw/Local/CSV"`
 
+    `movies_key = f"{base_path}/Movies/{data_formatada}/movies.csv"`
     
-    
+    `series_key = f"{base_path}/Series/{data_formatada}/series.csv"`
+
+
+    ![Desafio_resultados](../evidencias/img_evidencias/desafio_evi.png)
+
+
 
 
 
