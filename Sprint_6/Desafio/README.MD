@@ -71,8 +71,11 @@ Execução do Container: Com o ambiente configurado, o processo de ingestão é 
 Para tornar o processo de ingestão mais transparente, configurei logs detalhados que registram cada etapa do upload, incluindo:
 
 Confirmação de leitura dos arquivos CSV.
+
 Confirmação de envio dos arquivos ao S3, com logs de sucesso ou falha.
+
 Registro de exceções caso ocorra algum erro durante o upload.
+
 Os logs são essenciais para monitorar o processo e identificar rapidamente qualquer problema. Além disso, incluí verificações de integridade no código para garantir que os arquivos estão no formato correto e prontos para ingestão.
 
 ![img_evidencias desafio](../evidencias/img_evidencias/desafio_evi3.png)
@@ -93,20 +96,25 @@ docker run -it ingestao-filmes-series /bin/bash
 
 ou mudo no meu docker
 
+**Nota(optei por mudar no meu docker)**
+
 
 Até agora, concluí a primeira entrega, que consiste na ingestão de dados brutos no bucket S3. O Data Lake já possui uma estrutura inicial, com os arquivos CSV armazenados na camada RAW, prontos para a próxima fase de transformação e catalogação. A estrutura organizada do S3 permite fácil rastreamento e versionamento dos dados, essencial para as etapas futuras.
 
 Beleza fiz algumas coisa para entender melhor o csv.
-
 
 teste.py
 
 Este arquivo é um script de testes para verificar os dados de filmes e séries antes de aplicar análises mais complexas. Ele oferece uma visão geral dos gêneros únicos presentes nos arquivos e exibe os primeiros registros.
 
 Funcionalidades principais:
+
 Carregamento de dados: Lê movies.csv e series.csv, assumindo que cada arquivo usa um delimitador “|”.
+
 Exibição inicial dos dados: Imprime as colunas e as primeiras linhas dos arquivos para verificação rápida do conteúdo.
+
 Extração de gêneros únicos: Extrai todos os gêneros listados nos arquivos de filmes e séries, permitindo uma visão abrangente das categorias de produção presentes nos dados.
+
 Listagem de gêneros individuais: Mostra todos os gêneros distintos identificados nos dados, útil para entender a diversidade de categorias​(teste).
 
 As tabelas
@@ -180,6 +188,7 @@ Principais Análises:
 Média de Notas por Ano:
 
 Análise: Calcular a média de notas para filmes e séries de Comédia/Animação ao longo dos anos, identificando tendências de aumento ou queda na popularidade.
+
 Visualização: Gráfico de linha mostrando a média de notas por ano, facilitando a visualização das mudanças de avaliação ao longo do tempo.
 Objetivo: Responder "como as avaliações de Comédia/Animação evoluíram ao longo dos anos?".
 
@@ -194,6 +203,7 @@ Visualização: Exibir as métricas em cards no dashboard e usar um scatter plot
 Objetivo: Identificar possíveis tendências futuras e avaliar a precisão do modelo preditivo.
 
 Análise Diagnóstica:
+
 Análise: Utilizar MSE e MAE para verificar a presença de erros significativos ou outliers que possam estar impactando a precisão das previsões.
 
 Visualização: Gráfico de distribuição dos erros residuais, mostrando onde o modelo pode estar errando mais.

@@ -323,3 +323,24 @@ Durante a Sprint 6, tive uma experiência bastante positiva, especialmente em re
 De modo geral, aprendi muito e aproveitei bem a oportunidade para expandir meus conhecimentos, especialmente na prática. Inclusive, fiz um  curso adicional por fora para complementar meu aprendizado. No entanto, senti que a sprint foi um pouco superficial em termos de conteúdo. Consegui finalizar todas as atividades com bastante antecedência, e isso acabou me levando a procrastinar um pouco, pois não havia tanto a explorar além do que foi proposto. Apesar disso, me esforcei para buscar maneiras de enriquecer o que foi entregue.
 
 Minha avaliação para essa sprint é 6/10 igual a ultima. Foi uma experiência produtiva e enriquecedora em certos aspectos, mas eu gostaria que houvesse mais profundidade em algumas áreas. Ter um conteúdo mais desafiador e um escopo mais amplo permitiria que eu me envolvesse ainda mais e realmente me aprofundasse na análise de dados.
+
+
+# Erros cometidos.
+
+
+eu acabei subindo o csv pro git sem qeurer e deu tudo errado kkkkkkkkkkkk
+
+e para ajudar ainda dei .gitignore errado mas deu tudo certo vou dar alguns detalhes do que fiz
+
+git rm -r --cached Sprint_6/Desafio/Spritn_6/csv/ para apagar minha versao e ainda sim n estava mais subindo pro meu git
+
+usei um git log --onelin
+
+entao eu voltei na versao anterior que eu tinha no meu git mudei pull requests E o meu main no git e depois eu atualizei no meu o main do meu do meu pc fazendo 
+finalmente funcionar. 
+
+git branch -D main 
+
+git checkout main
+
+acabei colocando um .gitignore nos meus arquivos 
