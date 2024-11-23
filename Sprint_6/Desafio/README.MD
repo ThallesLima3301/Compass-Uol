@@ -176,6 +176,23 @@ Geração de gráficos: Usa plot_top_genre_ratings para criar gráficos focados 
 
 
 
+![img_evidencias desafio](../evidencias/img_evidencias/S3_Moveis.png)
+
+![img_evidencias desafio](../evidencias/img_evidencias/S3_Moveis1.png)
+
+![img_evidencias desafio](../evidencias/img_evidencias/S3_Moveis2.png)
+
+
+ficando assim s3://data-lake-do-thalles-lima/Raw/Local/CSV/Movies/2024/11/08/movies.csv
+
+
+
+![img_evidencias desafio](../evidencias/img_evidencias/S3_serie.png)
+![img_evidencias desafio](../evidencias/img_evidencias/S3_serie2.png)
+
+
+s3://data-lake-do-thalles-lima/Raw/Local/CSV/Series/2024/11/08/series.csv
+
 # Tipo de analise 
 
 Para minha análise, pensei em começar com analytics descritiva Análise de Filmes e Séries de Comédia/Animação
