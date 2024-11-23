@@ -1,0 +1,802 @@
+[
+    {
+        "id": 809,
+        "title": "Shrek 2",
+        "release_date": "2004-05-19",
+        "vote_average": 7.281,
+        "vote_count": 12242,
+        "popularity": 115.284
+    },
+    {
+        "id": 8920,
+        "title": "Garfield",
+        "release_date": "2004-06-10",
+        "vote_average": 5.7,
+        "vote_count": 3973,
+        "popularity": 59.609
+    },
+    {
+        "id": 11836,
+        "title": "The SpongeBob SquarePants Movie",
+        "release_date": "2004-11-19",
+        "vote_average": 7.0,
+        "vote_count": 2865,
+        "popularity": 64.297
+    },
+    {
+        "id": 12242,
+        "title": "Mulan II",
+        "release_date": "2004-11-03",
+        "vote_average": 6.5,
+        "vote_count": 2340,
+        "popularity": 59.966
+    },
+    {
+        "id": 10555,
+        "title": "Shark Tale",
+        "release_date": "2004-09-20",
+        "vote_average": 6.0,
+        "vote_count": 6294,
+        "popularity": 94.903
+    },
+    {
+        "id": 15165,
+        "title": "Barbie as The Princess & the Pauper",
+        "release_date": "2004-09-28",
+        "vote_average": 7.5,
+        "vote_count": 1463,
+        "popularity": 62.774
+    },
+    {
+        "id": 11430,
+        "title": "The Lion King 1\u00bd",
+        "release_date": "2004-02-06",
+        "vote_average": 6.6,
+        "vote_count": 2945,
+        "popularity": 82.746
+    },
+    {
+        "id": 16907,
+        "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
+        "release_date": "2004-08-21",
+        "vote_average": 7.2,
+        "vote_count": 541,
+        "popularity": 56.675
+    },
+    {
+        "id": 40706,
+        "title": "Jimmy Timmy Power Hour",
+        "release_date": "2004-05-07",
+        "vote_average": 6.8,
+        "vote_count": 65,
+        "popularity": 24.597
+    },
+    {
+        "id": 12902,
+        "title": "Scooby-Doo! and the Loch Ness Monster",
+        "release_date": "2004-05-20",
+        "vote_average": 7.3,
+        "vote_count": 418,
+        "popularity": 27.201
+    },
+    {
+        "id": 25523,
+        "title": "The Ghost of Lord Farquaad",
+        "release_date": "2004-04-03",
+        "vote_average": 6.0,
+        "vote_count": 267,
+        "popularity": 15.162
+    },
+    {
+        "id": 21385,
+        "title": "Mickey, Donald, Goofy: The Three Musketeers",
+        "release_date": "2004-08-04",
+        "vote_average": 6.7,
+        "vote_count": 924,
+        "popularity": 19.659
+    },
+    {
+        "id": 16394,
+        "title": "Winnie the Pooh: Springtime with Roo",
+        "release_date": "2004-03-09",
+        "vote_average": 6.8,
+        "vote_count": 170,
+        "popularity": 27.122
+    },
+    {
+        "id": 619432,
+        "title": "Hidden Leaf Village Grand Sports Festival!",
+        "release_date": "2004-08-21",
+        "vote_average": 7.4,
+        "vote_count": 25,
+        "popularity": 12.92
+    },
+    {
+        "id": 404250,
+        "title": "Zatch Bell! 101st Devil",
+        "release_date": "2004-07-09",
+        "vote_average": 6.5,
+        "vote_count": 79,
+        "popularity": 15.484
+    },
+    {
+        "id": 58508,
+        "title": "Far Far Away Idol",
+        "release_date": "2004-11-05",
+        "vote_average": 6.4,
+        "vote_count": 232,
+        "popularity": 18.226
+    },
+    {
+        "id": 10797,
+        "title": "Terkel in Trouble",
+        "release_date": "2004-04-02",
+        "vote_average": 6.5,
+        "vote_count": 117,
+        "popularity": 10.921
+    },
+    {
+        "id": 21712,
+        "title": "Mind Game",
+        "release_date": "2004-08-07",
+        "vote_average": 7.5,
+        "vote_count": 274,
+        "popularity": 9.609
+    },
+    {
+        "id": 245003,
+        "title": "Lorenzo",
+        "release_date": "2004-03-06",
+        "vote_average": 6.5,
+        "vote_count": 112,
+        "popularity": 12.145
+    },
+    {
+        "id": 464305,
+        "title": "One Piece: Take Aim! The Pirate Baseball King",
+        "release_date": "2004-03-06",
+        "vote_average": 6.6,
+        "vote_count": 19,
+        "popularity": 11.842
+    },
+    {
+        "id": 24034,
+        "title": "Teacher's Pet",
+        "release_date": "2004-01-16",
+        "vote_average": 5.9,
+        "vote_count": 34,
+        "popularity": 10.221
+    },
+    {
+        "id": 15981,
+        "title": "Dead Leaves",
+        "release_date": "2004-01-17",
+        "vote_average": 6.9,
+        "vote_count": 120,
+        "popularity": 11.129
+    },
+    {
+        "id": 27357,
+        "title": "Fallen Art",
+        "release_date": "2004-09-23",
+        "vote_average": 7.0,
+        "vote_count": 98,
+        "popularity": 6.844
+    },
+    {
+        "id": 29004,
+        "title": "The District",
+        "release_date": "2004-12-09",
+        "vote_average": 5.0,
+        "vote_count": 18,
+        "popularity": 8.658
+    },
+    {
+        "id": 629395,
+        "title": "Foster's Home For Imaginary Friends: House of Bloo's",
+        "release_date": "2004-08-13",
+        "vote_average": 7.3,
+        "vote_count": 6,
+        "popularity": 4.409
+    },
+    {
+        "id": 27300,
+        "title": "Hair High",
+        "release_date": "2004-04-17",
+        "vote_average": 6.6,
+        "vote_count": 30,
+        "popularity": 4.986
+    },
+    {
+        "id": 33065,
+        "title": "Alesha Popovich and Tugarin the Dragon",
+        "release_date": "2004-12-23",
+        "vote_average": 6.9,
+        "vote_count": 115,
+        "popularity": 6.827
+    },
+    {
+        "id": 160446,
+        "title": "Crayon Shin-chan: Invoke a Storm! The Kasukabe Boys of the Evening Sun",
+        "release_date": "2004-04-16",
+        "vote_average": 7.6,
+        "vote_count": 16,
+        "popularity": 9.201
+    },
+    {
+        "id": 34468,
+        "title": "Care Bears: Journey to Joke-a-Lot",
+        "release_date": "2004-10-05",
+        "vote_average": 6.4,
+        "vote_count": 8,
+        "popularity": 7.555
+    },
+    {
+        "id": 75257,
+        "title": "The Cat That Looked at a King",
+        "release_date": "2004-12-14",
+        "vote_average": 6.1,
+        "vote_count": 12,
+        "popularity": 7.463
+    },
+    {
+        "id": 80866,
+        "title": "Lupin the Third: Swallowtail Tattoo",
+        "release_date": "2004-07-30",
+        "vote_average": 6.6,
+        "vote_count": 30,
+        "popularity": 6.687
+    },
+    {
+        "id": 19016,
+        "title": "Clifford's Really Big Movie",
+        "release_date": "2004-02-20",
+        "vote_average": 6.0,
+        "vote_count": 34,
+        "popularity": 4.746
+    },
+    {
+        "id": 134053,
+        "title": "Animation Runner Kuromi 2",
+        "release_date": "2004-01-28",
+        "vote_average": 6.0,
+        "vote_count": 2,
+        "popularity": 2.893
+    },
+    {
+        "id": 10933,
+        "title": "Derrick - Die Pflicht ruft!",
+        "release_date": "2004-04-01",
+        "vote_average": 5.0,
+        "vote_count": 7,
+        "popularity": 5.604
+    },
+    {
+        "id": 430981,
+        "title": "Wolf Tracer's Dinosaur Island",
+        "release_date": "2004-01-12",
+        "vote_average": 3.2,
+        "vote_count": 4,
+        "popularity": 5.071
+    },
+    {
+        "id": 73450,
+        "title": "Daffy Duck for President",
+        "release_date": "2004-11-01",
+        "vote_average": 5.4,
+        "vote_count": 9,
+        "popularity": 2.087
+    },
+    {
+        "id": 25223,
+        "title": "Gopher Broke",
+        "release_date": "2004-11-30",
+        "vote_average": 6.0,
+        "vote_count": 36,
+        "popularity": 2.093
+    },
+    {
+        "id": 659750,
+        "title": "Cine Gibi: O Filme",
+        "release_date": "2004-07-09",
+        "vote_average": 7.3,
+        "vote_count": 7,
+        "popularity": 4.557
+    },
+    {
+        "id": 85508,
+        "title": "McDull, Prince de la Bun",
+        "release_date": "2004-06-24",
+        "vote_average": 7.4,
+        "vote_count": 17,
+        "popularity": 2.741
+    },
+    {
+        "id": 397855,
+        "title": "Jammin' in Jamaica",
+        "release_date": "2004-05-15",
+        "vote_average": 6.7,
+        "vote_count": 10,
+        "popularity": 2.026
+    },
+    {
+        "id": 48331,
+        "title": "Guard Dog",
+        "release_date": "2004-10-14",
+        "vote_average": 6.4,
+        "vote_count": 25,
+        "popularity": 3.968
+    },
+    {
+        "id": 226012,
+        "title": "Intolerance III: The Final Solution",
+        "release_date": "2004-06-13",
+        "vote_average": 7.2,
+        "vote_count": 11,
+        "popularity": 1.743
+    },
+    {
+        "id": 1100582,
+        "title": "Angry Kid: Who Do You Think You Are",
+        "release_date": "2004-12-24",
+        "vote_average": 9.0,
+        "vote_count": 1,
+        "popularity": 3.416
+    },
+    {
+        "id": 1199411,
+        "title": "Periwinkle Around the World",
+        "release_date": "2004-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.337
+    },
+    {
+        "id": 355633,
+        "title": "Pre Evolution Soccer's One-Minute Dance After a Golden Goal in the Master League",
+        "release_date": "2004-08-21",
+        "vote_average": 3.0,
+        "vote_count": 5,
+        "popularity": 2.911
+    },
+    {
+        "id": 25590,
+        "title": "In the Rough",
+        "release_date": "2004-09-30",
+        "vote_average": 6.2,
+        "vote_count": 18,
+        "popularity": 2.88
+    },
+    {
+        "id": 397856,
+        "title": "Masquerade Madness",
+        "release_date": "2004-06-01",
+        "vote_average": 7.4,
+        "vote_count": 6,
+        "popularity": 1.983
+    },
+    {
+        "id": 363031,
+        "title": "Female & Male",
+        "release_date": "2004-01-01",
+        "vote_average": 6.0,
+        "vote_count": 5,
+        "popularity": 1.95
+    },
+    {
+        "id": 197232,
+        "title": "Cock-a-Doodle-Duel",
+        "release_date": "2004-03-30",
+        "vote_average": 5.4,
+        "vote_count": 5,
+        "popularity": 1.937
+    },
+    {
+        "id": 197225,
+        "title": "My Generation G... G... Gap",
+        "release_date": "2004-03-30",
+        "vote_average": 4.3,
+        "vote_count": 3,
+        "popularity": 2.119
+    },
+    {
+        "id": 1364711,
+        "title": "Top wo Nerae 2! Diebuster",
+        "release_date": "2004-10-03",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.09
+    },
+    {
+        "id": 1224376,
+        "title": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u044b\u0439 \u0441\u0443\u0432\u0435\u043d\u0438\u0440",
+        "release_date": "2004-12-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.078
+    },
+    {
+        "id": 378992,
+        "title": "Azusa Will Help!",
+        "release_date": "2004-08-01",
+        "vote_average": 8.0,
+        "vote_count": 1,
+        "popularity": 2.041
+    },
+    {
+        "id": 935124,
+        "title": "Jimmy Neutron: Attack of the Twonkies",
+        "release_date": "2004-11-11",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "popularity": 2.409
+    },
+    {
+        "id": 511517,
+        "title": "Marianne's Theatre",
+        "release_date": "2004-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.988
+    },
+    {
+        "id": 103419,
+        "title": "Tonka Tough Truck Adventures: The Biggest Show on Wheels",
+        "release_date": "2004-09-28",
+        "vote_average": 6.5,
+        "vote_count": 2,
+        "popularity": 1.058
+    },
+    {
+        "id": 362877,
+        "title": "Neuro",
+        "release_date": "2004-01-01",
+        "vote_average": 6.5,
+        "vote_count": 4,
+        "popularity": 2.244
+    },
+    {
+        "id": 336044,
+        "title": "Grrl Power!",
+        "release_date": "2004-06-10",
+        "vote_average": 6.5,
+        "vote_count": 3,
+        "popularity": 0.959
+    },
+    {
+        "id": 433246,
+        "title": "Anime Talk Show",
+        "release_date": "2004-11-04",
+        "vote_average": 7.0,
+        "vote_count": 1,
+        "popularity": 2.009
+    },
+    {
+        "id": 766323,
+        "title": "Confessions of an Animation",
+        "release_date": "2004-02-20",
+        "vote_average": 10.0,
+        "vote_count": 3,
+        "popularity": 1.795
+    },
+    {
+        "id": 1276758,
+        "title": "Rock the World",
+        "release_date": "2004-08-08",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.722
+    },
+    {
+        "id": 48679,
+        "title": "Flatlife",
+        "release_date": "2004-01-01",
+        "vote_average": 6.6,
+        "vote_count": 17,
+        "popularity": 1.189
+    },
+    {
+        "id": 197231,
+        "title": "Hare and Loathing in Las Vegas",
+        "release_date": "2004-03-30",
+        "vote_average": 6.0,
+        "vote_count": 3,
+        "popularity": 1.478
+    },
+    {
+        "id": 634622,
+        "title": "Judgment! XX Angel Rabbie",
+        "release_date": "2004-01-23",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.47
+    },
+    {
+        "id": 103788,
+        "title": "Save Virgil",
+        "release_date": "2004-03-04",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.655
+    },
+    {
+        "id": 197233,
+        "title": "Duck Dodgers in Attack of the Drones",
+        "release_date": "2004-05-25",
+        "vote_average": 6.2,
+        "vote_count": 9,
+        "popularity": 1.385
+    },
+    {
+        "id": 1141330,
+        "title": "Who's Babysitting Who?",
+        "release_date": "2004-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.376
+    },
+    {
+        "id": 1296261,
+        "title": "Rubbadubbers: Bathtime Scramble!",
+        "release_date": "2004-02-23",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.368
+    },
+    {
+        "id": 1363076,
+        "title": "Catching Kringle",
+        "release_date": "2004-11-13",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.891
+    },
+    {
+        "id": 588371,
+        "title": "Supertramps",
+        "release_date": "2004-12-01",
+        "vote_average": 5.0,
+        "vote_count": 1,
+        "popularity": 0.555
+    },
+    {
+        "id": 1385653,
+        "title": "Pimpa - Storia di Natale",
+        "release_date": "2004-12-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.547
+    },
+    {
+        "id": 313856,
+        "title": "Return to Mushsnail: The Legend of the Snowmill",
+        "release_date": "2004-12-28",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.267
+    },
+    {
+        "id": 820728,
+        "title": "M.K. 22",
+        "release_date": "2004-03-21",
+        "vote_average": 5.0,
+        "vote_count": 2,
+        "popularity": 1.058
+    },
+    {
+        "id": 382867,
+        "title": "Hourglass of Summer Colors",
+        "release_date": "2004-05-21",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.019
+    },
+    {
+        "id": 148762,
+        "title": "David & Dee",
+        "release_date": "2004-11-05",
+        "vote_average": 3.0,
+        "vote_count": 1,
+        "popularity": 0.906
+    },
+    {
+        "id": 347082,
+        "title": "Conquerors",
+        "release_date": "2004-07-01",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "popularity": 0.9
+    },
+    {
+        "id": 957037,
+        "title": "Spirit of Wonder: Miss China Short Stories",
+        "release_date": "2004-01-23",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.847
+    },
+    {
+        "id": 591187,
+        "title": "It's Good to Be in D.C.",
+        "release_date": "2004-10-07",
+        "vote_average": 3.0,
+        "vote_count": 2,
+        "popularity": 0.717
+    },
+    {
+        "id": 1166025,
+        "title": "Pencil vs Pixel",
+        "release_date": "2004-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.306
+    },
+    {
+        "id": 592360,
+        "title": "L'Eau de Rose",
+        "release_date": "2004-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.565
+    },
+    {
+        "id": 351047,
+        "title": "Fallen",
+        "release_date": "2004-07-22",
+        "vote_average": 3.3,
+        "vote_count": 3,
+        "popularity": 0.557
+    },
+    {
+        "id": 769037,
+        "title": "Moments",
+        "release_date": "2004-08-01",
+        "vote_average": 10.0,
+        "vote_count": 3,
+        "popularity": 0.538
+    },
+    {
+        "id": 393605,
+        "title": "Lonely \"15\"",
+        "release_date": "2004-12-15",
+        "vote_average": 4.0,
+        "vote_count": 2,
+        "popularity": 0.208
+    },
+    {
+        "id": 960309,
+        "title": "Yes Mum",
+        "release_date": "2004-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.298
+    },
+    {
+        "id": 729504,
+        "title": "George's Date",
+        "release_date": "2004-01-01",
+        "vote_average": 5.0,
+        "vote_count": 2,
+        "popularity": 0.166
+    },
+    {
+        "id": 453019,
+        "title": "Les Schtroumpfs : Classe de neige",
+        "release_date": "2004-02-05",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.382
+    },
+    {
+        "id": 897439,
+        "title": "Mr. Otto in 17",
+        "release_date": "2004-01-01",
+        "vote_average": 6.0,
+        "vote_count": 0,
+        "popularity": 0.337
+    },
+    {
+        "id": 591181,
+        "title": "This Land",
+        "release_date": "2004-07-19",
+        "vote_average": 5.5,
+        "vote_count": 2,
+        "popularity": 0.083
+    },
+    {
+        "id": 1247884,
+        "title": "Boondocks Pilot",
+        "release_date": "2004-02-17",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.073
+    },
+    {
+        "id": 352849,
+        "title": "Agricultural Report",
+        "release_date": "2004-06-10",
+        "vote_average": 3.0,
+        "vote_count": 1,
+        "popularity": 0.143
+    },
+    {
+        "id": 138072,
+        "title": "King of Fools",
+        "release_date": "2004-07-29",
+        "vote_average": 6.0,
+        "vote_count": 2,
+        "popularity": 0.143
+    },
+    {
+        "id": 766429,
+        "title": "Itse valtiaat - Urheilumusikaali",
+        "release_date": "2004-12-26",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.122
+    },
+    {
+        "id": 217795,
+        "title": "Cosmix",
+        "release_date": "2004-01-01",
+        "vote_average": 7.0,
+        "vote_count": 1,
+        "popularity": 0.049
+    },
+    {
+        "id": 1379695,
+        "title": "Go! Go! Moba Boy!",
+        "release_date": "2004-09-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.087
+    },
+    {
+        "id": 960673,
+        "title": "Battle of Clay",
+        "release_date": "2004-01-28",
+        "vote_average": 4.0,
+        "vote_count": 1,
+        "popularity": 0.037
+    },
+    {
+        "id": 960674,
+        "title": "Battle of Clay 2",
+        "release_date": "2004-01-21",
+        "vote_average": 8.0,
+        "vote_count": 1,
+        "popularity": 0.037
+    },
+    {
+        "id": 1338059,
+        "title": "Nun Fight Club",
+        "release_date": "2004-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    },
+    {
+        "id": 1251563,
+        "title": "Rez-Erection",
+        "release_date": "2004-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    },
+    {
+        "id": 1251528,
+        "title": "The Adventures of Uncle Sam: Hippie Juice",
+        "release_date": "2004-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    },
+    {
+        "id": 1251527,
+        "title": "Quack Off",
+        "release_date": "2004-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    }
+]

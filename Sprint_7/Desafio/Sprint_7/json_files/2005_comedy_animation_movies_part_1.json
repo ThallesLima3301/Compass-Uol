@@ -1,0 +1,802 @@
+[
+    {
+        "id": 953,
+        "title": "Madagascar",
+        "release_date": "2005-05-25",
+        "vote_average": 6.9,
+        "vote_count": 10785,
+        "popularity": 65.371
+    },
+    {
+        "id": 9928,
+        "title": "Robots",
+        "release_date": "2005-03-10",
+        "vote_average": 6.5,
+        "vote_count": 4514,
+        "popularity": 44.933
+    },
+    {
+        "id": 9982,
+        "title": "Chicken Little",
+        "release_date": "2005-11-04",
+        "vote_average": 5.9,
+        "vote_count": 3872,
+        "popularity": 42.814
+    },
+    {
+        "id": 13417,
+        "title": "Kronk's New Groove",
+        "release_date": "2005-12-05",
+        "vote_average": 6.4,
+        "vote_count": 1257,
+        "popularity": 25.697
+    },
+    {
+        "id": 42246,
+        "title": "Tom and Jerry: The Fast and the Furry",
+        "release_date": "2005-10-11",
+        "vote_average": 7.0,
+        "vote_count": 285,
+        "popularity": 40.327
+    },
+    {
+        "id": 533,
+        "title": "Wallace & Gromit: The Curse of the Were-Rabbit",
+        "release_date": "2005-09-15",
+        "vote_average": 7.1,
+        "vote_count": 2722,
+        "popularity": 31.188
+    },
+    {
+        "id": 44729,
+        "title": "One Piece: Baron Omatsuri and the Secret Island",
+        "release_date": "2005-03-05",
+        "vote_average": 7.2,
+        "vote_count": 209,
+        "popularity": 34.286
+    },
+    {
+        "id": 20760,
+        "title": "Lilo & Stitch 2: Stitch Has a Glitch",
+        "release_date": "2005-01-22",
+        "vote_average": 6.6,
+        "vote_count": 1409,
+        "popularity": 34.648
+    },
+    {
+        "id": 13682,
+        "title": "Pooh's Heffalump Movie",
+        "release_date": "2005-02-11",
+        "vote_average": 6.8,
+        "vote_count": 443,
+        "popularity": 21.797
+    },
+    {
+        "id": 10982,
+        "title": "Hoodwinked!",
+        "release_date": "2005-12-16",
+        "vote_average": 6.225,
+        "vote_count": 1734,
+        "popularity": 29.789
+    },
+    {
+        "id": 14175,
+        "title": "Valiant",
+        "release_date": "2005-03-25",
+        "vote_average": 5.5,
+        "vote_count": 892,
+        "popularity": 20.44
+    },
+    {
+        "id": 65215,
+        "title": "Family Guy Presents: Stewie Griffin: The Untold Story",
+        "release_date": "2005-07-23",
+        "vote_average": 6.953,
+        "vote_count": 379,
+        "popularity": 33.643
+    },
+    {
+        "id": 150421,
+        "title": "Futari wa Precure Max Heart: The Movie",
+        "release_date": "2005-04-16",
+        "vote_average": 6.4,
+        "vote_count": 22,
+        "popularity": 23.23
+    },
+    {
+        "id": 30178,
+        "title": "Stuart Little 3: Call of the Wild",
+        "release_date": "2005-07-14",
+        "vote_average": 5.2,
+        "vote_count": 484,
+        "popularity": 29.233
+    },
+    {
+        "id": 16455,
+        "title": "The Magic Roundabout",
+        "release_date": "2005-02-02",
+        "vote_average": 5.4,
+        "vote_count": 165,
+        "popularity": 26.916
+    },
+    {
+        "id": 24615,
+        "title": "Aloha Scooby-Doo!",
+        "release_date": "2005-02-08",
+        "vote_average": 7.1,
+        "vote_count": 429,
+        "popularity": 23.827
+    },
+    {
+        "id": 20558,
+        "title": "Scooby-Doo! in Where's My Mummy?",
+        "release_date": "2005-05-13",
+        "vote_average": 7.409,
+        "vote_count": 393,
+        "popularity": 24.461
+    },
+    {
+        "id": 13933,
+        "title": "One Man Band",
+        "release_date": "2005-06-21",
+        "vote_average": 7.3,
+        "vote_count": 554,
+        "popularity": 9.891
+    },
+    {
+        "id": 22817,
+        "title": "Disaster!",
+        "release_date": "2005-11-04",
+        "vote_average": 5.014,
+        "vote_count": 35,
+        "popularity": 6.784
+    },
+    {
+        "id": 10258,
+        "title": "The Madagascar Penguins in a Christmas Caper",
+        "release_date": "2005-09-23",
+        "vote_average": 6.9,
+        "vote_count": 363,
+        "popularity": 10.678
+    },
+    {
+        "id": 61728,
+        "title": "The Proud Family Movie",
+        "release_date": "2005-08-19",
+        "vote_average": 5.8,
+        "vote_count": 76,
+        "popularity": 6.524
+    },
+    {
+        "id": 120115,
+        "title": "The Origin of Stitch",
+        "release_date": "2005-08-30",
+        "vote_average": 7.1,
+        "vote_count": 7,
+        "popularity": 10.778
+    },
+    {
+        "id": 38567,
+        "title": "xxxHOLiC The Movie: A Midsummer Night's Dream",
+        "release_date": "2005-08-19",
+        "vote_average": 6.731,
+        "vote_count": 29,
+        "popularity": 12.337
+    },
+    {
+        "id": 150425,
+        "title": "Futari wa Precure Max Heart Movie 2: Friend of Yukizora",
+        "release_date": "2005-12-10",
+        "vote_average": 7.6,
+        "vote_count": 12,
+        "popularity": 13.499
+    },
+    {
+        "id": 20771,
+        "title": "Kim Possible Movie: So the Drama",
+        "release_date": "2005-04-08",
+        "vote_average": 6.8,
+        "vote_count": 174,
+        "popularity": 8.633
+    },
+    {
+        "id": 1082435,
+        "title": "SpongeBob SquarePants 4-D: Ride",
+        "release_date": "2005-06-02",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 5.133
+    },
+    {
+        "id": 655797,
+        "title": "American Dad: The New CIA",
+        "release_date": "2005-04-08",
+        "vote_average": 7.4,
+        "vote_count": 17,
+        "popularity": 11.168
+    },
+    {
+        "id": 637016,
+        "title": "Ed, Edd n Eddy's Boo Haw Haw",
+        "release_date": "2005-10-28",
+        "vote_average": 8.3,
+        "vote_count": 9,
+        "popularity": 11.066
+    },
+    {
+        "id": 364982,
+        "title": "One Piece Special: The Detective Memoirs of Chief Straw Hat Luffy",
+        "release_date": "2005-12-18",
+        "vote_average": 7.5,
+        "vote_count": 15,
+        "popularity": 9.275
+    },
+    {
+        "id": 411895,
+        "title": "6Teen: Dude of the Living Dead",
+        "release_date": "2005-06-19",
+        "vote_average": 7.0,
+        "vote_count": 1,
+        "popularity": 4.478
+    },
+    {
+        "id": 128881,
+        "title": "Crayon Shin-chan: The Legend Called Buri Buri 3 Minutes Charge",
+        "release_date": "2005-04-16",
+        "vote_average": 7.6,
+        "vote_count": 20,
+        "popularity": 5.667
+    },
+    {
+        "id": 27933,
+        "title": "The Legend of Frosty the Snowman",
+        "release_date": "2005-10-18",
+        "vote_average": 5.7,
+        "vote_count": 26,
+        "popularity": 7.28
+    },
+    {
+        "id": 103434,
+        "title": "My Scene Goes Hollywood: The Movie",
+        "release_date": "2005-08-30",
+        "vote_average": 6.8,
+        "vote_count": 45,
+        "popularity": 5.375
+    },
+    {
+        "id": 1079761,
+        "title": "Robot Chicken's Christmas Special",
+        "release_date": "2005-12-22",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 3.095
+    },
+    {
+        "id": 39954,
+        "title": "Lupin the Third: Angel Tactics",
+        "release_date": "2005-07-22",
+        "vote_average": 6.5,
+        "vote_count": 40,
+        "popularity": 6.693
+    },
+    {
+        "id": 13699,
+        "title": "The Happy Elf",
+        "release_date": "2005-12-02",
+        "vote_average": 4.7,
+        "vote_count": 10,
+        "popularity": 4.792
+    },
+    {
+        "id": 109423,
+        "title": "Leo the Lion",
+        "release_date": "2005-06-17",
+        "vote_average": 3.206,
+        "vote_count": 17,
+        "popularity": 6.247
+    },
+    {
+        "id": 81234,
+        "title": "LEGO Star Wars: Revenge of The Brick",
+        "release_date": "2005-08-05",
+        "vote_average": 5.8,
+        "vote_count": 33,
+        "popularity": 4.358
+    },
+    {
+        "id": 410981,
+        "title": "Fighting Fairy Girl: Rescue Me, Mave-chan!",
+        "release_date": "2005-02-24",
+        "vote_average": 3.0,
+        "vote_count": 2,
+        "popularity": 3.449
+    },
+    {
+        "id": 23471,
+        "title": "Lil' Pimp",
+        "release_date": "2005-01-11",
+        "vote_average": 5.7,
+        "vote_count": 7,
+        "popularity": 2.291
+    },
+    {
+        "id": 118254,
+        "title": "Club Oscar",
+        "release_date": "2005-02-08",
+        "vote_average": 4.9,
+        "vote_count": 17,
+        "popularity": 3.826
+    },
+    {
+        "id": 246439,
+        "title": "Here Comes Peter Cottontail: The Movie",
+        "release_date": "2005-10-17",
+        "vote_average": 2.7,
+        "vote_count": 3,
+        "popularity": 5.264
+    },
+    {
+        "id": 238184,
+        "title": "Cine Gibi 2",
+        "release_date": "2005-09-07",
+        "vote_average": 7.3,
+        "vote_count": 23,
+        "popularity": 4.753
+    },
+    {
+        "id": 80779,
+        "title": "DragonBlade : The Legend of Lang",
+        "release_date": "2005-01-06",
+        "vote_average": 4.6,
+        "vote_count": 7,
+        "popularity": 5.137
+    },
+    {
+        "id": 51812,
+        "title": "Quails Quest: Its a Boy!",
+        "release_date": "2005-11-27",
+        "vote_average": 3.5,
+        "vote_count": 2,
+        "popularity": 1.745
+    },
+    {
+        "id": 19018,
+        "title": "Care Bears: Big Wish Movie",
+        "release_date": "2005-09-07",
+        "vote_average": 6.5,
+        "vote_count": 7,
+        "popularity": 2.378
+    },
+    {
+        "id": 227381,
+        "title": "The Building",
+        "release_date": "2005-05-30",
+        "vote_average": 6.4,
+        "vote_count": 7,
+        "popularity": 1.605
+    },
+    {
+        "id": 935326,
+        "title": "Ed, Edd n Eddy's Hanky Panky Hullabaloo",
+        "release_date": "2005-02-11",
+        "vote_average": 9.0,
+        "vote_count": 2,
+        "popularity": 3.644
+    },
+    {
+        "id": 689334,
+        "title": "Jasmine's Enchanted Tales: Journey of a Princess",
+        "release_date": "2005-07-14",
+        "vote_average": 9.5,
+        "vote_count": 4,
+        "popularity": 3.375
+    },
+    {
+        "id": 94191,
+        "title": "Renart the Fox",
+        "release_date": "2005-05-12",
+        "vote_average": 5.7,
+        "vote_count": 18,
+        "popularity": 2.893
+    },
+    {
+        "id": 1157828,
+        "title": "Wiener Squad",
+        "release_date": "2005-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.338
+    },
+    {
+        "id": 69115,
+        "title": "Tom and Jerry: The Karate Guard",
+        "release_date": "2005-09-27",
+        "vote_average": 6.4,
+        "vote_count": 9,
+        "popularity": 3.108
+    },
+    {
+        "id": 427040,
+        "title": "Happy Tree Friends Winter Break",
+        "release_date": "2005-10-03",
+        "vote_average": 7.9,
+        "vote_count": 10,
+        "popularity": 1.628
+    },
+    {
+        "id": 353051,
+        "title": "Bikini",
+        "release_date": "2005-07-28",
+        "vote_average": 3.6,
+        "vote_count": 9,
+        "popularity": 1.588
+    },
+    {
+        "id": 1266105,
+        "title": "Fumi and the Bad Luck Foot",
+        "release_date": "2005-11-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 2.064
+    },
+    {
+        "id": 224203,
+        "title": "Little Einsteins: Our Big Huge Adventure",
+        "release_date": "2005-08-24",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 1.217
+    },
+    {
+        "id": 596685,
+        "title": "Rapunzel",
+        "release_date": "2005-01-01",
+        "vote_average": 1.0,
+        "vote_count": 2,
+        "popularity": 1.853
+    },
+    {
+        "id": 384419,
+        "title": "Home Delivery",
+        "release_date": "2005-06-14",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "popularity": 2.419
+    },
+    {
+        "id": 1146600,
+        "title": "\u041d\u0443, \u043f\u043e\u0433\u043e\u0434\u0438! \u0412\u044b\u043f\u0443\u0441\u043a 19",
+        "release_date": "2005-12-22",
+        "vote_average": 7.5,
+        "vote_count": 1,
+        "popularity": 2.29
+    },
+    {
+        "id": 125879,
+        "title": "A Fairy Tale Christmas",
+        "release_date": "2005-11-15",
+        "vote_average": 2.5,
+        "vote_count": 4,
+        "popularity": 2.387
+    },
+    {
+        "id": 1092440,
+        "title": "Evil Ones",
+        "release_date": "2005-12-04",
+        "vote_average": 8.0,
+        "vote_count": 1,
+        "popularity": 2.009
+    },
+    {
+        "id": 1277239,
+        "title": "Frog",
+        "release_date": "2005-06-05",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.214
+    },
+    {
+        "id": 399910,
+        "title": "The Naive Man From Lolliland",
+        "release_date": "2005-02-04",
+        "vote_average": 6.6,
+        "vote_count": 6,
+        "popularity": 0.889
+    },
+    {
+        "id": 795183,
+        "title": "Taint of Greatness: The Journey of Beavis and Butt-Head",
+        "release_date": "2005-11-08",
+        "vote_average": 9.0,
+        "vote_count": 2,
+        "popularity": 1.872
+    },
+    {
+        "id": 381924,
+        "title": "Invasion",
+        "release_date": "2005-10-06",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.602
+    },
+    {
+        "id": 1025287,
+        "title": "The Hanna-Barbera Kennel Club Roasts Scooby-Doo",
+        "release_date": "2005-03-22",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.639
+    },
+    {
+        "id": 135204,
+        "title": "Frank & Wendy",
+        "release_date": "2005-03-25",
+        "vote_average": 6.5,
+        "vote_count": 2,
+        "popularity": 1.221
+    },
+    {
+        "id": 1240712,
+        "title": "6Teen: Dude of the Living Dead",
+        "release_date": "2005-06-19",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.512
+    },
+    {
+        "id": 207669,
+        "title": "Imaginum",
+        "release_date": "2005-08-19",
+        "vote_average": 5.1,
+        "vote_count": 12,
+        "popularity": 1.131
+    },
+    {
+        "id": 1251536,
+        "title": "Rip Wack",
+        "release_date": "2005-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.086
+    },
+    {
+        "id": 448169,
+        "title": "Dentist",
+        "release_date": "2005-04-21",
+        "vote_average": 5.5,
+        "vote_count": 2,
+        "popularity": 1.015
+    },
+    {
+        "id": 483322,
+        "title": "Oval x Over",
+        "release_date": "2005-03-23",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.956
+    },
+    {
+        "id": 490018,
+        "title": "Dolls with Issues",
+        "release_date": "2005-07-04",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.388
+    },
+    {
+        "id": 501301,
+        "title": "Animal Soccer World",
+        "release_date": "2005-01-01",
+        "vote_average": 3.2,
+        "vote_count": 5,
+        "popularity": 0.899
+    },
+    {
+        "id": 717058,
+        "title": "Black Jack: Dr. Pinoko's Forest Adventure",
+        "release_date": "2005-12-17",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.692
+    },
+    {
+        "id": 25280,
+        "title": "\u05db\u05e9\u05d3\u05e0\u05d9 \u05d4\u05e8\u05d2 \u05d0\u05ea \u05d2\u05d0\u05e0\u05d3\u05d9",
+        "release_date": "2005-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.291
+    },
+    {
+        "id": 1016853,
+        "title": "Lemmings",
+        "release_date": "2005-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.563
+    },
+    {
+        "id": 710640,
+        "title": "Happy Tree Friends: Mole in the City",
+        "release_date": "2005-09-23",
+        "vote_average": 7.2,
+        "vote_count": 4,
+        "popularity": 0.518
+    },
+    {
+        "id": 623710,
+        "title": "His Passionate Bride",
+        "release_date": "2005-03-15",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.209
+    },
+    {
+        "id": 851078,
+        "title": "3 3ast 3 3urious",
+        "release_date": "2005-02-28",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "popularity": 0.191
+    },
+    {
+        "id": 414405,
+        "title": "Shipwrecked",
+        "release_date": "2005-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.295
+    },
+    {
+        "id": 412392,
+        "title": "Lupe & Bruno",
+        "release_date": "2005-10-28",
+        "vote_average": 4.0,
+        "vote_count": 2,
+        "popularity": 0.354
+    },
+    {
+        "id": 90933,
+        "title": "Wolf Daddy",
+        "release_date": "2005-01-01",
+        "vote_average": 6.8,
+        "vote_count": 5,
+        "popularity": 0.349
+    },
+    {
+        "id": 936662,
+        "title": "Killcow",
+        "release_date": "2005-09-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.335
+    },
+    {
+        "id": 715186,
+        "title": "Egg and Bomb",
+        "release_date": "2005-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.207
+    },
+    {
+        "id": 700138,
+        "title": "Pailazokeriak",
+        "release_date": "2005-12-02",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.199
+    },
+    {
+        "id": 22518,
+        "title": "Classical Baby: The Dance Show",
+        "release_date": "2005-08-30",
+        "vote_average": 6.5,
+        "vote_count": 3,
+        "popularity": 0.107
+    },
+    {
+        "id": 1296255,
+        "title": "Rubbadubbers: Splish! Splash! Splosh!",
+        "release_date": "2005-08-30",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.148
+    },
+    {
+        "id": 766430,
+        "title": "Itse valtiaat - Agenttimusikaali",
+        "release_date": "2005-12-30",
+        "vote_average": 3.0,
+        "vote_count": 1,
+        "popularity": 0.108
+    },
+    {
+        "id": 344458,
+        "title": "Grey",
+        "release_date": "2005-10-16",
+        "vote_average": 5.0,
+        "vote_count": 1,
+        "popularity": 0.04
+    },
+    {
+        "id": 549698,
+        "title": "Butler",
+        "release_date": "2005-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.06
+    },
+    {
+        "id": 572707,
+        "title": "Detective Conan: Conan vs. Kid - Shark & Jewel",
+        "release_date": "2005-07-29",
+        "vote_average": 9.0,
+        "vote_count": 1,
+        "popularity": 0.055
+    },
+    {
+        "id": 442248,
+        "title": "Beginning of Fashion",
+        "release_date": "2005-11-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.015
+    },
+    {
+        "id": 693084,
+        "title": "Christopher and Gordy",
+        "release_date": "2005-07-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.007
+    },
+    {
+        "id": 1326553,
+        "title": "Jimmy Neutron: The League of Villains",
+        "release_date": "2005-06-18",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    },
+    {
+        "id": 1267112,
+        "title": "A Date to Remember",
+        "release_date": "2005-11-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    },
+    {
+        "id": 1265128,
+        "title": "hesheit",
+        "release_date": "2005-06-24",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    },
+    {
+        "id": 1210005,
+        "title": "The Boy in the Plastic Bubble",
+        "release_date": "2005-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    },
+    {
+        "id": 1118966,
+        "title": "Bart the General",
+        "release_date": "2005-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    },
+    {
+        "id": 1106225,
+        "title": "An Evening with the Scooby-Doo Gang",
+        "release_date": "2005-02-08",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    }
+]

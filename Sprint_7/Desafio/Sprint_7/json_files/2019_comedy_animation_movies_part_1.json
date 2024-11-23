@@ -1,0 +1,802 @@
+[
+    {
+        "id": 330457,
+        "title": "Frozen II",
+        "release_date": "2019-11-20",
+        "vote_average": 7.3,
+        "vote_count": 9676,
+        "popularity": 98.56
+    },
+    {
+        "id": 412117,
+        "title": "The Secret Life of Pets 2",
+        "release_date": "2019-05-24",
+        "vote_average": 7.0,
+        "vote_count": 3020,
+        "popularity": 54.868
+    },
+    {
+        "id": 301528,
+        "title": "Toy Story 4",
+        "release_date": "2019-06-19",
+        "vote_average": 7.5,
+        "vote_count": 9722,
+        "popularity": 85.939
+    },
+    {
+        "id": 454640,
+        "title": "The Angry Birds Movie 2",
+        "release_date": "2019-08-02",
+        "vote_average": 7.1,
+        "vote_count": 1688,
+        "popularity": 75.104
+    },
+    {
+        "id": 431693,
+        "title": "Spies in Disguise",
+        "release_date": "2019-12-04",
+        "vote_average": 7.6,
+        "vote_count": 2781,
+        "popularity": 48.433
+    },
+    {
+        "id": 431580,
+        "title": "Abominable",
+        "release_date": "2019-09-19",
+        "vote_average": 7.5,
+        "vote_count": 2027,
+        "popularity": 53.381
+    },
+    {
+        "id": 481084,
+        "title": "The Addams Family",
+        "release_date": "2019-10-10",
+        "vote_average": 6.6,
+        "vote_count": 2316,
+        "popularity": 72.942
+    },
+    {
+        "id": 280217,
+        "title": "The Lego Movie 2: The Second Part",
+        "release_date": "2019-02-06",
+        "vote_average": 6.7,
+        "vote_count": 2183,
+        "popularity": 52.263
+    },
+    {
+        "id": 508965,
+        "title": "Klaus",
+        "release_date": "2019-11-08",
+        "vote_average": 8.241,
+        "vote_count": 3982,
+        "popularity": 34.792
+    },
+    {
+        "id": 638134,
+        "title": "Pets United",
+        "release_date": "2019-11-08",
+        "vote_average": 5.8,
+        "vote_count": 188,
+        "popularity": 62.138
+    },
+    {
+        "id": 486589,
+        "title": "Red Shoes and the Seven Dwarfs",
+        "release_date": "2019-07-25",
+        "vote_average": 7.7,
+        "vote_count": 1078,
+        "popularity": 39.092
+    },
+    {
+        "id": 556901,
+        "title": "Teen Titans Go! vs. Teen Titans",
+        "release_date": "2019-07-21",
+        "vote_average": 7.5,
+        "vote_count": 481,
+        "popularity": 36.138
+    },
+    {
+        "id": 570480,
+        "title": "Trouble",
+        "release_date": "2019-08-08",
+        "vote_average": 6.6,
+        "vote_count": 217,
+        "popularity": 48.166
+    },
+    {
+        "id": 422803,
+        "title": "A Shaun the Sheep Movie: Farmageddon",
+        "release_date": "2019-09-26",
+        "vote_average": 6.9,
+        "vote_count": 516,
+        "popularity": 20.015
+    },
+    {
+        "id": 553835,
+        "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?: Arrow of the Orion",
+        "release_date": "2019-02-15",
+        "vote_average": 7.8,
+        "vote_count": 248,
+        "popularity": 32.848
+    },
+    {
+        "id": 454458,
+        "title": "UglyDolls",
+        "release_date": "2019-05-01",
+        "vote_average": 6.6,
+        "vote_count": 432,
+        "popularity": 29.018
+    },
+    {
+        "id": 638220,
+        "title": "The Elfkins: Baking a Difference",
+        "release_date": "2019-10-08",
+        "vote_average": 6.5,
+        "vote_count": 47,
+        "popularity": 28.55
+    },
+    {
+        "id": 537061,
+        "title": "Steven Universe: The Movie",
+        "release_date": "2019-10-07",
+        "vote_average": 8.2,
+        "vote_count": 773,
+        "popularity": 21.069
+    },
+    {
+        "id": 530079,
+        "title": "Ride Your Wave",
+        "release_date": "2019-06-21",
+        "vote_average": 7.6,
+        "vote_count": 327,
+        "popularity": 18.527
+    },
+    {
+        "id": 575222,
+        "title": "Doraemon: Nobita's Chronicle of the Moon Exploration",
+        "release_date": "2019-03-01",
+        "vote_average": 7.6,
+        "vote_count": 56,
+        "popularity": 26.428
+    },
+    {
+        "id": 528644,
+        "title": "Bilby",
+        "release_date": "2019-02-22",
+        "vote_average": 8.1,
+        "vote_count": 186,
+        "popularity": 12.862
+    },
+    {
+        "id": 627093,
+        "title": "Curious George: Royal Monkey",
+        "release_date": "2019-09-10",
+        "vote_average": 7.6,
+        "vote_count": 95,
+        "popularity": 12.465
+    },
+    {
+        "id": 532067,
+        "title": "KONOSUBA \u2013 God's blessing on this wonderful world! Legend of Crimson",
+        "release_date": "2019-08-30",
+        "vote_average": 8.1,
+        "vote_count": 542,
+        "popularity": 19.845
+    },
+    {
+        "id": 400157,
+        "title": "Wonder Park",
+        "release_date": "2019-03-13",
+        "vote_average": 6.5,
+        "vote_count": 691,
+        "popularity": 24.273
+    },
+    {
+        "id": 560066,
+        "title": "Scooby-Doo! and the Curse of the 13th Ghost",
+        "release_date": "2019-02-05",
+        "vote_average": 7.9,
+        "vote_count": 243,
+        "popularity": 27.625
+    },
+    {
+        "id": 602307,
+        "title": "LEGO DC Batman: Family Matters",
+        "release_date": "2019-07-21",
+        "vote_average": 6.696,
+        "vote_count": 140,
+        "popularity": 12.342
+    },
+    {
+        "id": 458253,
+        "title": "Missing Link",
+        "release_date": "2019-04-04",
+        "vote_average": 7.0,
+        "vote_count": 839,
+        "popularity": 26.177
+    },
+    {
+        "id": 366668,
+        "title": "Playmobil: The Movie",
+        "release_date": "2019-06-10",
+        "vote_average": 5.6,
+        "vote_count": 275,
+        "popularity": 24.961
+    },
+    {
+        "id": 615774,
+        "title": "Scooby-Doo! Return to Zombie Island",
+        "release_date": "2019-09-03",
+        "vote_average": 7.0,
+        "vote_count": 920,
+        "popularity": 19.871
+    },
+    {
+        "id": 660851,
+        "title": "Forky Asks a Question: What Is Money?",
+        "release_date": "2019-11-12",
+        "vote_average": 6.0,
+        "vote_count": 96,
+        "popularity": 24.093
+    },
+    {
+        "id": 586954,
+        "title": "Latte and the Magic Waterstone",
+        "release_date": "2019-12-11",
+        "vote_average": 6.745,
+        "vote_count": 102,
+        "popularity": 10.815
+    },
+    {
+        "id": 529589,
+        "title": "Love Live! Sunshine!! The School Idol Movie Over the Rainbow",
+        "release_date": "2019-01-04",
+        "vote_average": 6.5,
+        "vote_count": 11,
+        "popularity": 9.816
+    },
+    {
+        "id": 515789,
+        "title": "StarDog and TurboCat",
+        "release_date": "2019-12-06",
+        "vote_average": 7.1,
+        "vote_count": 91,
+        "popularity": 15.616
+    },
+    {
+        "id": 416153,
+        "title": "Arctic Dogs",
+        "release_date": "2019-11-01",
+        "vote_average": 6.1,
+        "vote_count": 128,
+        "popularity": 21.332
+    },
+    {
+        "id": 570269,
+        "title": "Trinity Seven: Heaven's Library & Crimson Lord",
+        "release_date": "2019-03-29",
+        "vote_average": 7.8,
+        "vote_count": 51,
+        "popularity": 21.232
+    },
+    {
+        "id": 660855,
+        "title": "Forky Asks a Question: What Is a Friend?",
+        "release_date": "2019-11-15",
+        "vote_average": 6.2,
+        "vote_count": 84,
+        "popularity": 20.51
+    },
+    {
+        "id": 439059,
+        "title": "Rocko's Modern Life: Static Cling",
+        "release_date": "2019-08-09",
+        "vote_average": 6.6,
+        "vote_count": 155,
+        "popularity": 19.919
+    },
+    {
+        "id": 630027,
+        "title": "Fragtime",
+        "release_date": "2019-11-22",
+        "vote_average": 6.314,
+        "vote_count": 35,
+        "popularity": 8.345
+    },
+    {
+        "id": 513302,
+        "title": "Minuscule 2: Mandibles from Far Away",
+        "release_date": "2019-01-30",
+        "vote_average": 7.106,
+        "vote_count": 199,
+        "popularity": 18.073
+    },
+    {
+        "id": 592867,
+        "title": "Dragon Quest: Your Story",
+        "release_date": "2019-08-02",
+        "vote_average": 6.7,
+        "vote_count": 207,
+        "popularity": 9.054
+    },
+    {
+        "id": 660856,
+        "title": "Forky Asks a Question: What Is Art?",
+        "release_date": "2019-11-22",
+        "vote_average": 5.8,
+        "vote_count": 78,
+        "popularity": 18.904
+    },
+    {
+        "id": 509733,
+        "title": "Spy Cat",
+        "release_date": "2019-04-11",
+        "vote_average": 6.8,
+        "vote_count": 77,
+        "popularity": 7.914
+    },
+    {
+        "id": 660861,
+        "title": "Forky Asks a Question: What Is a Computer?",
+        "release_date": "2019-12-13",
+        "vote_average": 5.7,
+        "vote_count": 61,
+        "popularity": 18.357
+    },
+    {
+        "id": 658436,
+        "title": "Fate/kaleid liner Prisma\u2606Illya: Prisma\u2606Phantasm",
+        "release_date": "2019-08-24",
+        "vote_average": 6.8,
+        "vote_count": 4,
+        "popularity": 17.802
+    },
+    {
+        "id": 637395,
+        "title": "The Spooky Tale of Captain Underpants: Hack-a-ween",
+        "release_date": "2019-10-08",
+        "vote_average": 6.3,
+        "vote_count": 21,
+        "popularity": 17.193
+    },
+    {
+        "id": 580600,
+        "title": "Astro Kid",
+        "release_date": "2019-04-03",
+        "vote_average": 7.145,
+        "vote_count": 190,
+        "popularity": 16.982
+    },
+    {
+        "id": 518755,
+        "title": "Sheep & Wolves: Pig Deal",
+        "release_date": "2019-01-24",
+        "vote_average": 6.6,
+        "vote_count": 80,
+        "popularity": 9.591
+    },
+    {
+        "id": 533715,
+        "title": "The Big Trip",
+        "release_date": "2019-04-27",
+        "vote_average": 7.0,
+        "vote_count": 70,
+        "popularity": 14.73
+    },
+    {
+        "id": 540141,
+        "title": "City Hunter: Shinjuku Private Eyes",
+        "release_date": "2019-02-08",
+        "vote_average": 6.4,
+        "vote_count": 78,
+        "popularity": 7.896
+    },
+    {
+        "id": 648572,
+        "title": "Vic the Viking and the Magic Sword",
+        "release_date": "2019-12-18",
+        "vote_average": 5.2,
+        "vote_count": 35,
+        "popularity": 13.42
+    },
+    {
+        "id": 660866,
+        "title": "Forky Asks a Question: What Is a Pet?",
+        "release_date": "2019-12-27",
+        "vote_average": 5.7,
+        "vote_count": 60,
+        "popularity": 13.182
+    },
+    {
+        "id": 660859,
+        "title": "Forky Asks a Question: What Is Love?",
+        "release_date": "2019-12-06",
+        "vote_average": 6.3,
+        "vote_count": 75,
+        "popularity": 12.053
+    },
+    {
+        "id": 472983,
+        "title": "Invader Zim: Enter the Florpus",
+        "release_date": "2019-08-16",
+        "vote_average": 7.4,
+        "vote_count": 232,
+        "popularity": 11.775
+    },
+    {
+        "id": 522887,
+        "title": "Manou the Swift",
+        "release_date": "2019-01-25",
+        "vote_average": 6.6,
+        "vote_count": 73,
+        "popularity": 11.745
+    },
+    {
+        "id": 532953,
+        "title": "Purl",
+        "release_date": "2019-01-18",
+        "vote_average": 6.7,
+        "vote_count": 297,
+        "popularity": 6.974
+    },
+    {
+        "id": 592687,
+        "title": "Marvel Rising: Battle of the Bands",
+        "release_date": "2019-08-28",
+        "vote_average": 6.6,
+        "vote_count": 46,
+        "popularity": 7.317
+    },
+    {
+        "id": 636963,
+        "title": "Star\u2606Twinkle Precure the Movie: Wish Upon a Song of Stars",
+        "release_date": "2019-10-19",
+        "vote_average": 6.4,
+        "vote_count": 7,
+        "popularity": 8.354
+    },
+    {
+        "id": 592316,
+        "title": "My Little Pony: Equestria Girls - Spring Breakdown",
+        "release_date": "2019-03-30",
+        "vote_average": 8.4,
+        "vote_count": 55,
+        "popularity": 5.223
+    },
+    {
+        "id": 660862,
+        "title": "Forky Asks a Question: What Is a Leader?",
+        "release_date": "2019-12-20",
+        "vote_average": 5.638,
+        "vote_count": 58,
+        "popularity": 9.877
+    },
+    {
+        "id": 559519,
+        "title": "Mr. Osomatsu the Movie",
+        "release_date": "2019-03-15",
+        "vote_average": 7.1,
+        "vote_count": 11,
+        "popularity": 8.068
+    },
+    {
+        "id": 660858,
+        "title": "Forky Asks a Question: What Is Time?",
+        "release_date": "2019-11-29",
+        "vote_average": 6.0,
+        "vote_count": 67,
+        "popularity": 9.132
+    },
+    {
+        "id": 657355,
+        "title": "Yo-kai Watch Jam: Yo-kai Academy Y - Can a Cat Be a Hero?",
+        "release_date": "2019-12-13",
+        "vote_average": 6.9,
+        "vote_count": 7,
+        "popularity": 8.933
+    },
+    {
+        "id": 641909,
+        "title": "Lupin the Third: Prison of the Past",
+        "release_date": "2019-11-29",
+        "vote_average": 7.2,
+        "vote_count": 16,
+        "popularity": 8.879
+    },
+    {
+        "id": 636207,
+        "title": "The Old Man Movie",
+        "release_date": "2019-09-27",
+        "vote_average": 6.9,
+        "vote_count": 14,
+        "popularity": 8.642
+    },
+    {
+        "id": 630773,
+        "title": "The Curse of the Monkey Bird",
+        "release_date": "2019-06-12",
+        "vote_average": 7.7,
+        "vote_count": 3,
+        "popularity": 3.59
+    },
+    {
+        "id": 496891,
+        "title": "Girls und Panzer das Finale: Part II",
+        "release_date": "2019-06-15",
+        "vote_average": 6.1,
+        "vote_count": 30,
+        "popularity": 6.028
+    },
+    {
+        "id": 635681,
+        "title": "Kimi dake ni Motetainda.",
+        "release_date": "2019-10-25",
+        "vote_average": 4.5,
+        "vote_count": 1,
+        "popularity": 4.37
+    },
+    {
+        "id": 282796,
+        "title": "Troll Bridge",
+        "release_date": "2019-01-16",
+        "vote_average": 7.0,
+        "vote_count": 10,
+        "popularity": 7.714
+    },
+    {
+        "id": 589739,
+        "title": "Hair Love",
+        "release_date": "2019-08-14",
+        "vote_average": 7.604,
+        "vote_count": 461,
+        "popularity": 5.327
+    },
+    {
+        "id": 583055,
+        "title": "Spider-Ham: Caught in a Ham",
+        "release_date": "2019-03-19",
+        "vote_average": 6.9,
+        "vote_count": 209,
+        "popularity": 7.393
+    },
+    {
+        "id": 587070,
+        "title": "Elcano & Magellan: The First Voyage Around the World",
+        "release_date": "2019-07-05",
+        "vote_average": 5.386,
+        "vote_count": 44,
+        "popularity": 7.329
+    },
+    {
+        "id": 628483,
+        "title": "Rebooted",
+        "release_date": "2019-10-27",
+        "vote_average": 7.3,
+        "vote_count": 28,
+        "popularity": 3.026
+    },
+    {
+        "id": 608826,
+        "title": "Saekano the Movie: Finale",
+        "release_date": "2019-10-26",
+        "vote_average": 6.8,
+        "vote_count": 30,
+        "popularity": 5.823
+    },
+    {
+        "id": 1197110,
+        "title": "The Genre",
+        "release_date": "2019-02-24",
+        "vote_average": 8.0,
+        "vote_count": 1,
+        "popularity": 6.111
+    },
+    {
+        "id": 579524,
+        "title": "Santa's Little Helpers",
+        "release_date": "2019-02-05",
+        "vote_average": 6.1,
+        "vote_count": 47,
+        "popularity": 6.083
+    },
+    {
+        "id": 657273,
+        "title": "Angry Birds: Live Stream",
+        "release_date": "2019-11-12",
+        "vote_average": 5.3,
+        "vote_count": 3,
+        "popularity": 5.695
+    },
+    {
+        "id": 572616,
+        "title": "Lupin the Third: Goodbye Partner",
+        "release_date": "2019-01-25",
+        "vote_average": 6.476,
+        "vote_count": 21,
+        "popularity": 5.513
+    },
+    {
+        "id": 621454,
+        "title": "The Race",
+        "release_date": "2019-08-19",
+        "vote_average": 6.1,
+        "vote_count": 26,
+        "popularity": 2.219
+    },
+    {
+        "id": 601131,
+        "title": "Norm of the North: King Sized Adventure",
+        "release_date": "2019-06-11",
+        "vote_average": 5.3,
+        "vote_count": 21,
+        "popularity": 5.027
+    },
+    {
+        "id": 608164,
+        "title": "Just a Thought",
+        "release_date": "2019-06-14",
+        "vote_average": 6.9,
+        "vote_count": 29,
+        "popularity": 2.666
+    },
+    {
+        "id": 553932,
+        "title": "The Royal Tutor Movie",
+        "release_date": "2019-02-16",
+        "vote_average": 6.1,
+        "vote_count": 9,
+        "popularity": 4.969
+    },
+    {
+        "id": 571573,
+        "title": "Pretty Cure Miracle Universe",
+        "release_date": "2019-03-16",
+        "vote_average": 7.7,
+        "vote_count": 3,
+        "popularity": 4.901
+    },
+    {
+        "id": 573438,
+        "title": "Strike",
+        "release_date": "2019-02-06",
+        "vote_average": 6.025,
+        "vote_count": 20,
+        "popularity": 4.851
+    },
+    {
+        "id": 656681,
+        "title": "Pops and Branwell",
+        "release_date": "2019-12-14",
+        "vote_average": 6.7,
+        "vote_count": 3,
+        "popularity": 4.22
+    },
+    {
+        "id": 634537,
+        "title": "La freccia del tempo",
+        "release_date": "2019-09-25",
+        "vote_average": 5.8,
+        "vote_count": 4,
+        "popularity": 3.562
+    },
+    {
+        "id": 607033,
+        "title": "The Final Exit of the Disciples of Ascensia",
+        "release_date": "2019-05-16",
+        "vote_average": 8.9,
+        "vote_count": 16,
+        "popularity": 1.618
+    },
+    {
+        "id": 583041,
+        "title": "Cash For Trash",
+        "release_date": "2019-02-27",
+        "vote_average": 6.0,
+        "vote_count": 5,
+        "popularity": 3.458
+    },
+    {
+        "id": 665162,
+        "title": "Splitting Time",
+        "release_date": "2019-12-21",
+        "vote_average": 7.5,
+        "vote_count": 2,
+        "popularity": 3.34
+    },
+    {
+        "id": 649288,
+        "title": "Lava",
+        "release_date": "2019-11-16",
+        "vote_average": 5.7,
+        "vote_count": 6,
+        "popularity": 3.067
+    },
+    {
+        "id": 572647,
+        "title": "Laidbackers",
+        "release_date": "2019-04-05",
+        "vote_average": 5.5,
+        "vote_count": 2,
+        "popularity": 2.946
+    },
+    {
+        "id": 1004465,
+        "title": "Sick as a Hare",
+        "release_date": "2019-06-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.822
+    },
+    {
+        "id": 633230,
+        "title": "Pat & Mat: DIY Troubles",
+        "release_date": "2019-11-21",
+        "vote_average": 7.2,
+        "vote_count": 5,
+        "popularity": 2.842
+    },
+    {
+        "id": 738095,
+        "title": "Best Bitches Forever",
+        "release_date": "2019-10-17",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 2.546
+    },
+    {
+        "id": 727346,
+        "title": "Like a Bear",
+        "release_date": "2019-09-01",
+        "vote_average": 6.5,
+        "vote_count": 1,
+        "popularity": 2.07
+    },
+    {
+        "id": 610672,
+        "title": "Cans Without Labels",
+        "release_date": "2019-05-27",
+        "vote_average": 2.5,
+        "vote_count": 20,
+        "popularity": 1.136
+    },
+    {
+        "id": 646728,
+        "title": "Lunch on the Grass",
+        "release_date": "2019-11-08",
+        "vote_average": 5.2,
+        "vote_count": 4,
+        "popularity": 2.552
+    },
+    {
+        "id": 608166,
+        "title": "Exchange Student",
+        "release_date": "2019-06-14",
+        "vote_average": 6.4,
+        "vote_count": 27,
+        "popularity": 1.34
+    },
+    {
+        "id": 1014407,
+        "title": "The Blue Shell Incident",
+        "release_date": "2019-11-15",
+        "vote_average": 10.0,
+        "vote_count": 2,
+        "popularity": 1.836
+    },
+    {
+        "id": 635279,
+        "title": "Heatwave",
+        "release_date": "2019-09-29",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "popularity": 2.481
+    },
+    {
+        "id": 742165,
+        "title": "o28",
+        "release_date": "2019-10-19",
+        "vote_average": 6.0,
+        "vote_count": 4,
+        "popularity": 2.393
+    }
+]

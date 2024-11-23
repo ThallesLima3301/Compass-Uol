@@ -21,6 +21,8 @@ Atualmente, já concluí os dois cursos (SQL e AWS) e estou gostando bastante da
 
 [Desafio 7](../Sprint_7/Desafio/README.MD)
 
+[Desafio](Desafio/Sprint_7)
+
 
 # Evidências
 
@@ -307,7 +309,7 @@ job.commit()
 ```
 confirmação do resultado 
 
-[text](exercicios/GLUE/glue.py)
+[Codigo](exercicios/GLUE/glue.py)
 
 ![alt text](evidencias/ex_3_GLUE/img_5.png)
 

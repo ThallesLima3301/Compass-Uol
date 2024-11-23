@@ -1,0 +1,802 @@
+[
+    {
+        "id": 764467,
+        "title": "Monkeys Who Live in a House",
+        "release_date": "2020-05-03",
+        "vote_average": 8.5,
+        "vote_count": 3,
+        "popularity": 1.137
+    },
+    {
+        "id": 694292,
+        "title": "The Adventures of A\u00e7ela",
+        "release_date": "2020-02-04",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 1.098
+    },
+    {
+        "id": 729696,
+        "title": "COMPLY+-ANCE",
+        "release_date": "2020-02-21",
+        "vote_average": 7.0,
+        "vote_count": 2,
+        "popularity": 0.454
+    },
+    {
+        "id": 770969,
+        "title": "A Short Visit to My College",
+        "release_date": "2020-04-14",
+        "vote_average": 2.5,
+        "vote_count": 2,
+        "popularity": 1.049
+    },
+    {
+        "id": 783416,
+        "title": "Cheburashka, The Secret of the Holiday",
+        "release_date": "2020-12-31",
+        "vote_average": 6.3,
+        "vote_count": 6,
+        "popularity": 1.019
+    },
+    {
+        "id": 927400,
+        "title": "Kid Cat",
+        "release_date": "2020-09-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.998
+    },
+    {
+        "id": 759200,
+        "title": "Dogs of the Planet",
+        "release_date": "2020-01-30",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.986
+    },
+    {
+        "id": 740874,
+        "title": "Breast Talk",
+        "release_date": "2020-03-11",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.98
+    },
+    {
+        "id": 764337,
+        "title": "\u00c0 la mode",
+        "release_date": "2020-09-01",
+        "vote_average": 9.0,
+        "vote_count": 1,
+        "popularity": 0.946
+    },
+    {
+        "id": 765812,
+        "title": "Dinosaurs: The True Story",
+        "release_date": "2020-06-26",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.945
+    },
+    {
+        "id": 1342115,
+        "title": "ENA - Auction Day",
+        "release_date": "2020-05-26",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.403
+    },
+    {
+        "id": 1225999,
+        "title": "Through Hell & Rice",
+        "release_date": "2020-07-20",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 0.402
+    },
+    {
+        "id": 951796,
+        "title": "A Pi\u00f1ata's Life",
+        "release_date": "2020-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.389
+    },
+    {
+        "id": 851415,
+        "title": "Thomas and Friends: The Royal Engine",
+        "release_date": "2020-06-10",
+        "vote_average": 2.7,
+        "vote_count": 3,
+        "popularity": 0.382
+    },
+    {
+        "id": 1061218,
+        "title": "Attack of the Rather Large Coronavirus!",
+        "release_date": "2020-04-17",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.879
+    },
+    {
+        "id": 764656,
+        "title": "Happy Easter",
+        "release_date": "2020-09-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.867
+    },
+    {
+        "id": 803247,
+        "title": "00K9",
+        "release_date": "2020-03-10",
+        "vote_average": 1.0,
+        "vote_count": 1,
+        "popularity": 0.857
+    },
+    {
+        "id": 915049,
+        "title": "Stabby",
+        "release_date": "2020-06-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.844
+    },
+    {
+        "id": 761295,
+        "title": "Stuffed",
+        "release_date": "2020-05-29",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.844
+    },
+    {
+        "id": 854481,
+        "title": "Run for your Life",
+        "release_date": "2020-09-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.356
+    },
+    {
+        "id": 984779,
+        "title": "Fleece & Desist",
+        "release_date": "2020-05-27",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.353
+    },
+    {
+        "id": 768891,
+        "title": "Clown Suit",
+        "release_date": "2020-09-18",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.822
+    },
+    {
+        "id": 1272386,
+        "title": "Shaving Kristmus 3",
+        "release_date": "2020-12-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.808
+    },
+    {
+        "id": 481877,
+        "title": "Creature from the Lake",
+        "release_date": "2020-01-22",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.808
+    },
+    {
+        "id": 854393,
+        "title": "After-life Service",
+        "release_date": "2020-09-01",
+        "vote_average": 9.0,
+        "vote_count": 1,
+        "popularity": 0.771
+    },
+    {
+        "id": 764174,
+        "title": "Yuan Yuan and the Hollow Monster",
+        "release_date": "2020-08-22",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.707
+    },
+    {
+        "id": 1024206,
+        "title": "Harra and the Donkey",
+        "release_date": "2020-05-30",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.275
+    },
+    {
+        "id": 675506,
+        "title": "Blackheads",
+        "release_date": "2020-03-15",
+        "vote_average": 6.5,
+        "vote_count": 2,
+        "popularity": 0.631
+    },
+    {
+        "id": 717690,
+        "title": "Blue Fear",
+        "release_date": "2020-10-04",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "popularity": 0.595
+    },
+    {
+        "id": 1087692,
+        "title": "0000: A Shark Odyssey",
+        "release_date": "2020-09-16",
+        "vote_average": 5.0,
+        "vote_count": 1,
+        "popularity": 0.588
+    },
+    {
+        "id": 779228,
+        "title": "Maraia: The Movie",
+        "release_date": "2020-12-23",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.56
+    },
+    {
+        "id": 854478,
+        "title": "Donjon & Cie",
+        "release_date": "2020-09-06",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.238
+    },
+    {
+        "id": 701262,
+        "title": "Skeleton Landlord",
+        "release_date": "2020-05-05",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 0.349
+    },
+    {
+        "id": 840868,
+        "title": "Men in a Hurry",
+        "release_date": "2020-02-02",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.222
+    },
+    {
+        "id": 712999,
+        "title": "Horrid Henry's Wild Weekend",
+        "release_date": "2020-01-27",
+        "vote_average": 4.0,
+        "vote_count": 1,
+        "popularity": 0.345
+    },
+    {
+        "id": 996371,
+        "title": "Sunny Bunnies - More Magic",
+        "release_date": "2020-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.214
+    },
+    {
+        "id": 848332,
+        "title": "The Lion Kid 2",
+        "release_date": "2020-04-28",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.314
+    },
+    {
+        "id": 768761,
+        "title": "The Shape of the Things to Come",
+        "release_date": "2020-10-24",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.496
+    },
+    {
+        "id": 708524,
+        "title": "Flying Squirrels and the Pyrotechnician",
+        "release_date": "2020-04-03",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.211
+    },
+    {
+        "id": 1030745,
+        "title": "Please Don't Touch",
+        "release_date": "2020-05-02",
+        "vote_average": 5.5,
+        "vote_count": 1,
+        "popularity": 0.483
+    },
+    {
+        "id": 749035,
+        "title": "The Peak",
+        "release_date": "2020-10-20",
+        "vote_average": 8.3,
+        "vote_count": 3,
+        "popularity": 0.461
+    },
+    {
+        "id": 746024,
+        "title": "Alex and Mr Fluffkins",
+        "release_date": "2020-05-13",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.461
+    },
+    {
+        "id": 834138,
+        "title": "Angry Dogs",
+        "release_date": "2020-07-21",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.456
+    },
+    {
+        "id": 984770,
+        "title": "Pool Bunny",
+        "release_date": "2020-05-27",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.309
+    },
+    {
+        "id": 782674,
+        "title": "The Cow Aliens",
+        "release_date": "2020-10-10",
+        "vote_average": 2.0,
+        "vote_count": 1,
+        "popularity": 0.44
+    },
+    {
+        "id": 700108,
+        "title": "Collecting Heads",
+        "release_date": "2020-04-11",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.431
+    },
+    {
+        "id": 984789,
+        "title": "TNT Trouble",
+        "release_date": "2020-05-27",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.43
+    },
+    {
+        "id": 812972,
+        "title": "R\u00f6ck\u00ebt St\u00e4hr's Death of a Rockstar",
+        "release_date": "2020-11-20",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.181
+    },
+    {
+        "id": 969512,
+        "title": "The Big Up",
+        "release_date": "2020-02-14",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.305
+    },
+    {
+        "id": 879018,
+        "title": "The Drive Zoo",
+        "release_date": "2020-12-30",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.302
+    },
+    {
+        "id": 769468,
+        "title": "Jolly Girl",
+        "release_date": "2020-11-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.357
+    },
+    {
+        "id": 764156,
+        "title": "Put a Stick in It",
+        "release_date": "2020-08-23",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.357
+    },
+    {
+        "id": 748534,
+        "title": "Steward",
+        "release_date": "2020-09-27",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.354
+    },
+    {
+        "id": 794665,
+        "title": "Ramshackle: The Thesis Film",
+        "release_date": "2020-07-10",
+        "vote_average": 7.0,
+        "vote_count": 2,
+        "popularity": 0.351
+    },
+    {
+        "id": 628791,
+        "title": "Iron Me",
+        "release_date": "2020-06-21",
+        "vote_average": 4.0,
+        "vote_count": 2,
+        "popularity": 0.349
+    },
+    {
+        "id": 1114060,
+        "title": "Super Frog: The Movie - Part 1",
+        "release_date": "2020-04-11",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.293
+    },
+    {
+        "id": 655874,
+        "title": "Wood Child and Hidden Forest Mother",
+        "release_date": "2020-01-24",
+        "vote_average": 3.5,
+        "vote_count": 2,
+        "popularity": 0.304
+    },
+    {
+        "id": 781109,
+        "title": "Terciduk!",
+        "release_date": "2020-12-31",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.3
+    },
+    {
+        "id": 720046,
+        "title": "Cool Summer",
+        "release_date": "2020-06-09",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.128
+    },
+    {
+        "id": 713675,
+        "title": "bart sra",
+        "release_date": "2020-06-08",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 0.288
+    },
+    {
+        "id": 764737,
+        "title": "Quand les poules auront des dents",
+        "release_date": "2020-10-29",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.259
+    },
+    {
+        "id": 810973,
+        "title": "New Year's Adventure",
+        "release_date": "2020-08-23",
+        "vote_average": 9.0,
+        "vote_count": 2,
+        "popularity": 0.1
+    },
+    {
+        "id": 674876,
+        "title": "Bye Little Block!",
+        "release_date": "2020-09-20",
+        "vote_average": 4.5,
+        "vote_count": 2,
+        "popularity": 0.234
+    },
+    {
+        "id": 984791,
+        "title": "Plumber's Quack",
+        "release_date": "2020-05-27",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.092
+    },
+    {
+        "id": 748343,
+        "title": "Speed",
+        "release_date": "2020-01-19",
+        "vote_average": 5.0,
+        "vote_count": 1,
+        "popularity": 0.192
+    },
+    {
+        "id": 748050,
+        "title": "One Left",
+        "release_date": "2020-08-07",
+        "vote_average": 7.0,
+        "vote_count": 1,
+        "popularity": 0.185
+    },
+    {
+        "id": 761927,
+        "title": "Try to Fly",
+        "release_date": "2020-10-09",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.178
+    },
+    {
+        "id": 1380287,
+        "title": "My Friend Ganesha 4",
+        "release_date": "2020-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.169
+    },
+    {
+        "id": 770302,
+        "title": "Fruit",
+        "release_date": "2020-09-18",
+        "vote_average": 3.5,
+        "vote_count": 2,
+        "popularity": 0.167
+    },
+    {
+        "id": 773727,
+        "title": "Bag Your Face",
+        "release_date": "2020-09-08",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.151
+    },
+    {
+        "id": 826152,
+        "title": "To the Closet",
+        "release_date": "2020-12-03",
+        "vote_average": 1.0,
+        "vote_count": 1,
+        "popularity": 0.062
+    },
+    {
+        "id": 764577,
+        "title": "Stix and Stones",
+        "release_date": "2020-11-15",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.146
+    },
+    {
+        "id": 795149,
+        "title": "S E R E N I T Y 2",
+        "release_date": "2020-05-29",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 0.143
+    },
+    {
+        "id": 896944,
+        "title": "Anatomy of a Worldview",
+        "release_date": "2020-10-20",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.118
+    },
+    {
+        "id": 1272399,
+        "title": "Shaving Kristmus 2.5",
+        "release_date": "2020-12-20",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.112
+    },
+    {
+        "id": 967652,
+        "title": "Today Is",
+        "release_date": "2020-05-11",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.108
+    },
+    {
+        "id": 782676,
+        "title": "Plane Jane: Santa Claustrophobia",
+        "release_date": "2020-10-10",
+        "vote_average": 7.0,
+        "vote_count": 1,
+        "popularity": 0.108
+    },
+    {
+        "id": 759753,
+        "title": "I Ride My Bike When the Air is Crispy",
+        "release_date": "2020-10-28",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.108
+    },
+    {
+        "id": 911897,
+        "title": "All Jerk, No Work",
+        "release_date": "2020-10-30",
+        "vote_average": 1.0,
+        "vote_count": 1,
+        "popularity": 0.098
+    },
+    {
+        "id": 1266489,
+        "title": "Abuelita Magica",
+        "release_date": "2020-08-21",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.077
+    },
+    {
+        "id": 1174753,
+        "title": "\u221e Nightmares",
+        "release_date": "2020-11-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.074
+    },
+    {
+        "id": 897675,
+        "title": "Haunted",
+        "release_date": "2020-12-18",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.074
+    },
+    {
+        "id": 812699,
+        "title": "The Bumpo After School Special",
+        "release_date": "2020-11-20",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 0.07
+    },
+    {
+        "id": 722637,
+        "title": "Jimi",
+        "release_date": "2020-09-28",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "popularity": 0.05
+    },
+    {
+        "id": 730912,
+        "title": "Salmon Men",
+        "release_date": "2020-08-09",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.069
+    },
+    {
+        "id": 819116,
+        "title": "La incre\u00edble vacuna del doctor Dickinson",
+        "release_date": "2020-03-05",
+        "vote_average": 8.0,
+        "vote_count": 1,
+        "popularity": 0.047
+    },
+    {
+        "id": 719570,
+        "title": "Siren Snubbed",
+        "release_date": "2020-07-01",
+        "vote_average": 1.0,
+        "vote_count": 1,
+        "popularity": 0.048
+    },
+    {
+        "id": 841716,
+        "title": "High Pressure Business Deer!",
+        "release_date": "2020-12-14",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.06
+    },
+    {
+        "id": 940825,
+        "title": "Bacterium Delirium",
+        "release_date": "2020-10-10",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.057
+    },
+    {
+        "id": 896739,
+        "title": "The Candidate",
+        "release_date": "2020-10-02",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.055
+    },
+    {
+        "id": 773653,
+        "title": "Viva Lost Elvis",
+        "release_date": "2020-12-04",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.055
+    },
+    {
+        "id": 770288,
+        "title": "Pick Your Poison",
+        "release_date": "2020-10-23",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.055
+    },
+    {
+        "id": 754450,
+        "title": "Scaredy Cat",
+        "release_date": "2020-10-16",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.055
+    },
+    {
+        "id": 749372,
+        "title": "Hermercury",
+        "release_date": "2020-10-03",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.055
+    },
+    {
+        "id": 764768,
+        "title": "Carried Away",
+        "release_date": "2020-07-29",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.021
+    },
+    {
+        "id": 764323,
+        "title": "Eat Cheese or Die",
+        "release_date": "2020-04-03",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.049
+    },
+    {
+        "id": 752804,
+        "title": "Kitchenstacle",
+        "release_date": "2020-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.049
+    },
+    {
+        "id": 755506,
+        "title": "Pinguinics - O Ataque Vem do Polo!",
+        "release_date": "2020-01-02",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.048
+    },
+    {
+        "id": 1260138,
+        "title": "Dog Days",
+        "release_date": "2020-08-16",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.041
+    },
+    {
+        "id": 1255508,
+        "title": "When the Monkeys Run the Zoo",
+        "release_date": "2020-03-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.041
+    }
+]

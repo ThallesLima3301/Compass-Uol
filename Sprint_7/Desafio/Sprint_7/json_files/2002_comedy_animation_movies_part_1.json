@@ -1,0 +1,802 @@
+[
+    {
+        "id": 425,
+        "title": "Ice Age",
+        "release_date": "2002-03-10",
+        "vote_average": 7.4,
+        "vote_count": 13193,
+        "popularity": 96.006
+    },
+    {
+        "id": 9023,
+        "title": "Spirit: Stallion of the Cimarron",
+        "release_date": "2002-05-24",
+        "vote_average": 7.7,
+        "vote_count": 4543,
+        "popularity": 72.055
+    },
+    {
+        "id": 11544,
+        "title": "Lilo & Stitch",
+        "release_date": "2002-06-21",
+        "vote_average": 7.526,
+        "vote_count": 6164,
+        "popularity": 63.879
+    },
+    {
+        "id": 13654,
+        "title": "101 Dalmatians II: Patch's London Adventure",
+        "release_date": "2002-11-06",
+        "vote_average": 6.0,
+        "vote_count": 1162,
+        "popularity": 34.18
+    },
+    {
+        "id": 12448,
+        "title": "The Hunchback of Notre Dame II",
+        "release_date": "2002-02-06",
+        "vote_average": 5.4,
+        "vote_count": 792,
+        "popularity": 38.914
+    },
+    {
+        "id": 13931,
+        "title": "Mike's New Car",
+        "release_date": "2002-05-24",
+        "vote_average": 6.9,
+        "vote_count": 696,
+        "popularity": 16.518
+    },
+    {
+        "id": 10996,
+        "title": "Stuart Little 2",
+        "release_date": "2002-07-19",
+        "vote_average": 5.8,
+        "vote_count": 2386,
+        "popularity": 21.182
+    },
+    {
+        "id": 13376,
+        "title": "Eight Crazy Nights",
+        "release_date": "2002-11-27",
+        "vote_average": 5.2,
+        "vote_count": 311,
+        "popularity": 18.918
+    },
+    {
+        "id": 14787,
+        "title": "Tom and Jerry: The Magic Ring",
+        "release_date": "2002-03-12",
+        "vote_average": 6.4,
+        "vote_count": 247,
+        "popularity": 33.54
+    },
+    {
+        "id": 28069,
+        "title": "A Charlie Brown Valentine",
+        "release_date": "2002-02-14",
+        "vote_average": 6.1,
+        "vote_count": 48,
+        "popularity": 22.833
+    },
+    {
+        "id": 17710,
+        "title": "Hey Arnold! The Movie",
+        "release_date": "2002-06-28",
+        "vote_average": 6.5,
+        "vote_count": 349,
+        "popularity": 21.223
+    },
+    {
+        "id": 15173,
+        "title": "Jonah: A VeggieTales Movie",
+        "release_date": "2002-10-04",
+        "vote_average": 6.2,
+        "vote_count": 100,
+        "popularity": 15.41
+    },
+    {
+        "id": 464198,
+        "title": "One Piece: Dream Soccer King!",
+        "release_date": "2002-03-02",
+        "vote_average": 6.6,
+        "vote_count": 32,
+        "popularity": 16.11
+    },
+    {
+        "id": 27042,
+        "title": "The ChubbChubbs!",
+        "release_date": "2002-07-03",
+        "vote_average": 6.7,
+        "vote_count": 86,
+        "popularity": 7.495
+    },
+    {
+        "id": 109572,
+        "title": "Lupin the Third: Episode 0: First Contact",
+        "release_date": "2002-07-26",
+        "vote_average": 6.7,
+        "vote_count": 43,
+        "popularity": 12.393
+    },
+    {
+        "id": 17963,
+        "title": "Gone Nutty",
+        "release_date": "2002-10-21",
+        "vote_average": 6.9,
+        "vote_count": 189,
+        "popularity": 12.362
+    },
+    {
+        "id": 138015,
+        "title": "Dennis the Menace: Cruise Control",
+        "release_date": "2002-02-01",
+        "vote_average": 4.4,
+        "vote_count": 15,
+        "popularity": 5.731
+    },
+    {
+        "id": 37556,
+        "title": "Charlie Brown's Christmas Tales",
+        "release_date": "2002-12-08",
+        "vote_average": 6.6,
+        "vote_count": 39,
+        "popularity": 7.69
+    },
+    {
+        "id": 33868,
+        "title": "Inspector Gadget's Last Case",
+        "release_date": "2002-10-13",
+        "vote_average": 6.333,
+        "vote_count": 18,
+        "popularity": 10.544
+    },
+    {
+        "id": 33176,
+        "title": "Lupin the Third: Return of Pycal",
+        "release_date": "2002-04-03",
+        "vote_average": 6.1,
+        "vote_count": 56,
+        "popularity": 4.871
+    },
+    {
+        "id": 24232,
+        "title": "Daria in 'Is It College Yet?'",
+        "release_date": "2002-01-21",
+        "vote_average": 7.3,
+        "vote_count": 67,
+        "popularity": 7.41
+    },
+    {
+        "id": 30863,
+        "title": "Mutant Aliens",
+        "release_date": "2002-06-14",
+        "vote_average": 6.4,
+        "vote_count": 23,
+        "popularity": 9.194
+    },
+    {
+        "id": 127304,
+        "title": "Dibu 3",
+        "release_date": "2002-07-18",
+        "vote_average": 5.7,
+        "vote_count": 9,
+        "popularity": 8.449
+    },
+    {
+        "id": 39962,
+        "title": "Tamala 2010: A Punk Cat in Space",
+        "release_date": "2002-10-19",
+        "vote_average": 6.5,
+        "vote_count": 23,
+        "popularity": 3.357
+    },
+    {
+        "id": 609737,
+        "title": "The 1st 13th Annual Fancy Anvil Awards Show Program Special: Live in Stereo",
+        "release_date": "2002-03-23",
+        "vote_average": 10.0,
+        "vote_count": 41,
+        "popularity": 6.808
+    },
+    {
+        "id": 275068,
+        "title": "VeggieTales: The Star of Christmas",
+        "release_date": "2002-10-29",
+        "vote_average": 5.5,
+        "vote_count": 10,
+        "popularity": 3.304
+    },
+    {
+        "id": 211814,
+        "title": "Camp Pikachu",
+        "release_date": "2002-07-13",
+        "vote_average": 5.6,
+        "vote_count": 10,
+        "popularity": 4.007
+    },
+    {
+        "id": 77006,
+        "title": "Madeline: My Fair Madeline",
+        "release_date": "2002-11-11",
+        "vote_average": 6.0,
+        "vote_count": 5,
+        "popularity": 6.272
+    },
+    {
+        "id": 331665,
+        "title": "The Tram #9 Was Going",
+        "release_date": "2002-10-21",
+        "vote_average": 6.6,
+        "vote_count": 10,
+        "popularity": 2.628
+    },
+    {
+        "id": 1297380,
+        "title": "The Religetables",
+        "release_date": "2002-11-16",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 2.557
+    },
+    {
+        "id": 1108328,
+        "title": "La Blue Girl: Climax Taizan",
+        "release_date": "2002-03-20",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 2.128
+    },
+    {
+        "id": 40576,
+        "title": "Ghiblies: Episode 2",
+        "release_date": "2002-07-19",
+        "vote_average": 7.4,
+        "vote_count": 11,
+        "popularity": 3.355
+    },
+    {
+        "id": 100512,
+        "title": "Mercano the Martian",
+        "release_date": "2002-10-03",
+        "vote_average": 5.6,
+        "vote_count": 9,
+        "popularity": 2.775
+    },
+    {
+        "id": 36072,
+        "title": "Mount Head",
+        "release_date": "2002-10-04",
+        "vote_average": 6.4,
+        "vote_count": 45,
+        "popularity": 3.334
+    },
+    {
+        "id": 258802,
+        "title": "Welcome to Pia Carrot!! The Movie: Sayaka's Love Story",
+        "release_date": "2002-10-18",
+        "vote_average": 5.0,
+        "vote_count": 2,
+        "popularity": 3.038
+    },
+    {
+        "id": 13399,
+        "title": "Robbie the Reindeer: Hooves of Fire",
+        "release_date": "2002-12-13",
+        "vote_average": 5.9,
+        "vote_count": 28,
+        "popularity": 4.434
+    },
+    {
+        "id": 79418,
+        "title": "Robbie the Reindeer: Legend of the Lost Tribe",
+        "release_date": "2002-12-13",
+        "vote_average": 5.0,
+        "vote_count": 9,
+        "popularity": 4.239
+    },
+    {
+        "id": 653815,
+        "title": "Welcome to Eltingville",
+        "release_date": "2002-03-03",
+        "vote_average": 8.0,
+        "vote_count": 1,
+        "popularity": 4.008
+    },
+    {
+        "id": 1146328,
+        "title": "The Ambiguously Gay Duo: The Third Leg of Justice",
+        "release_date": "2002-10-19",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 3.935
+    },
+    {
+        "id": 759275,
+        "title": "The Groovenians",
+        "release_date": "2002-11-10",
+        "vote_average": 3.0,
+        "vote_count": 1,
+        "popularity": 3.35
+    },
+    {
+        "id": 665664,
+        "title": "Sakura Wars: ~Su~Mi~Re~",
+        "release_date": "2002-12-18",
+        "vote_average": 7.5,
+        "vote_count": 2,
+        "popularity": 1.41
+    },
+    {
+        "id": 565577,
+        "title": "Arthur: It's Only Rock 'n' Roll",
+        "release_date": "2002-09-01",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 3.224
+    },
+    {
+        "id": 21865,
+        "title": "Santa vs. the Snowman",
+        "release_date": "2002-11-01",
+        "vote_average": 8.5,
+        "vote_count": 4,
+        "popularity": 3.191
+    },
+    {
+        "id": 786164,
+        "title": "Evolution: The Animated Movie",
+        "release_date": "2002-01-29",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 2.836
+    },
+    {
+        "id": 244000,
+        "title": "Hamilton Mattress",
+        "release_date": "2002-01-01",
+        "vote_average": 6.4,
+        "vote_count": 5,
+        "popularity": 2.202
+    },
+    {
+        "id": 314363,
+        "title": "Star Warp'd",
+        "release_date": "2002-05-14",
+        "vote_average": 3.8,
+        "vote_count": 6,
+        "popularity": 2.748
+    },
+    {
+        "id": 258409,
+        "title": "Fetch!",
+        "release_date": "2002-10-26",
+        "vote_average": 4.2,
+        "vote_count": 6,
+        "popularity": 1.712
+    },
+    {
+        "id": 417884,
+        "title": "The Jetsons: The Best Son",
+        "release_date": "2002-03-17",
+        "vote_average": 6.0,
+        "vote_count": 2,
+        "popularity": 1.284
+    },
+    {
+        "id": 134414,
+        "title": "Ruy, the Knight With a Wooden Sword",
+        "release_date": "2002-01-01",
+        "vote_average": 4.0,
+        "vote_count": 2,
+        "popularity": 1.485
+    },
+    {
+        "id": 79632,
+        "title": "Tytus, Romek i A'Tomek w\u015br\u00f3d z\u0142odziei marze\u0144",
+        "release_date": "2002-03-21",
+        "vote_average": 4.9,
+        "vote_count": 5,
+        "popularity": 2.059
+    },
+    {
+        "id": 432925,
+        "title": "A Lasanha Assassina",
+        "release_date": "2002-01-03",
+        "vote_average": 5.0,
+        "vote_count": 1,
+        "popularity": 1.501
+    },
+    {
+        "id": 888902,
+        "title": "Ultra Maniac OVA",
+        "release_date": "2002-08-06",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.464
+    },
+    {
+        "id": 1126002,
+        "title": "Vandread Turbulence",
+        "release_date": "2002-10-25",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.94
+    },
+    {
+        "id": 1111035,
+        "title": "Daria: Look Back in Annoyance",
+        "release_date": "2002-01-14",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.459
+    },
+    {
+        "id": 727874,
+        "title": "School Disco",
+        "release_date": "2002-01-01",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "popularity": 0.758
+    },
+    {
+        "id": 348941,
+        "title": "VeggieTales: LarryBoy and the Angry Eyebrows",
+        "release_date": "2002-03-16",
+        "vote_average": 9.7,
+        "vote_count": 3,
+        "popularity": 1.707
+    },
+    {
+        "id": 391690,
+        "title": "Chicken Scratch",
+        "release_date": "2002-07-03",
+        "vote_average": 6.5,
+        "vote_count": 12,
+        "popularity": 1.024
+    },
+    {
+        "id": 738590,
+        "title": "48x61",
+        "release_date": "2002-01-22",
+        "vote_average": 9.0,
+        "vote_count": 1,
+        "popularity": 1.295
+    },
+    {
+        "id": 1341482,
+        "title": "The Soccamatic",
+        "release_date": "2002-10-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.639
+    },
+    {
+        "id": 758340,
+        "title": "Tom Goes to the Mayor",
+        "release_date": "2002-04-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.278
+    },
+    {
+        "id": 948503,
+        "title": "Crush Gear Turbo The Movie: Kaiservern's Ultimate Challenge",
+        "release_date": "2002-07-20",
+        "vote_average": 5.0,
+        "vote_count": 1,
+        "popularity": 1.002
+    },
+    {
+        "id": 767169,
+        "title": "Saddle Rash",
+        "release_date": "2002-03-24",
+        "vote_average": 3.5,
+        "vote_count": 2,
+        "popularity": 0.981
+    },
+    {
+        "id": 643410,
+        "title": "Wind: A Breath of Heart - Christmas Special",
+        "release_date": "2002-12-27",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.972
+    },
+    {
+        "id": 1159143,
+        "title": "The Flying Nut",
+        "release_date": "2002-02-24",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.411
+    },
+    {
+        "id": 61763,
+        "title": "Ice Egg",
+        "release_date": "2002-06-01",
+        "vote_average": 7.0,
+        "vote_count": 3,
+        "popularity": 0.444
+    },
+    {
+        "id": 456117,
+        "title": "Micaela, una pel\u00edcula m\u00e1gica",
+        "release_date": "2002-12-05",
+        "vote_average": 2.0,
+        "vote_count": 1,
+        "popularity": 0.907
+    },
+    {
+        "id": 483050,
+        "title": "Private Eye Princess",
+        "release_date": "2002-11-29",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.843
+    },
+    {
+        "id": 1229003,
+        "title": "T.V.",
+        "release_date": "2002-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.592
+    },
+    {
+        "id": 729999,
+        "title": "The Restaurant of Many Orders",
+        "release_date": "2002-07-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.848
+    },
+    {
+        "id": 1341471,
+        "title": "The Tellyscope",
+        "release_date": "2002-10-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.352
+    },
+    {
+        "id": 102648,
+        "title": "Call of the Wild",
+        "release_date": "2002-05-22",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.787
+    },
+    {
+        "id": 1341475,
+        "title": "The 525 Crackervac",
+        "release_date": "2002-10-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.334
+    },
+    {
+        "id": 1341479,
+        "title": "Turbo Diner",
+        "release_date": "2002-10-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.718
+    },
+    {
+        "id": 1152860,
+        "title": "The Freak",
+        "release_date": "2002-10-04",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.711
+    },
+    {
+        "id": 884968,
+        "title": "Tapporalli 2020",
+        "release_date": "2002-08-28",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.323
+    },
+    {
+        "id": 1135728,
+        "title": "Gag Manga Biyori: Jump Festa 2002 Special",
+        "release_date": "2002-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.577
+    },
+    {
+        "id": 1236876,
+        "title": "Pygmalion",
+        "release_date": "2002-01-03",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.568
+    },
+    {
+        "id": 347129,
+        "title": "Plasticat",
+        "release_date": "2002-12-11",
+        "vote_average": 5.0,
+        "vote_count": 2,
+        "popularity": 0.56
+    },
+    {
+        "id": 1341480,
+        "title": "The Snoozatron",
+        "release_date": "2002-10-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.202
+    },
+    {
+        "id": 755869,
+        "title": "Les Nouvelles aventures des Tortues Ninja - Les extra-terrestres",
+        "release_date": "2002-04-16",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.178
+    },
+    {
+        "id": 362330,
+        "title": "Adam",
+        "release_date": "2002-10-02",
+        "vote_average": 4.9,
+        "vote_count": 4,
+        "popularity": 0.398
+    },
+    {
+        "id": 1341461,
+        "title": "Shopper 13",
+        "release_date": "2002-10-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.344
+    },
+    {
+        "id": 1341469,
+        "title": "A Christmas Cardomatic",
+        "release_date": "2002-10-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.145
+    },
+    {
+        "id": 1341473,
+        "title": "The Snowmantron",
+        "release_date": "2002-10-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.335
+    },
+    {
+        "id": 1367644,
+        "title": "SpongeBob's House Party",
+        "release_date": "2002-05-17",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.265
+    },
+    {
+        "id": 1341463,
+        "title": "The Autochef",
+        "release_date": "2002-10-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.259
+    },
+    {
+        "id": 614493,
+        "title": "The Dark Side of the Morning",
+        "release_date": "2002-09-14",
+        "vote_average": 3.5,
+        "vote_count": 1,
+        "popularity": 0.101
+    },
+    {
+        "id": 270583,
+        "title": "Sev Trek: Pus in Boots",
+        "release_date": "2002-04-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.225
+    },
+    {
+        "id": 868993,
+        "title": "LEGO Racers 4D",
+        "release_date": "2002-03-01",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 0.211
+    },
+    {
+        "id": 766434,
+        "title": "Itse valtiaat - Avaruusmusikaali",
+        "release_date": "2002-12-31",
+        "vote_average": 5.0,
+        "vote_count": 2,
+        "popularity": 0.075
+    },
+    {
+        "id": 1341474,
+        "title": "The Bully Proof Vest",
+        "release_date": "2002-10-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.126
+    },
+    {
+        "id": 537353,
+        "title": "Blah",
+        "release_date": "2002-04-28",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.04
+    },
+    {
+        "id": 1167834,
+        "title": "Twick or Tweety",
+        "release_date": "2002-10-31",
+        "vote_average": 3.0,
+        "vote_count": 1,
+        "popularity": 0.084
+    },
+    {
+        "id": 72182,
+        "title": "Taxia",
+        "release_date": "2002-01-01",
+        "vote_average": 2.5,
+        "vote_count": 1,
+        "popularity": 0.039
+    },
+    {
+        "id": 727881,
+        "title": "Eating for Two",
+        "release_date": "2002-11-27",
+        "vote_average": 5.0,
+        "vote_count": 1,
+        "popularity": 0.038
+    },
+    {
+        "id": 1341277,
+        "title": "Toilet Humour",
+        "release_date": "2002-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    },
+    {
+        "id": 1341172,
+        "title": "Paradise Phucked",
+        "release_date": "2002-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    },
+    {
+        "id": 1340842,
+        "title": "Boiled Eggs 'n' Beer",
+        "release_date": "2002-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    },
+    {
+        "id": 1338108,
+        "title": "Ballygick 'n Shpittle",
+        "release_date": "2002-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    },
+    {
+        "id": 1338054,
+        "title": "Bad Arse Bears",
+        "release_date": "2002-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.001
+    }
+]

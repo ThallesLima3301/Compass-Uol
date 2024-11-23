@@ -1,0 +1,802 @@
+[
+    {
+        "id": 14160,
+        "title": "Up",
+        "release_date": "2009-05-28",
+        "vote_average": 7.959,
+        "vote_count": 20136,
+        "popularity": 106.977
+    },
+    {
+        "id": 8355,
+        "title": "Ice Age: Dawn of the Dinosaurs",
+        "release_date": "2009-06-26",
+        "vote_average": 6.8,
+        "vote_count": 8246,
+        "popularity": 60.053
+    },
+    {
+        "id": 22794,
+        "title": "Cloudy with a Chance of Meatballs",
+        "release_date": "2009-09-17",
+        "vote_average": 6.6,
+        "vote_count": 5912,
+        "popularity": 47.162
+    },
+    {
+        "id": 24238,
+        "title": "Mary and Max",
+        "release_date": "2009-04-09",
+        "vote_average": 7.8,
+        "vote_count": 1954,
+        "popularity": 45.723
+    },
+    {
+        "id": 23398,
+        "title": "Alvin and the Chipmunks: The Squeakquel",
+        "release_date": "2009-12-21",
+        "vote_average": 5.6,
+        "vote_count": 2883,
+        "popularity": 59.135
+    },
+    {
+        "id": 36728,
+        "title": "Naruto Shippuden the Movie: The Will of Fire",
+        "release_date": "2009-08-01",
+        "vote_average": 7.323,
+        "vote_count": 456,
+        "popularity": 57.004
+    },
+    {
+        "id": 10315,
+        "title": "Fantastic Mr. Fox",
+        "release_date": "2009-10-23",
+        "vote_average": 7.8,
+        "vote_count": 5385,
+        "popularity": 30.287
+    },
+    {
+        "id": 16866,
+        "title": "Planet 51",
+        "release_date": "2009-11-19",
+        "vote_average": 5.9,
+        "vote_count": 2014,
+        "popularity": 44.747
+    },
+    {
+        "id": 37221,
+        "title": "Another Egg and Chicken Movie",
+        "release_date": "2009-03-20",
+        "vote_average": 7.7,
+        "vote_count": 169,
+        "popularity": 32.511
+    },
+    {
+        "id": 15060,
+        "title": "Futurama: Into the Wild Green Yonder",
+        "release_date": "2009-02-23",
+        "vote_average": 7.0,
+        "vote_count": 532,
+        "popularity": 30.993
+    },
+    {
+        "id": 23127,
+        "title": "The Haunted World of El Superbeasto",
+        "release_date": "2009-09-12",
+        "vote_average": 5.8,
+        "vote_count": 179,
+        "popularity": 11.552
+    },
+    {
+        "id": 24480,
+        "title": "Partly Cloudy",
+        "release_date": "2009-05-28",
+        "vote_average": 7.766,
+        "vote_count": 1028,
+        "popularity": 24.224
+    },
+    {
+        "id": 74785,
+        "title": "Totally Spies! The Movie",
+        "release_date": "2009-07-22",
+        "vote_average": 6.2,
+        "vote_count": 71,
+        "popularity": 23.205
+    },
+    {
+        "id": 171536,
+        "title": "Unidentified Flying Mater",
+        "release_date": "2009-11-20",
+        "vote_average": 6.2,
+        "vote_count": 112,
+        "popularity": 17.101
+    },
+    {
+        "id": 24589,
+        "title": "Dug's Special Mission",
+        "release_date": "2009-11-10",
+        "vote_average": 7.0,
+        "vote_count": 413,
+        "popularity": 15.421
+    },
+    {
+        "id": 19585,
+        "title": "G-Force",
+        "release_date": "2009-07-24",
+        "vote_average": 5.452,
+        "vote_count": 1850,
+        "popularity": 21.102
+    },
+    {
+        "id": 16652,
+        "title": "Happily N'Ever After 2",
+        "release_date": "2009-03-24",
+        "vote_average": 4.858,
+        "vote_count": 211,
+        "popularity": 21.088
+    },
+    {
+        "id": 625651,
+        "title": "Family Guy Presents: Something, Something, Something, Dark Side",
+        "release_date": "2009-12-22",
+        "vote_average": 7.2,
+        "vote_count": 146,
+        "popularity": 9.946
+    },
+    {
+        "id": 16390,
+        "title": "Scooby-Doo! and the Samurai Sword",
+        "release_date": "2009-04-07",
+        "vote_average": 7.7,
+        "vote_count": 262,
+        "popularity": 17.081
+    },
+    {
+        "id": 50300,
+        "title": "Ed, Edd n Eddy's Big Picture Show",
+        "release_date": "2009-06-05",
+        "vote_average": 7.3,
+        "vote_count": 113,
+        "popularity": 12.056
+    },
+    {
+        "id": 46033,
+        "title": "Lupin the Third vs. Detective Conan",
+        "release_date": "2009-03-27",
+        "vote_average": 6.9,
+        "vote_count": 122,
+        "popularity": 16.748
+    },
+    {
+        "id": 62967,
+        "title": "The Lady and the Reaper",
+        "release_date": "2009-10-01",
+        "vote_average": 6.9,
+        "vote_count": 76,
+        "popularity": 6.494
+    },
+    {
+        "id": 51800,
+        "title": "The Dolphin: Story of a Dreamer",
+        "release_date": "2009-10-08",
+        "vote_average": 6.208,
+        "vote_count": 36,
+        "popularity": 9.704
+    },
+    {
+        "id": 19508,
+        "title": "Garfield's Pet Force",
+        "release_date": "2009-09-11",
+        "vote_average": 5.5,
+        "vote_count": 96,
+        "popularity": 9.378
+    },
+    {
+        "id": 53985,
+        "title": "Mutant Pumpkins from Outer Space",
+        "release_date": "2009-04-01",
+        "vote_average": 5.9,
+        "vote_count": 265,
+        "popularity": 9.195
+    },
+    {
+        "id": 19106,
+        "title": "Round Da Way",
+        "release_date": "2009-06-17",
+        "vote_average": 6.7,
+        "vote_count": 217,
+        "popularity": 7.373
+    },
+    {
+        "id": 128887,
+        "title": "Crayon Shin-chan: Roar! Kasukabe Animal Kingdom",
+        "release_date": "2009-04-18",
+        "vote_average": 7.238,
+        "vote_count": 21,
+        "popularity": 8.707
+    },
+    {
+        "id": 120434,
+        "title": "Fresh Precure! Movie: The Kingdom of Toys has Lots of Secrets!?",
+        "release_date": "2009-10-31",
+        "vote_average": 6.8,
+        "vote_count": 10,
+        "popularity": 7.3
+    },
+    {
+        "id": 40623,
+        "title": "A Town Called Panic",
+        "release_date": "2009-06-17",
+        "vote_average": 7.5,
+        "vote_count": 186,
+        "popularity": 5.977
+    },
+    {
+        "id": 16604,
+        "title": "Super Rhino",
+        "release_date": "2009-03-21",
+        "vote_average": 6.0,
+        "vote_count": 76,
+        "popularity": 11.01
+    },
+    {
+        "id": 306464,
+        "title": "Family Guy Presents: Seth & Alex's Almost Live Comedy Show",
+        "release_date": "2009-11-08",
+        "vote_average": 5.75,
+        "vote_count": 10,
+        "popularity": 10.198
+    },
+    {
+        "id": 32389,
+        "title": "Logorama",
+        "release_date": "2009-05-16",
+        "vote_average": 7.0,
+        "vote_count": 175,
+        "popularity": 4.895
+    },
+    {
+        "id": 1080086,
+        "title": "Dear Consumer (Robot Chicken's Full-Assed Christmas Special)",
+        "release_date": "2009-12-06",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 4.444
+    },
+    {
+        "id": 112545,
+        "title": "Sergeant Keroro The Super Duper Movie 4: Crushing Invasion, Dragon Warriors",
+        "release_date": "2009-03-07",
+        "vote_average": 5.6,
+        "vote_count": 4,
+        "popularity": 5.603
+    },
+    {
+        "id": 72962,
+        "title": "George and A.J.",
+        "release_date": "2009-11-10",
+        "vote_average": 5.8,
+        "vote_count": 154,
+        "popularity": 6.185
+    },
+    {
+        "id": 258722,
+        "title": "The Little Panda Fighter",
+        "release_date": "2009-01-14",
+        "vote_average": 2.162,
+        "vote_count": 34,
+        "popularity": 4.936
+    },
+    {
+        "id": 24884,
+        "title": "B.O.B.'s Big Break",
+        "release_date": "2009-09-30",
+        "vote_average": 5.9,
+        "vote_count": 85,
+        "popularity": 4.46
+    },
+    {
+        "id": 405312,
+        "title": "Phineas and Ferb Christmas Vacation!",
+        "release_date": "2009-12-07",
+        "vote_average": 7.0,
+        "vote_count": 20,
+        "popularity": 3.529
+    },
+    {
+        "id": 81233,
+        "title": "LEGO Star Wars: The Quest for R2-D2",
+        "release_date": "2009-08-28",
+        "vote_average": 5.5,
+        "vote_count": 34,
+        "popularity": 4.626
+    },
+    {
+        "id": 57505,
+        "title": "My Little Pony: Twinkle Wish Adventure",
+        "release_date": "2009-10-13",
+        "vote_average": 5.5,
+        "vote_count": 4,
+        "popularity": 6.374
+    },
+    {
+        "id": 383525,
+        "title": "SpongeBob's Truth or Square",
+        "release_date": "2009-11-06",
+        "vote_average": 7.1,
+        "vote_count": 12,
+        "popularity": 5.1
+    },
+    {
+        "id": 73786,
+        "title": "Fumiko's Confession",
+        "release_date": "2009-11-09",
+        "vote_average": 5.7,
+        "vote_count": 30,
+        "popularity": 5.048
+    },
+    {
+        "id": 16002,
+        "title": "Kurt Turns Evil",
+        "release_date": "2009-03-25",
+        "vote_average": 5.5,
+        "vote_count": 20,
+        "popularity": 5.032
+    },
+    {
+        "id": 215408,
+        "title": "The Aviators",
+        "release_date": "2009-06-19",
+        "vote_average": 7.3,
+        "vote_count": 7,
+        "popularity": 2.197
+    },
+    {
+        "id": 352066,
+        "title": "Horn Dog",
+        "release_date": "2009-04-04",
+        "vote_average": 6.6,
+        "vote_count": 8,
+        "popularity": 4.302
+    },
+    {
+        "id": 84160,
+        "title": "Pretty Cure All Stars DX: Everyone Is a Friend - A Miracle All Pretty Cures Together",
+        "release_date": "2009-03-20",
+        "vote_average": 7.0,
+        "vote_count": 12,
+        "popularity": 3.288
+    },
+    {
+        "id": 1190754,
+        "title": "Gerenciador do Universo",
+        "release_date": "2009-04-03",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 2.951
+    },
+    {
+        "id": 50168,
+        "title": "Cine Gibi 4: Meninos e Meninas",
+        "release_date": "2009-10-09",
+        "vote_average": 7.3,
+        "vote_count": 16,
+        "popularity": 2.649
+    },
+    {
+        "id": 1274309,
+        "title": "The Story of Walls",
+        "release_date": "2009-10-05",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 2.906
+    },
+    {
+        "id": 281785,
+        "title": "Fishing with Sam",
+        "release_date": "2009-06-15",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 3.645
+    },
+    {
+        "id": 520430,
+        "title": "Bal Ganesh 2",
+        "release_date": "2009-10-23",
+        "vote_average": 9.0,
+        "vote_count": 3,
+        "popularity": 2.212
+    },
+    {
+        "id": 364134,
+        "title": "Yatterman: All New YatterMechas Assembled! Great Decisive Battle in the Toy Kingdom!",
+        "release_date": "2009-08-22",
+        "vote_average": 7.0,
+        "vote_count": 1,
+        "popularity": 3.391
+    },
+    {
+        "id": 38876,
+        "title": "W\u0142atcy m\u00f3ch. \u0106moki, Czopki i Mondzio\u0142y",
+        "release_date": "2009-02-13",
+        "vote_average": 6.9,
+        "vote_count": 16,
+        "popularity": 2.826
+    },
+    {
+        "id": 41444,
+        "title": "Baton",
+        "release_date": "2009-04-28",
+        "vote_average": 4.0,
+        "vote_count": 2,
+        "popularity": 2.892
+    },
+    {
+        "id": 222602,
+        "title": "Totem Blue",
+        "release_date": "2009-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.277
+    },
+    {
+        "id": 199700,
+        "title": "What's Up: Balloon to the Rescue!",
+        "release_date": "2009-08-11",
+        "vote_average": 2.8,
+        "vote_count": 21,
+        "popularity": 2.783
+    },
+    {
+        "id": 1184134,
+        "title": "The Dangerous Duck Brothers",
+        "release_date": "2009-01-10",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.549
+    },
+    {
+        "id": 62682,
+        "title": "The Story of Mr. Sorry",
+        "release_date": "2009-03-12",
+        "vote_average": 6.0,
+        "vote_count": 3,
+        "popularity": 1.612
+    },
+    {
+        "id": 494817,
+        "title": "Prequel of the Monkey King",
+        "release_date": "2009-09-29",
+        "vote_average": 1.0,
+        "vote_count": 1,
+        "popularity": 1.534
+    },
+    {
+        "id": 23698,
+        "title": "McDull, Kung Fu Kindergarten",
+        "release_date": "2009-07-24",
+        "vote_average": 6.1,
+        "vote_count": 19,
+        "popularity": 2.276
+    },
+    {
+        "id": 1153641,
+        "title": "Delivery",
+        "release_date": "2009-08-23",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.746
+    },
+    {
+        "id": 159304,
+        "title": "Runaway",
+        "release_date": "2009-06-08",
+        "vote_average": 6.7,
+        "vote_count": 12,
+        "popularity": 2.093
+    },
+    {
+        "id": 52026,
+        "title": "Pleasant Goat and Big Big Wolf: The Super Adventure",
+        "release_date": "2009-01-16",
+        "vote_average": 6.9,
+        "vote_count": 9,
+        "popularity": 2.058
+    },
+    {
+        "id": 350610,
+        "title": "Pig Me",
+        "release_date": "2009-03-20",
+        "vote_average": 6.5,
+        "vote_count": 2,
+        "popularity": 2.015
+    },
+    {
+        "id": 843752,
+        "title": "Passion Ski",
+        "release_date": "2009-11-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.17
+    },
+    {
+        "id": 90035,
+        "title": "Novye Priklyucheniya Alenushki i Eremy",
+        "release_date": "2009-12-24",
+        "vote_average": 3.3,
+        "vote_count": 3,
+        "popularity": 1.544
+    },
+    {
+        "id": 1331543,
+        "title": "The Awesome Chronicles of Manny and Khan",
+        "release_date": "2009-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.33
+    },
+    {
+        "id": 113412,
+        "title": "The Island",
+        "release_date": "2009-10-11",
+        "vote_average": 4.3,
+        "vote_count": 10,
+        "popularity": 1.284
+    },
+    {
+        "id": 1136045,
+        "title": "HandyCat: Bees-ness As Usual",
+        "release_date": "2009-12-20",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.243
+    },
+    {
+        "id": 1087594,
+        "title": "Trainbombing",
+        "release_date": "2009-06-10",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 1.141
+    },
+    {
+        "id": 720003,
+        "title": "Inka Bola",
+        "release_date": "2009-07-20",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.029
+    },
+    {
+        "id": 565014,
+        "title": "Homo Erectus",
+        "release_date": "2009-07-08",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.018
+    },
+    {
+        "id": 763080,
+        "title": "Battlefield Baseball",
+        "release_date": "2009-06-12",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.969
+    },
+    {
+        "id": 691551,
+        "title": "Producing Parker",
+        "release_date": "2009-05-04",
+        "vote_average": 1.0,
+        "vote_count": 1,
+        "popularity": 0.946
+    },
+    {
+        "id": 234269,
+        "title": "Esterhazy",
+        "release_date": "2009-01-01",
+        "vote_average": 6.0,
+        "vote_count": 3,
+        "popularity": 0.847
+    },
+    {
+        "id": 85842,
+        "title": "Coffee Samurai",
+        "release_date": "2009-05-31",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.356
+    },
+    {
+        "id": 981727,
+        "title": "Pyuu to Fuku! Jaguar: Ima, Fuki ni Yukimasu",
+        "release_date": "2009-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.59
+    },
+    {
+        "id": 210514,
+        "title": "Heavenly Appeals",
+        "release_date": "2009-01-01",
+        "vote_average": 4.8,
+        "vote_count": 8,
+        "popularity": 0.822
+    },
+    {
+        "id": 85541,
+        "title": "Legend of the Chihuahua",
+        "release_date": "2009-03-03",
+        "vote_average": 4.5,
+        "vote_count": 2,
+        "popularity": 0.4
+    },
+    {
+        "id": 754532,
+        "title": "Dodudindon",
+        "release_date": "2009-06-12",
+        "vote_average": 5.2,
+        "vote_count": 4,
+        "popularity": 0.79
+    },
+    {
+        "id": 812971,
+        "title": "Cinderella",
+        "release_date": "2009-06-21",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 0.784
+    },
+    {
+        "id": 929341,
+        "title": "Cloudy Day",
+        "release_date": "2009-09-01",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "popularity": 0.69
+    },
+    {
+        "id": 184917,
+        "title": "Molly in Springtime",
+        "release_date": "2009-10-21",
+        "vote_average": 7.0,
+        "vote_count": 4,
+        "popularity": 0.676
+    },
+    {
+        "id": 323593,
+        "title": "Lollipop",
+        "release_date": "2009-02-05",
+        "vote_average": 10.0,
+        "vote_count": 2,
+        "popularity": 0.375
+    },
+    {
+        "id": 218174,
+        "title": "Kidnap",
+        "release_date": "2009-06-08",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.25
+    },
+    {
+        "id": 643409,
+        "title": "Words Worth: Sharon's Home Cooking vs. Mew's Cosplay vs. Nina's Established Fact - Three-Cornered Battle",
+        "release_date": "2009-12-18",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.308
+    },
+    {
+        "id": 965164,
+        "title": "Down To The Bone",
+        "release_date": "2009-05-03",
+        "vote_average": 8.5,
+        "vote_count": 2,
+        "popularity": 0.515
+    },
+    {
+        "id": 466619,
+        "title": "The TV Show",
+        "release_date": "2009-12-07",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 0.489
+    },
+    {
+        "id": 963685,
+        "title": "The Fairytale of the Stolen Time",
+        "release_date": "2009-09-21",
+        "vote_average": 4.0,
+        "vote_count": 1,
+        "popularity": 0.198
+    },
+    {
+        "id": 963285,
+        "title": "Leitmotif",
+        "release_date": "2009-08-01",
+        "vote_average": 8.0,
+        "vote_count": 1,
+        "popularity": 0.193
+    },
+    {
+        "id": 226793,
+        "title": "Nekketsu Uchuujin",
+        "release_date": "2009-10-30",
+        "vote_average": 5.0,
+        "vote_count": 1,
+        "popularity": 0.327
+    },
+    {
+        "id": 914076,
+        "title": "HUBO",
+        "release_date": "2009-11-29",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "popularity": 0.391
+    },
+    {
+        "id": 471174,
+        "title": "A Ilha",
+        "release_date": "2009-07-25",
+        "vote_average": 6.7,
+        "vote_count": 3,
+        "popularity": 0.295
+    },
+    {
+        "id": 964001,
+        "title": "Rinky Dink",
+        "release_date": "2009-12-08",
+        "vote_average": 2.0,
+        "vote_count": 1,
+        "popularity": 0.234
+    },
+    {
+        "id": 1183797,
+        "title": "CannibAlien",
+        "release_date": "2009-09-19",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 0.151
+    },
+    {
+        "id": 371769,
+        "title": "Electropolis",
+        "release_date": "2009-04-01",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "popularity": 0.126
+    },
+    {
+        "id": 33857,
+        "title": "Bye-Bye Bin Laden",
+        "release_date": "2009-01-01",
+        "vote_average": 2.0,
+        "vote_count": 1,
+        "popularity": 0.102
+    },
+    {
+        "id": 1086858,
+        "title": "Ultimate Muscle Roller Legend",
+        "release_date": "2009-08-21",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.069
+    },
+    {
+        "id": 300809,
+        "title": "Ducked and Covered: A Survival Guide to the Post Apocalypse",
+        "release_date": "2009-12-13",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.041
+    },
+    {
+        "id": 991068,
+        "title": "End of Code",
+        "release_date": "2009-01-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.012
+    }
+]

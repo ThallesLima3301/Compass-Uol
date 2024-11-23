@@ -1,0 +1,802 @@
+[
+    {
+        "id": 529203,
+        "title": "The Croods: A New Age",
+        "release_date": "2020-11-25",
+        "vote_average": 7.5,
+        "vote_count": 3810,
+        "popularity": 84.441
+    },
+    {
+        "id": 508442,
+        "title": "Soul",
+        "release_date": "2020-12-25",
+        "vote_average": 8.1,
+        "vote_count": 10399,
+        "popularity": 68.285
+    },
+    {
+        "id": 446893,
+        "title": "Trolls World Tour",
+        "release_date": "2020-03-11",
+        "vote_average": 7.29,
+        "vote_count": 2129,
+        "popularity": 62.579
+    },
+    {
+        "id": 508439,
+        "title": "Onward",
+        "release_date": "2020-02-29",
+        "vote_average": 7.7,
+        "vote_count": 6097,
+        "popularity": 56.036
+    },
+    {
+        "id": 400160,
+        "title": "The SpongeBob Movie: Sponge on the Run",
+        "release_date": "2020-08-14",
+        "vote_average": 7.471,
+        "vote_count": 2839,
+        "popularity": 65.385
+    },
+    {
+        "id": 741074,
+        "title": "Once Upon a Snowman",
+        "release_date": "2020-10-23",
+        "vote_average": 6.9,
+        "vote_count": 525,
+        "popularity": 43.589
+    },
+    {
+        "id": 677638,
+        "title": "We Bare Bears: The Movie",
+        "release_date": "2020-06-30",
+        "vote_average": 7.8,
+        "vote_count": 805,
+        "popularity": 28.209
+    },
+    {
+        "id": 670327,
+        "title": "Marudase Kintarou",
+        "release_date": "2020-12-11",
+        "vote_average": 4.9,
+        "vote_count": 8,
+        "popularity": 15.998
+    },
+    {
+        "id": 735364,
+        "title": "The Boss Baby: Get That Baby!",
+        "release_date": "2020-09-01",
+        "vote_average": 6.3,
+        "vote_count": 70,
+        "popularity": 12.431
+    },
+    {
+        "id": 550738,
+        "title": "Spycies",
+        "release_date": "2020-01-11",
+        "vote_average": 7.4,
+        "vote_count": 203,
+        "popularity": 27.873
+    },
+    {
+        "id": 594328,
+        "title": "Phineas and Ferb the Movie: Candace Against the Universe",
+        "release_date": "2020-08-27",
+        "vote_average": 7.3,
+        "vote_count": 368,
+        "popularity": 17.433
+    },
+    {
+        "id": 560044,
+        "title": "The Willoughbys",
+        "release_date": "2020-04-22",
+        "vote_average": 7.1,
+        "vote_count": 899,
+        "popularity": 25.308
+    },
+    {
+        "id": 690369,
+        "title": "LEGO DC: Shazam! Magic and Monsters",
+        "release_date": "2020-04-28",
+        "vote_average": 7.184,
+        "vote_count": 147,
+        "popularity": 13.966
+    },
+    {
+        "id": 385103,
+        "title": "Scoob!",
+        "release_date": "2020-07-08",
+        "vote_average": 7.1,
+        "vote_count": 1684,
+        "popularity": 24.205
+    },
+    {
+        "id": 754433,
+        "title": "Bobbleheads: The Movie",
+        "release_date": "2020-12-08",
+        "vote_average": 4.2,
+        "vote_count": 25,
+        "popularity": 23.234
+    },
+    {
+        "id": 764079,
+        "title": "Minions: Holiday Special",
+        "release_date": "2020-11-27",
+        "vote_average": 6.9,
+        "vote_count": 144,
+        "popularity": 16.704
+    },
+    {
+        "id": 682153,
+        "title": "Doraemon: Nobita's New Dinosaur",
+        "release_date": "2020-08-07",
+        "vote_average": 7.5,
+        "vote_count": 42,
+        "popularity": 20.273
+    },
+    {
+        "id": 732670,
+        "title": "LEGO Star Wars Holiday Special",
+        "release_date": "2020-11-17",
+        "vote_average": 6.5,
+        "vote_count": 320,
+        "popularity": 14.746
+    },
+    {
+        "id": 656561,
+        "title": "Alien Xmas",
+        "release_date": "2020-11-20",
+        "vote_average": 6.5,
+        "vote_count": 115,
+        "popularity": 20.572
+    },
+    {
+        "id": 721656,
+        "title": "Happy Halloween, Scooby-Doo!",
+        "release_date": "2020-10-06",
+        "vote_average": 7.8,
+        "vote_count": 235,
+        "popularity": 20.276
+    },
+    {
+        "id": 726664,
+        "title": "Fearless",
+        "release_date": "2020-08-14",
+        "vote_average": 6.0,
+        "vote_count": 132,
+        "popularity": 8.652
+    },
+    {
+        "id": 587562,
+        "title": "Two by Two: Overboard!",
+        "release_date": "2020-09-24",
+        "vote_average": 7.6,
+        "vote_count": 163,
+        "popularity": 10.748
+    },
+    {
+        "id": 659676,
+        "title": "Masameer: The Movie",
+        "release_date": "2020-01-09",
+        "vote_average": 6.1,
+        "vote_count": 30,
+        "popularity": 11.516
+    },
+    {
+        "id": 673595,
+        "title": "Maggie Simpson in \"Playdate with Destiny\"",
+        "release_date": "2020-02-29",
+        "vote_average": 7.4,
+        "vote_count": 350,
+        "popularity": 14.548
+    },
+    {
+        "id": 660867,
+        "title": "Forky Asks a Question: What Is Cheese?",
+        "release_date": "2020-01-03",
+        "vote_average": 6.2,
+        "vote_count": 71,
+        "popularity": 15.547
+    },
+    {
+        "id": 663459,
+        "title": "Jungle Beat: The Movie",
+        "release_date": "2020-06-26",
+        "vote_average": 6.9,
+        "vote_count": 114,
+        "popularity": 14.386
+    },
+    {
+        "id": 750578,
+        "title": "Trump vs the Illuminati",
+        "release_date": "2020-10-06",
+        "vote_average": 2.4,
+        "vote_count": 14,
+        "popularity": 12.411
+    },
+    {
+        "id": 532961,
+        "title": "Looking for Magical Doremi",
+        "release_date": "2020-11-13",
+        "vote_average": 6.4,
+        "vote_count": 14,
+        "popularity": 7.638
+    },
+    {
+        "id": 594530,
+        "title": "Lamp Life",
+        "release_date": "2020-01-31",
+        "vote_average": 7.1,
+        "vote_count": 298,
+        "popularity": 9.23
+    },
+    {
+        "id": 532323,
+        "title": "SHIROBAKO the Movie",
+        "release_date": "2020-02-29",
+        "vote_average": 7.2,
+        "vote_count": 17,
+        "popularity": 9.142
+    },
+    {
+        "id": 624812,
+        "title": "Love Me, Love Me Not",
+        "release_date": "2020-09-18",
+        "vote_average": 7.2,
+        "vote_count": 14,
+        "popularity": 6.539
+    },
+    {
+        "id": 768509,
+        "title": "Captain Underpants: Mega Blissmas",
+        "release_date": "2020-12-04",
+        "vote_average": 6.2,
+        "vote_count": 12,
+        "popularity": 11.305
+    },
+    {
+        "id": 731249,
+        "title": "Crayon Shin-Chan: Crash! Rakuga Kingdom and Almost Four Heroes",
+        "release_date": "2020-09-11",
+        "vote_average": 7.8,
+        "vote_count": 15,
+        "popularity": 5.234
+    },
+    {
+        "id": 662666,
+        "title": "Forky Asks a Question: What Is Reading?",
+        "release_date": "2020-01-10",
+        "vote_average": 5.8,
+        "vote_count": 57,
+        "popularity": 9.331
+    },
+    {
+        "id": 706860,
+        "title": "Out",
+        "release_date": "2020-05-22",
+        "vote_average": 7.312,
+        "vote_count": 191,
+        "popularity": 6.747
+    },
+    {
+        "id": 668602,
+        "title": "Captain Underpants: Epic Choice-o-rama",
+        "release_date": "2020-02-11",
+        "vote_average": 7.2,
+        "vote_count": 5,
+        "popularity": 8.855
+    },
+    {
+        "id": 587311,
+        "title": "Calamity",
+        "release_date": "2020-10-14",
+        "vote_average": 7.3,
+        "vote_count": 38,
+        "popularity": 5.081
+    },
+    {
+        "id": 622841,
+        "title": "You Animal! The Nimfa Dimaano Story",
+        "release_date": "2020-10-28",
+        "vote_average": 6.8,
+        "vote_count": 12,
+        "popularity": 3.295
+    },
+    {
+        "id": 626767,
+        "title": "On-Gaku: Our Sound",
+        "release_date": "2020-01-11",
+        "vote_average": 7.3,
+        "vote_count": 35,
+        "popularity": 2.603
+    },
+    {
+        "id": 731695,
+        "title": "The Box Assassin",
+        "release_date": "2020-08-06",
+        "vote_average": 6.9,
+        "vote_count": 7,
+        "popularity": 3.314
+    },
+    {
+        "id": 674942,
+        "title": "Homeward",
+        "release_date": "2020-02-25",
+        "vote_average": 4.364,
+        "vote_count": 22,
+        "popularity": 5.429
+    },
+    {
+        "id": 721686,
+        "title": "Cells at Work!! The Return of the Strongest Enemy. A Huge Uproar in the Body\u2019s Bowels!",
+        "release_date": "2020-09-05",
+        "vote_average": 6.9,
+        "vote_count": 21,
+        "popularity": 4.965
+    },
+    {
+        "id": 663343,
+        "title": "Yes-People",
+        "release_date": "2020-01-24",
+        "vote_average": 6.012,
+        "vote_count": 42,
+        "popularity": 5.317
+    },
+    {
+        "id": 593298,
+        "title": "The League of Five",
+        "release_date": "2020-01-10",
+        "vote_average": 7.5,
+        "vote_count": 46,
+        "popularity": 3.204
+    },
+    {
+        "id": 731362,
+        "title": "Spaced Cats",
+        "release_date": "2020-07-14",
+        "vote_average": 1.5,
+        "vote_count": 2,
+        "popularity": 2.12
+    },
+    {
+        "id": 610045,
+        "title": "Norm of the North: Family Vacation",
+        "release_date": "2020-02-25",
+        "vote_average": 5.1,
+        "vote_count": 17,
+        "popularity": 4.021
+    },
+    {
+        "id": 680113,
+        "title": "Girls und Panzer das Finale OVA: Taiyaki War!",
+        "release_date": "2020-02-27",
+        "vote_average": 5.2,
+        "vote_count": 4,
+        "popularity": 4.57
+    },
+    {
+        "id": 673748,
+        "title": "Trash - La leggenda della piramide magica",
+        "release_date": "2020-10-16",
+        "vote_average": 6.3,
+        "vote_count": 30,
+        "popularity": 4.526
+    },
+    {
+        "id": 734281,
+        "title": "Survival in Body",
+        "release_date": "2020-07-31",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.808
+    },
+    {
+        "id": 1076616,
+        "title": "Boukyaku Battery",
+        "release_date": "2020-10-11",
+        "vote_average": 7.0,
+        "vote_count": 2,
+        "popularity": 2.011
+    },
+    {
+        "id": 658562,
+        "title": "Pretty Cure Miracle Leap: A Wonderful Day with Everyone",
+        "release_date": "2020-10-31",
+        "vote_average": 8.0,
+        "vote_count": 3,
+        "popularity": 3.784
+    },
+    {
+        "id": 1272465,
+        "title": "Round My Place",
+        "release_date": "2020-10-07",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 2.152
+    },
+    {
+        "id": 824536,
+        "title": "Motu Patlu in the Game of Zones",
+        "release_date": "2020-12-19",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 2.42
+    },
+    {
+        "id": 730483,
+        "title": "Lie Yang Tiandao I",
+        "release_date": "2020-08-06",
+        "vote_average": 6.0,
+        "vote_count": 2,
+        "popularity": 3.339
+    },
+    {
+        "id": 755248,
+        "title": "Meow or Never",
+        "release_date": "2020-10-24",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 3.244
+    },
+    {
+        "id": 753553,
+        "title": "You Sold My Rollerskates?",
+        "release_date": "2020-10-15",
+        "vote_average": 8.9,
+        "vote_count": 5,
+        "popularity": 3.052
+    },
+    {
+        "id": 756494,
+        "title": "The Wonderful Wingits",
+        "release_date": "2020-06-20",
+        "vote_average": 7.0,
+        "vote_count": 1,
+        "popularity": 2.999
+    },
+    {
+        "id": 407438,
+        "title": "Codename: Housewife",
+        "release_date": "2020-12-31",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.263
+    },
+    {
+        "id": 722812,
+        "title": "Trolls: Tiny Diamond Goes Back to School",
+        "release_date": "2020-07-07",
+        "vote_average": 6.1,
+        "vote_count": 7,
+        "popularity": 1.518
+    },
+    {
+        "id": 655836,
+        "title": "Titus: Mystery of the Enygma",
+        "release_date": "2020-01-09",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 2.632
+    },
+    {
+        "id": 1121144,
+        "title": "0009: The Sharks Make Contact",
+        "release_date": "2020-09-16",
+        "vote_average": 5.0,
+        "vote_count": 1,
+        "popularity": 1.111
+    },
+    {
+        "id": 1050882,
+        "title": "Haunted Transylvania: Mighty Mummy Madness",
+        "release_date": "2020-10-06",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 2.025
+    },
+    {
+        "id": 741616,
+        "title": "A Night in Camp Heebie Jeebie",
+        "release_date": "2020-08-28",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 2.313
+    },
+    {
+        "id": 769490,
+        "title": "Thin Ice",
+        "release_date": "2020-09-30",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 2.303
+    },
+    {
+        "id": 618518,
+        "title": "Sh_t Happens",
+        "release_date": "2020-10-22",
+        "vote_average": 5.1,
+        "vote_count": 5,
+        "popularity": 2.257
+    },
+    {
+        "id": 1027560,
+        "title": "Shortsgiving with Big City Greens",
+        "release_date": "2020-11-21",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 2.181
+    },
+    {
+        "id": 733353,
+        "title": "Queerer than Thou",
+        "release_date": "2020-08-17",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.878
+    },
+    {
+        "id": 733181,
+        "title": "Paloma",
+        "release_date": "2020-08-20",
+        "vote_average": 8.5,
+        "vote_count": 2,
+        "popularity": 0.865
+    },
+    {
+        "id": 745546,
+        "title": "Roborovski",
+        "release_date": "2020-10-22",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.995
+    },
+    {
+        "id": 672141,
+        "title": "Cliffhanger",
+        "release_date": "2020-10-08",
+        "vote_average": 8.5,
+        "vote_count": 2,
+        "popularity": 1.897
+    },
+    {
+        "id": 741202,
+        "title": "Mad in Xpain",
+        "release_date": "2020-10-16",
+        "vote_average": 7.0,
+        "vote_count": 3,
+        "popularity": 1.886
+    },
+    {
+        "id": 758634,
+        "title": "My Friend Who Shines in the Night",
+        "release_date": "2020-10-29",
+        "vote_average": 7.4,
+        "vote_count": 5,
+        "popularity": 1.861
+    },
+    {
+        "id": 686942,
+        "title": "True: Wuzzle Wegg Day",
+        "release_date": "2020-03-27",
+        "vote_average": 1.5,
+        "vote_count": 2,
+        "popularity": 1.837
+    },
+    {
+        "id": 1121223,
+        "title": "0010: The Sharks Make Contact - Part 2",
+        "release_date": "2020-09-17",
+        "vote_average": 5.0,
+        "vote_count": 1,
+        "popularity": 0.783
+    },
+    {
+        "id": 710016,
+        "title": "GNT",
+        "release_date": "2020-06-10",
+        "vote_average": 1.0,
+        "vote_count": 1,
+        "popularity": 0.776
+    },
+    {
+        "id": 738796,
+        "title": "Hamster Hell 2",
+        "release_date": "2020-09-01",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.77
+    },
+    {
+        "id": 789928,
+        "title": "Fly",
+        "release_date": "2020-08-01",
+        "vote_average": 0.0,
+        "vote_count": 1,
+        "popularity": 1.473
+    },
+    {
+        "id": 732759,
+        "title": "7010 S",
+        "release_date": "2020-08-12",
+        "vote_average": 5.6,
+        "vote_count": 8,
+        "popularity": 0.721
+    },
+    {
+        "id": 753515,
+        "title": "Sonic the Hedgehog - Around the World in 80 Seconds",
+        "release_date": "2020-06-01",
+        "vote_average": 2.0,
+        "vote_count": 1,
+        "popularity": 1.655
+    },
+    {
+        "id": 707403,
+        "title": "Pitch Black Panacea",
+        "release_date": "2020-05-01",
+        "vote_average": 7.0,
+        "vote_count": 5,
+        "popularity": 0.697
+    },
+    {
+        "id": 713703,
+        "title": "Wait, Wait, Don't Kill Me",
+        "release_date": "2020-08-21",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 0.712
+    },
+    {
+        "id": 761856,
+        "title": "The Office",
+        "release_date": "2020-10-26",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.685
+    },
+    {
+        "id": 979567,
+        "title": "Firehouse Frenzy",
+        "release_date": "2020-05-27",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.181
+    },
+    {
+        "id": 765803,
+        "title": "Cockpera",
+        "release_date": "2020-07-20",
+        "vote_average": 6.3,
+        "vote_count": 3,
+        "popularity": 1.583
+    },
+    {
+        "id": 726740,
+        "title": "Trick Moon",
+        "release_date": "2020-07-21",
+        "vote_average": 8.2,
+        "vote_count": 4,
+        "popularity": 0.795
+    },
+    {
+        "id": 728288,
+        "title": "Eye for an Eye",
+        "release_date": "2020-05-06",
+        "vote_average": 6.7,
+        "vote_count": 3,
+        "popularity": 0.764
+    },
+    {
+        "id": 1027643,
+        "title": "Bunny Killer Lives with Me!",
+        "release_date": "2020-09-04",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.672
+    },
+    {
+        "id": 735337,
+        "title": "The Ballad of Kyle T. MaGatt",
+        "release_date": "2020-08-24",
+        "vote_average": 8.0,
+        "vote_count": 1,
+        "popularity": 0.95
+    },
+    {
+        "id": 697639,
+        "title": "MAN 2020",
+        "release_date": "2020-04-26",
+        "vote_average": 4.525,
+        "vote_count": 20,
+        "popularity": 1.471
+    },
+    {
+        "id": 739015,
+        "title": "ORESUKI Are you the only one who loves me - Our Game Set",
+        "release_date": "2020-09-02",
+        "vote_average": 7.7,
+        "vote_count": 8,
+        "popularity": 1.455
+    },
+    {
+        "id": 880561,
+        "title": "Routine",
+        "release_date": "2020-07-04",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.157
+    },
+    {
+        "id": 773982,
+        "title": "Spookiz: The Movie",
+        "release_date": "2020-08-16",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 1.347
+    },
+    {
+        "id": 709153,
+        "title": "Cadette in Charge",
+        "release_date": "2020-02-06",
+        "vote_average": 7.0,
+        "vote_count": 2,
+        "popularity": 1.324
+    },
+    {
+        "id": 740359,
+        "title": "Tales from the Multiverse",
+        "release_date": "2020-09-10",
+        "vote_average": 5.5,
+        "vote_count": 6,
+        "popularity": 1.298
+    },
+    {
+        "id": 1205019,
+        "title": "Free Apple",
+        "release_date": "2020-09-11",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 1.263
+    },
+    {
+        "id": 790474,
+        "title": "Diddly Squat",
+        "release_date": "2020-10-27",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "popularity": 1.239
+    },
+    {
+        "id": 933929,
+        "title": "Tumbleweed",
+        "release_date": "2020-12-14",
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "popularity": 1.21
+    },
+    {
+        "id": 749938,
+        "title": "The Beakmann Incident",
+        "release_date": "2020-10-30",
+        "vote_average": 8.5,
+        "vote_count": 2,
+        "popularity": 1.207
+    },
+    {
+        "id": 953703,
+        "title": "Motu Patlu Dangerous Road Trip in Switzerland",
+        "release_date": "2020-06-24",
+        "vote_average": 9.0,
+        "vote_count": 1,
+        "popularity": 0.504
+    },
+    {
+        "id": 736486,
+        "title": "The Mince Prince",
+        "release_date": "2020-09-03",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "popularity": 0.502
+    }
+]
