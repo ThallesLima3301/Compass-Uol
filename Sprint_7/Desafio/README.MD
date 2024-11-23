@@ -1,10 +1,12 @@
-Vou lá, vou começar comentando sobre as dificuldades que enfrentei. Primeiramente, o maior desafio foi entender como integrar a API do TMDB com o AWS Lambda, especialmente configurando as variáveis de ambiente e garantindo que as dependências estivessem corretamente instaladas em uma camada (layer). Além disso, lidar com o limite de requisições da API exigiu planejar chamadas em pequenos lotes para evitar bloqueios(Oque mudado depois de conv ersar com a monitoria). Outra dificuldade foi configurar o padrão correto de armazenamento no S3, respeitando as regras de estrutura de pastas e tamanhos de arquivos JSON. Apesar disso, acredito não ter tido dificuldades a respeito gostei bastante de usar lambda porem ainda não me sinto confortavel. 
+Vamos lá, vou começar comentando sobre as dificuldades que enfrentei.
+ Primeiramente, o maior desafio foi entender como integrar a API do TMDB com o AWS Lambda, especialmente configurando as variáveis de ambiente e garantindo que as dependências estivessem corretamente instaladas em uma camada (layer). Além disso, lidar com o limite de requisições da API exigiu planejar chamadas em pequenos lotes para evitar bloqueios (Oque foi mudado depois de conversar com a monitoria).
+ Outra dificuldade foi Entender o Lambda. Apesar disso, acredito não ter tido dificuldades a respeito gostei bastante de usar lambda porem ainda não me sinto confortavel. 
 
 Vamos começar.
 
-Vou explicar minah ideia por tras do arquivos que eu estava procurando no tmdb.
+Vou explicar minha ideia por tras do arquivos que eu estava procurando no tmdb.
 
-Minha ideia por trás dos arquivos JSON que busquei no TMDB está diretamente relacionada ao meu objetivo de analisar filmes e séries do gênero Comédia/Animação entre os anos de 2000 e 2020. Nesses arquivos, procurei informações essenciais como:
+Minha ideia por trás dos arquivos JSON que busque no TMDB está diretamente relacionada ao meu objetivo de analisar filmes e séries do gênero Comédia/Animação entre os anos de 2000 e 2020. Nesses arquivos, procurei informações essenciais como:
 
 Título do filme ou série para identificar as produções relevantes.
 
