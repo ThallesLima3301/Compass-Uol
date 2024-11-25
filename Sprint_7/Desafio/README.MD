@@ -189,7 +189,9 @@ Após validar a execução, configurei o Amazon EventBridge para agendar execuç
 
 Ou seja todos os dias as 16:30 ate o final do mes eu vou gerar json meu s3
 
+(atualmente eu ja cancelei meu cron, pois n queria ficar gastando)
 
 # Tipo de analise 
 
-Mudei o meu tipo de analise, inicialmente, planejei uma análise ampla de filmes e séries de Comédia/Animação, utilizando analytics descritiva, preditiva e diagnóstica para explorar tendências e previsões de notas. No entanto, ajustei o escopo para focar no período de 2000 a 2020, otimizando a coleta de dados e aproveitando informações já disponíveis no meu arquivo CSV e complementar1 informações usando os meus Json. Mantive como foco a evolução das notas médias, a popularidade e qualidade ao longo dos anos, utilizando gráficos e métricas como MSE e MAE para complementar a análise. 
+Minha análise será focada no período de 2000 a 2020, priorizando a otimização da coleta de dados e aproveitando as informações já disponíveis no meu arquivo CSV para complementar as informações com os dados dos arquivos JSON. O objetivo principal é analisar a evolução das notas médias, além de observar a popularidade e qualidade das produções ao longo dos anos. Para enriquecer a análise, utilizarei gráficos para visualização dos dados e métricas como MSE (Mean Squared Error) e MAE (Mean Absolute Error), contribuindo com uma abordagem mais quantitativa e precisa.
+
