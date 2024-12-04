@@ -1,9 +1,4 @@
 
-Durante a Sprint 2, aprendi muita coisa, 
-
-
-Atualmente, já concluí os dois cursos (SQL e AWS) e estou gostando bastante da trilha. Estou ansioso pela próxima sprint e pelos novos aprendizados que ela trará 😊.
-
 # Certificados
 
  [ Certificados](../Sprint_7/certificados/img/txt.txt)
