@@ -107,6 +107,9 @@ Coloquei esse barra /Local para ficar mais facil pra mim, posso tirar ele a qual
 
 s3://data-lake-do-thalles-lima/Trusted/CSV.
 
+Resultado do parquet:
+
+![alt text](../evidencias/Img_Desafio/image-bonus.png)
 
 5.2. Job 2 - Processamento de Dados em JSON
 Entrada
@@ -299,3 +302,20 @@ Contar Lançamentos por Ano
 Top 10 filmes ou séries de Comédia e Animação
 
 ![alt text](../evidencias/Img_Desafio/image-35.png)
+
+Aqui eu ja to fazendo para ter um noção do que esperar ns sprint 10
+
+Total de Filmes em Comum (2000-2020)
+
+![alt text](../evidencias/Img_Desafio/image-36.png)
+
+Fazendo uma media total.
+
+![alt text](../evidencias/Img_Desafio/image-37.png)
+
+
+# Tipo de analise 
+
+O meu tipo de análise continua o mesmo.
+
+A análise proposta se concentrará nos filmes e séries de Comédia/Animação entre 2000 e 2020. O objetivo deste projeto é entender como as notas médias de produções nesse gênero mudam ao longo do tempo e encontrar exemplo de crescimento e declínio em popularidade, bem como com a qualidade percebida. A abordagem combinará análises descritivas e estatísticas: gráficos serão usados para demonstrar as alterações nas notas médias e na quantidade de produções lançadas durante um ano. Além disso, as análises serão suportadas com métricas como Mean Squared Error e Mean Absolute Error. Para complementar esta análise, será útil fazer algumas previsões simples sobre as notas de anos subsequentes ou realizar diagnósticos que apontarão os erros associados ou outlier. A combinação de dados históricos disponíveis no CSV e suplementares, incluídos na flha JSON, fornecerá a oportunidade de avaliar detalhadamente as atividades do gênero nos anos dado período.

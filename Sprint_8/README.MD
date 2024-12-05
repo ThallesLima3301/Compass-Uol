@@ -9,9 +9,9 @@ Durante a Sprint 8, aprendi muito e aproveitei bastante a experiência. Gostei b
 
 1. [Resposta massa_dados](../Sprint_8/exercicios/massa_dados.py)
 
-2. [Resposta Caso de Estudo Loja](../Sprint_8/exercicios/apache_spark.py)
+2. [Resposta apache_spark](../Sprint_8/exercicios/apache_spark.py)
 
-3. [exportacao_Biblioteca Ex3](../Sprint_8/exercicios/TMDB/tmdb/tmdb.py)
+3. [Resposta TMDB](../Sprint_8/exercicios/TMDB/tmdb/tmdb.py)
 
 
 
@@ -22,7 +22,7 @@ Durante a Sprint 8, aprendi muito e aproveitei bastante a experiência. Gostei b
 
 # Evidências
 
-Minha lógica ja esta documentada nos aquivos, vou usar imagens colocando que funcionou dentro da plataforma. A ideia é mostrar de forma clara e direta os resultados?
+Minha lógica ja esta documentada nos aquivos, vou usar imagens colocando que funcionou dentro da plataforma. A ideia é mostrar de forma clara e direta os resultado!?
 
 <h1> Massa_dados </h1>
 
@@ -167,26 +167,9 @@ Executei a contagem via SQL:
 ![alt text](../Sprint_8/evidencias/Apache_Spark/image-7.png)
 
 
-
 Executei uma consulta SQL para categorizar as gerações:
 
 ![alt text](../Sprint_8/evidencias/Apache_Spark/image-8.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <h1> TMDB</h1>
@@ -239,7 +222,7 @@ Exibição dos Dados: Por fim, utilizei o Pandas para organizar os dados em um D
 Resultado
 Ao executar o código, consegui obter os filmes mais bem avaliados, com suas respectivas informações de título, data de lançamento, visão geral, votos e média de votos, todos organizados de maneira clara e fácil de visualizar.
 
-![evidencias](evidencias/ex_2_TMDB/Resultado.png)
+![evidencias](../Sprint_7/evidencias/ex_2_TMDB/Resultado.png)
 
 Verificando o Código de Status e Tratamento de Erros
 
@@ -254,3 +237,7 @@ Codigo completo
 # Feedback
 
 
+Para mim, a Sprint 8 foi a mais dificil até agora, e eu a avaliaria com uma nota 7,5. Trabalhar com o AWS Glue foi um pouco complicado em alguns aspectos, mas estou começando a pegar o jeito. Particularmente, não gostei muito da forma como o script job é utilizado, pois, na minha opinião, seria possível alcançar os mesmos resultados utilizando o **visual job**, o que considero mais prático com base no videos que eu vi. Apesar de interessante, essa abordagem não me agradou tanto.
+
+
+Por outro lado, o desafio em si foi bastante simples. O que realmente se destacou para mim foram os exercícios, novamente. A sequência de exercícios tem sido muito boa, e sinto que aprendo mais com eles do que com as videoaulas. Gostei bastante dessa dinâmica de aprendizado!
