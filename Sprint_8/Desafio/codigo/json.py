@@ -12,16 +12,16 @@ spark = glueContext.spark_session
 
 # Lendo os parâmetros passados via Job Parameters
 args = sys.argv
-input_path = args[args.index("--INPUT_PATH") + 1]
+input_path = args[args.index("--INPUT_PATH") + 1] # testei esse + 1 pra ver a diferença
 output_base_path = args[args.index("--OUTPUT_BASE_PATH") + 1]
 
-# Obter a data atual para construir o caminho dinâmico
+# obter a data atual para construir o caminho dinâmico
 current_date = datetime.now()
 year_value = current_date.year
-month_value = f"{current_date.month:02d}"  # Formato 2 dígitos
+month_value = f"{current_date.month:02d}"  # Formato 2 dígitos exemplo 09/12/2024
 day_value = f"{current_date.day:02d}"
 
-# Construção do caminho de saída
+# caminho de saída
 output_path = f"{output_base_path}{year_value}/{month_value}/{day_value}/"
 
 # Leitura dos dados JSON da Raw Zone
@@ -35,7 +35,7 @@ dyf_raw = glueContext.create_dynamic_frame.from_options(
 df = dyf_raw.toDF()
 
 # Limpeza de dados
-# Remover duplicatas com base em colunas-chave
+# remover duplicatas com base em colunas-chave
 df_cleaned = df.dropDuplicates(["id", "title"])
 
 # Remover valores nulos

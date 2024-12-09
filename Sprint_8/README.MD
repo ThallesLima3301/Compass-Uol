@@ -22,7 +22,7 @@ Durante a Sprint 8, aprendi muito e aproveitei bastante a experiência. Gostei b
 
 # Evidências
 
-Minha lógica ja esta documentada nos aquivos, vou usar imagens colocando que funcionou dentro da plataforma. A ideia é mostrar de forma clara e direta os resultado!?
+Minha lógica ja esta documentada nos aquivos, vou usar imagens colocando que funcionou dentro da plataforma. A ideia é mostrar de forma clara e direta os resultado!
 
 <h1> Massa_dados </h1>
 

@@ -9,10 +9,10 @@ Original file is located at
 
 import random
 
-# Gerando uma lista com 250 números inteiros aleatórios entre 1 e 1000
+#  lista com 250 números inteiros aleatórios entre 1 e 1000
 numeros_aleatorios = [random.randint(1, 1000) for _ in range(250)]
 
-# Revertendo a ordem da lista
+# revertendo a ordem da lista
 numeros_aleatorios.reverse()
 
 # Imprimindo o resultado
@@ -26,7 +26,7 @@ animais = ["cachorro", "gato", "leão", "tigre", "urso", "elefante", "cavalo", "
 # Ordenando a lista em ordem crescente
 animais.sort()
 
-# Iterando sobre os itens para imprimir um por linha
+
 print("Lista ordenada:")
 for animal in animais:
     print(animal)
@@ -43,10 +43,9 @@ print("\nLista salva no arquivo 'animais.csv'.")
 import random
 import names
 
-# Configurando a semente para números aleatórios
 random.seed(40)
 
-# Quantidades definidas
+# definir contidades
 qtd_nomes_unicos = 3000
 qtd_nomes_aleatorios = 10000000
 

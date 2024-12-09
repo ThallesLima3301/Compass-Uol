@@ -10,14 +10,14 @@ from pyspark.sql.functions import when, col, lower, trim
 # Definir os argumentos do Glue Job
 args = getResolvedOptions(sys.argv, ['JOB_NAME', 'INPUT_PATH', 'OUTPUT_PATH'])
 
-# Inicializar o contexto do Spark e do Glue
+# Inicializar Glue
 sc = SparkContext()
 glueContext = GlueContext(sc)
 spark = glueContext.spark_session
 job = Job(glueContext)
 job.init(args['JOB_NAME'], args)
 
-# Definir os caminhos de entrada e saída
+# caminhos de entrada e saída
 source_file = args['INPUT_PATH']
 output_path = args['OUTPUT_PATH']
 
@@ -32,7 +32,7 @@ df = glueContext.create_dynamic_frame.from_options(
     }
 )
 
-# Converter o DynamicFrame para DataFrame para transformações
+#  DynamicFrame para DataFrame para transformações
 raw_data = df.toDF()
 
 # Substituir valores "\\N" por null
@@ -46,10 +46,10 @@ for col_name in df_normalized.columns:
     if dict(df_normalized.dtypes)[col_name] == "string":
         df_normalized = df_normalized.withColumn(col_name, trim(lower(col(col_name))))
 
-# Remover duplicatas
+# remover duplicatas
 df_cleaned = df_normalized.dropDuplicates()
 
-# Remover linhas com valores nulos
+# remover linhas com valores nulos
 df_cleaned = df_cleaned.na.drop()
 
 # Converter de volta para DynamicFrame
