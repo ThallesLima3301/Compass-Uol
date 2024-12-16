@@ -31,10 +31,10 @@
 
 7. [Sprint 7](Sprint_6/README.md)
 
-<!--8. [Sprint 8](Sprint_6/README.md) -->
+8. [Sprint 8](Sprint_6/README.md) 
 
-<!--9. [Sprint 9](Sprint_6/README.md) -->
+9. [Sprint 9](Sprint_6/README.md) 
 
-<!--10. [Sprint 10](Sprint_6/README.md) -->
+10. [Sprint 10](Sprint_6/README.md) 
 
 <!-- -->
