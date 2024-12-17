@@ -259,44 +259,67 @@ A Tabela Fato foi particionada por ano e salva no formato Parquet.
 Os dados Trusted foram processados e estruturados na camada Refined, prontos para análise.
 
 
+Agora eu vou criar um Crawler.
+
+![alt text](../evidencias/Img_Desafio/image-13.png)
+
+rodei ele, e fui ver minhas tabelas.
+
+![alt text](../evidencias/Img_Desafio/image-14.png)
+
+
+Beleza tudo certo agora vamos no athena fazer alguns teste para ver se esta tudo certo.
+
+
+Verificando duplicadas 
+
+![alt text](../evidencias/Img_Desafio/image-15.png)
+
+![alt text](../evidencias/Img_Desafio/image-16.png)
+
+![alt text](../evidencias/Img_Desafio/image-17.png)
+
+![alt text](../evidencias/Img_Desafio/image-18.png)
+
+![alt text](../evidencias/Img_Desafio/image-19.png)
 
 
 
 
 
+verificando nulos 
+
+![alt text](../evidencias/Img_Desafio/image-20.png)
+
+![alt text](../evidencias/Img_Desafio/image-21.png)
+
+![alt text](../evidencias/Img_Desafio/image-22.png)
+
+![alt text](../evidencias/Img_Desafio/image-23.png)
+
+![alt text](../evidencias/Img_Desafio/image-24.png)
+
+![alt text](../evidencias/Img_Desafio/image-25.png)
+
+vendo total de filme da minha fato_comedia_animacao
+
+![alt text](../evidencias/Img_Desafio/image-26.png)
+
+agora vendo minha dim_filme
+
+![alt text](../evidencias/Img_Desafio/image-27.png)
 
 
+**Nota: minha fato esta somente com os filmes em comum do json, ja minha dim_filme esta com todos os filmes**
+
+Ja aqui estou vendo se todos os meu generos possui comedia ou animação
+
+![alt text](../evidencias/Img_Desafio/image-28.png)
 
 
+Beleza parece que ta tudo certo.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Vou explicar minha analise
 
 Análise: Filmes de Comédia/Animação (2000-2020)
 
@@ -339,6 +362,16 @@ Ferramentas: Python, Pandas, gráficos para visualização e métricas quantitat
 Objetivo Final:
 Entender a evolução e tendências no gênero Comédia/Animação, gerando insights que auxiliem na identificação de fatores que influenciam popularidade e qualidade, com suporte em análises quantitativas, preditivas e diagnósticas.
 
+
+Visualizações Finais
+
+Análises em gráficos claros e objetivos:
+
+Gráfico de Linha: Evolução da média de notas ao longo dos anos.
+Gráfico de Linha: Evolução da popularidade média.
+Histograma: Distribuição das notas médias.
+Scatter Plot: Relação entre popularidade e nota média.
+Gráfico de Barras: Top 10 filmes mais bem avaliados.
 
 
 

@@ -17,12 +17,12 @@ No geral, considero que foi uma ótima sprint!
 
 # Desafios
 
-[Desafio 2](../Sprint_9/Desafio/README.MD)
+[Desafio 9](../Sprint_9/Desafio/README.MD)
 
 
 # Evidências
 
-Minha lógica ja esta documentada nos aquivos, vou usar imagens colocando que funcionou dentro da plataforma. A ideia é mostrar de forma clara e direta os resultados
+Minha lógica ja esta documentada nos aquivos, vou usar imagens colocando que funcionou dentro da plataforma. A ideia é mostrar de forma clara e direta os resultados.
 
 
 
