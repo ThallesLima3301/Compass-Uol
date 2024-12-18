@@ -36,3 +36,7 @@ Tive que revisar e testar várias vezes a lógica de join entre os arquivos CSV 
 Outro ponto complicado foi lidar com os possiveis dados duplicados e ambíguos. Precisei usar a função coalesce para unificar valores de diferentes fontes e definir quais dados teriam prioridade, o que exigiu um cuidado extra para não perder informações importantes. A deduplicação com base em colunas específicas, como titulo_principal e release_date, também foi uma etapa crítica para garantir a qualidade do resultado.
 
 Por fim, os regex utilizados para filtrar gêneros "comedy" e "animation" também me deram trabalho, pois precisei testar várias abordagens até encontrar a expressão correta que funcionasse de forma case-insensitive.
+
+
+MSE and MAE 
+fora bem tranquilos pra mim eu ja tinha feito tudo no pandas desda sprint 6 eu so fui mudando com base oq eu foi necesario, eu cheguei no resultado que eu esperava, agora tenho que aprender a gerar no grafico no quicksight e ver se o resultado sai igual o meu feio no pandas.

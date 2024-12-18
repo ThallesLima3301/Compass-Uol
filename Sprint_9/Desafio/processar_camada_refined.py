@@ -6,6 +6,8 @@ from awsglue.job import Job
 from pyspark.context import SparkContext
 from pyspark.sql import functions as F
 from pyspark.sql.functions import lit, to_date, coalesce
+from pyspark.sql import SparkSession
+
 
 # Lendo os parâmetros passados via Job Parameters
 args = getResolvedOptions(
@@ -19,6 +21,8 @@ output_base_path = args['OUTPUT_BASE_PATH']
 # Inicializar o Glue Context
 sc = SparkContext()
 glueContext = GlueContext(sc)
+
+spark = glueContext.spark_session
 
 # Inicializar o Job
 job = Job(glueContext)
@@ -62,6 +66,8 @@ common_movies = common_movies.withColumn(
     "vote_count",
     coalesce(F.col("csv_vote_count"), F.col("json_vote_count"))  # Prioriza valores do CSV se existirem
 )
+
+
 
 # Aplicar deduplicação para garantir que registros repetidos sejam removidos
 common_movies = common_movies.dropDuplicates(["titulo_principal", "release_date"])  # Remove duplicatas com base nesses campos
@@ -118,15 +124,49 @@ fato_comedia_animacao = common_movies.withColumn("release_date", to_date(F.col("
     .filter(
         F.col("genero").rlike("(?i)(comedy|animation)")  # Regex para filtrar gêneros
     )
+    
+    # Remover registros com valores nulos ou vazios
+fato_comedia_animacao = fato_comedia_animacao.filter(
+    (F.col("titulo_principal").isNotNull()) & 
+    (F.trim(F.col("titulo_principal")) != "") &
+    (F.col("release_date").isNotNull())
+)
 
-# Criar a pasta principal 'fato_comedia_animacao' e particionar por ano
+# Simulação de previsões (adicionando variação aleatória de 10%)
+fato_comedia_animacao = fato_comedia_animacao.withColumn(
+    "vote_predicted",
+    F.col("vote_average") * (1 + F.rand() * 0.2 - 0.1)  # 10% de variação para mais ou menos
+)
+
+# Calcular MSE e MAE diretamente no PySpark
+mse = fato_comedia_animacao.select(
+    F.mean((F.col("vote_average") - F.col("vote_predicted")) ** 2).alias("MSE")
+).first()["MSE"]
+
+mae = fato_comedia_animacao.select(
+    F.mean(F.abs(F.col("vote_average") - F.col("vote_predicted"))).alias("MAE")
+).first()["MAE"]
+
+# Adicionar MSE e MAE como colunas constantes no fato
+fato_comedia_animacao = fato_comedia_animacao.withColumn("mse", lit(mse)) \
+                                             .withColumn("mae", lit(mae))
+
 anos_distintos = fato_comedia_animacao.select("ano").distinct().collect()
 
 for ano in anos_distintos:
     ano_valor = ano["ano"]
     fato_comedia_animacao.filter(F.col("ano") == ano_valor) \
-        .write.mode("overwrite") \
-        .parquet(f"{output_base_path}/fato_comedia_animacao/{ano_valor}")
+    .write.mode("overwrite") \
+    .parquet(f"{output_base_path}/fato_comedia_animacao/{ano_valor}")
 
-# Finalizar o job
+
+# Criar DataFrames com os valores MSE e MAE e salvar separadamente
+mse_df = glueContext.spark_session.createDataFrame([("MSE", mse)], ["Metric", "Value"])
+mae_df = glueContext.spark_session.createDataFrame([("MAE", mae)], ["Metric", "Value"])
+
+# Salvar os arquivos MSE e MAE em pastas separadas
+mse_df.write.mode("overwrite").parquet(f"{output_base_path}/fato_comedia_animacao/mse")
+mae_df.write.mode("overwrite").parquet(f"{output_base_path}/fato_comedia_animacao/mae")
+
+
 job.commit()

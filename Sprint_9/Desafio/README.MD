@@ -106,7 +106,6 @@ anonascimento: Ano de nascimento.
 anofalecimento: Ano de falecimento (se aplicável).
 
 # Estrutura Final
-
 <body>
     <table>
         <caption>3. Estrutura Final</caption>
@@ -120,32 +119,33 @@ anofalecimento: Ano de falecimento (se aplicável).
         <tbody>
             <tr>
                 <td>Dim_Filme</td>
-                <td>id, titulopincipal, titulooriginal, anolancamento, tempominutos, genero</td>
-                <td>Informações principais dos filmes.</td>
+                <td>id, titulo_principal, titulo_original, ano_lancamento, ano, popularity</td>
+                <td>Informações principais dos filmes ou séries.</td>
             </tr>
             <tr>
                 <td>Dim_Artista</td>
-                <td>nomeartista, generoartista, anonascimento, anofalecimento, profissao</td>
+                <td>id, nomeartista, genero_artista, anonascimento, anofalecimento, profissao</td>
                 <td>Informações principais sobre os artistas.</td>
             </tr>
             <tr>
                 <td>Dim_Tempo</td>
-                <td>anolancamento, mês, dia, partition_0</td>
+                <td>id, release_date, ano, mes</td>
                 <td>Informações de tempo relacionadas ao lançamento.</td>
             </tr>
             <tr>
-                <td>Fato_Avaliacoes</td>
-                <td>id, notamedia, numerovotos, popularity</td>
-                <td>Dados analíticos sobre avaliações e popularidade.</td>
+                <td>Dim_Genero</td>
+                <td>id, genero</td>
+                <td>Informações sobre os gêneros dos filmes ou séries.</td>
             </tr>
             <tr>
-                <td>Fato_Elenco</td>
-                <td>id, nomeartista, personagem</td>
-                <td>Dados relacionando artistas aos filmes e personagens.</td>
+                <td>Fato_Comedia_Animacao</td>
+                <td>id, tempo_id, genero_id, filme_id, artista_id, vote_average, vote_count, popularity, mse, mae</td>
+                <td>Dados analíticos sobre avaliações, popularidade e métricas de erro.</td>
             </tr>
         </tbody>
     </table>
 </body>
+
 
 # Relacionamentos Entre Tabelas
 
@@ -246,12 +246,61 @@ Seleciono informações dos artistas.
 
 Filtra apenas filmes de Comédia/Animação entre 2000 e 2020 e particiona por ano.
 
+
 ![alt text](../evidencias/Img_Desafio/image-11.png)
 
 
 ![alt text](../evidencias/Img_Desafio/image-12.png)
 
+MSE AND MAE
 
+Leitura e Preparação dos Dados
+
+Primeiro, eu li os dados de arquivos CSV e JSON do S3 e os converti para DataFrames do Spark.
+
+Eu renomeei algumas colunas nos dois DataFrames para evitar ambiguidade durante a união.
+
+Filtragem e União dos Dados
+
+Em seguida, eu fiz uma junção interna entre os DataFrames CSV e JSON.
+
+A junção foi feita com base no título, tratando espaços e letras maiúsculas/minúsculas.
+
+Eu também apliquei uma deduplicação para garantir que não houvesse registros duplicados.
+
+Criação da Coluna vote_predicted
+
+Para simular as previsões, eu criei a coluna vote_predicted.
+
+A previsão foi feita adicionando uma variação aleatória de até 10% ao valor de vote_average.
+
+Cálculo do MSE (Mean Squared Error)
+
+Eu calculei o erro quadrático médio
+
+ara isso, utilizei o PySpark para calcular a média dos quadrados das diferenças entre vote_average e vote_predicted.
+
+`mse = fato_comedia_animacao.select(`
+   `F.mean((F.col("vote_average") - F.col("vote_predicted")) 2).alias("MSE")`
+`).first()["MSE"]`
+
+
+![alt text](../evidencias/Img_Desafio/image-29.png)
+
+Cálculo do MAE (Mean Absolute Error)
+
+O erro absoluto médio 
+
+
+Assim como no cálculo do MSE, utilizei o PySpark para calcular a média dos valores absolutos das diferenças.
+
+Adição das Colunas mse e mae na Tabela Fato
+
+Adicionei as métricas MSE e MAE como colunas constantes na tabela fato fato_comedia_animacao.
+
+criei dois pequenos DataFrames contendo os valores calculados de MSE e MAE.
+
+Eles foram salvos em pastas separadas.
 
 <h2>Resultado Final </h2>
 Dim_Tempo, Dim_Genero, Dim_Filme, e Dim_Artista foram criadas e armazenadas em formato Parquet.
@@ -285,8 +334,6 @@ Verificando duplicadas
 
 
 
-
-
 verificando nulos 
 
 ![alt text](../evidencias/Img_Desafio/image-20.png)
@@ -316,7 +363,6 @@ Ja aqui estou vendo se todos os meu generos possui comedia ou animação
 
 ![alt text](../evidencias/Img_Desafio/image-28.png)
 
-
 Beleza parece que ta tudo certo.
 
 Vou explicar minha analise
@@ -324,7 +370,7 @@ Vou explicar minha analise
 Análise: Filmes de Comédia/Animação (2000-2020)
 
 Objetivo:
-Explorar a evolução e tendências de filmes do gênero Comédia/Animação entre os anos 2000 e 2020. A análise busca entender as avaliações médias, popularidade e qualidade das produções ao longo do tempo, destacando fatores que influenciam a aceitação do público e oferecendo insights preditivos e diagnósticos.
+Explorar a evolução de filmes do gênero Comédia/Animação entre os anos 2000 e 2020. A análise busca entender as avaliações médias, popularidade e qualidade das produções ao longo do tempo, destacando fatores que influenciam a aceitação do público e oferecendo insights preditivos e diagnósticos.
 
 Etapas Principais da Análise:
 
@@ -353,12 +399,6 @@ Análise: Estudar a quantidade de lançamentos e as avaliações médias ao long
 Visualização: Gráficos de linha mostrando tanto o número de lançamentos quanto a evolução das notas.
 Pergunta: Como a produção e popularidade de Comédia/Animação mudaram de 2000 a 2020?
 
-Dados e Metodologia:
-
-Fonte: Combinação de informações coletadas via API TMDB e dados CSV já disponíveis.
-Enriquecimento: Os dados CSV serão complementados com JSONs da API TMDB para obter maior profundidade nas análises.
-Ferramentas: Python, Pandas, gráficos para visualização e métricas quantitativas (MSE e MAE).
-
 Objetivo Final:
 Entender a evolução e tendências no gênero Comédia/Animação, gerando insights que auxiliem na identificação de fatores que influenciam popularidade e qualidade, com suporte em análises quantitativas, preditivas e diagnósticas.
 
@@ -368,9 +408,13 @@ Visualizações Finais
 Análises em gráficos claros e objetivos:
 
 Gráfico de Linha: Evolução da média de notas ao longo dos anos.
+
 Gráfico de Linha: Evolução da popularidade média.
-Histograma: Distribuição das notas médias.
+
+Histograma/Scatter Plot: Distribuição das notas médias.
+
 Scatter Plot: Relação entre popularidade e nota média.
+
 Gráfico de Barras: Top 10 filmes mais bem avaliados.
 
 
