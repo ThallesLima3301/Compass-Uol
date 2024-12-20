@@ -370,14 +370,15 @@ Vou explicar minha analise
 Análise: Filmes de Comédia/Animação (2000-2020)
 
 Objetivo:
-Explorar a evolução de filmes do gênero Comédia/Animação entre os anos 2000 e 2020. A análise busca entender as avaliações médias, popularidade e qualidade das produções ao longo do tempo, destacando fatores que influenciam a aceitação do público e oferecendo insights preditivos e diagnósticos.
+Explorar a evolução de filmes do gênero Comédia/Animação entre os anos 2000 e 2020. A análise busca entender as avaliações médias, popularidade e qualidade das produções ao longo do tempo, oferecendo insights preditivos e diagnósticos.
 
 Etapas Principais da Análise:
 
 Média de Notas por Ano
 
 Análise: Calcular e observar a média das avaliações de filmes ao longo dos anos para identificar tendências.
-Visualização: Gráfico de linha destacando mudanças na qualidade percebida.
+Visualização: Gráfico de linha destacando mudanças na qualidade.
+
 Pergunta: Como as avaliações de Comédia/Animação evoluíram entre 2000 e 2020?
 
 Análise Preditiva
@@ -391,6 +392,7 @@ Análise Diagnóstica
 
 Análise: Identificar erros e outliers que impactam a precisão do modelo preditivo.
 Visualização: Gráfico de distribuição dos erros residuais, diagnosticando pontos de falha.
+
 Objetivo: Diagnosticar problemas e otimizar previsões.
 
 Evolução Temporal de Popularidade e Qualidade
