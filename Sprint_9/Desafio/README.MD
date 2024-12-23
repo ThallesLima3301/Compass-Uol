@@ -302,6 +302,14 @@ criei dois pequenos DataFrames contendo os valores calculados de MSE e MAE.
 
 Eles foram salvos em pastas separadas.
 
+# Meu s3
+
+
+![alt text](../evidencias/Img_Desafio/image_s3.png)
+
+![alt text](image-1_s3.png)
+
+
 <h2>Resultado Final </h2>
 Dim_Tempo, Dim_Genero, Dim_Filme, e Dim_Artista foram criadas e armazenadas em formato Parquet.
 A Tabela Fato foi particionada por ano e salva no formato Parquet.
