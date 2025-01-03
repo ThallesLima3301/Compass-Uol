@@ -12,7 +12,7 @@ Minha ideia desde o começo sempre foi fazer um rank de 10 melhores filmes e os 
 
 entao desde o começo eu sabia que teria esse rank, claro eu fiz, outra coisa que eu queria fazer desde do começo era alguma coisando usando ML, como eu não tenho muita noção (basicamente zero) eu pensei em algo usando Regressão linear pois eu ja fiz isso na faculdade a muito tempo atras
 
-![alt text](image.png)
+![alt text](../evidencias/Img_Desafio/image.png)
 
 eu sabia que iria precisar de um MAE = mean_absolute_error, MSE = mean_squared_error e talvez um MRSE = mean_squared_error, desde o começo eu queria fazer algo, porem notei que conversando tanto com Marli quanto os monitores eu nao teria muito auxílio pois quase ninguém usava.
 
@@ -49,7 +49,7 @@ Por fim, examinei os Top Gêneros Combinados. A tabela que destaca os gêneros m
 
 Agora vou mostrar os graficos um por 1 e explciar eles:
 
-![alt text](image-1.png)
+![alt text](../evidencias/Img_Desafio/image-1.png)
 
 Este gráfico de barras mostra a contagem de registros por ano entre 2000 e 2020, destacando a quantidade de filmes e de comédia e animação lançados a cada ano.
 
@@ -63,7 +63,7 @@ Conexão com outras análises: Esse gráfico me ajuda a correlacionar o volume d
 
 
 
-![alt text](image-2.png)
+![alt text](../evidencias/Img_Desafio/image-2.png)
 
 O gráfico de linha mostra três tendências:
 
@@ -77,20 +77,20 @@ Esses indicadores abaixo complementam o gráfico:
 
 Maior nota: Foi 8.6 em 2013, com um aumento de 3.61% em relação a 2010.
 
-![alt text](image-3.png)
+![alt text](../evidencias/Img_Desafio/image-3.png)
 
 Menor nota: Foi 1.8 em 2012, uma queda de 10% em relação a 2004.
 
-![alt text](image-4.png)
+![alt text](../evidencias/Img_Desafio/image-4.png)
 
 Melhor ano: Foi 2010, com uma média de 6.8.
 
-![alt text](image-5.png)
+![alt text](../evidencias/Img_Desafio/image-5.png)
 
 
 Pior ano: Foi 2004, com uma média de 5.08.
 
-![alt text](image-6.png)
+![alt text](../evidencias/Img_Desafio/image-6.png)
 
 Vantagens:
 
@@ -104,10 +104,10 @@ Contexto para outras análises: Esses dados são importantes para conectar quali
 
 Com esse painel, eu consigo responder questões como qual foi o melhor e o pior ano, além de entender a evolução das avaliações dentro do meu tema.
 
-![alt text](image-7.png)
+![alt text](../evidencias/Img_Desafio/image-7.png)
 
 
-![alt text](image-8.png)
+![alt text](../evidencias/Img_Desafio/image-8.png)
 Esse gráfico e indicadores apresentam a média e a máxima de popularidade por ano no período de 2000 a 2020, destacando os anos com maior e menor popularidade no tema comédia e animação.
 
 No gráfico de linha:
@@ -129,7 +129,7 @@ Contextualização temporal: É possível relacionar os dados de popularidade co
 
 Insights adicionais: Esses dados são úteis para responder perguntas como quais anos foram mais significativos em termos de impacto popular no gênero.
 
-![alt text](image-9.png)
+![alt text](../evidencias/Img_Desafio/image-9.png)
 
 Esse gráfico mostra os anos com as máximas de popularidade, destacando os filmes que tiveram maior impacto em cada período, independentemente da média geral do ano. Assim, mesmo em anos com médias baixas, podemos identificar obras excepcionais que alcançaram altos níveis de popularidade.
 
@@ -143,9 +143,9 @@ Identificação de anos excepcionais: Por exemplo, 2002 e 2010 aparecem como ano
 
 Clareza visual: A disposição em blocos torna fácil visualizar os valores e identificar os anos com maior impacto.
 
-![alt text](image-10.png)
+![alt text](../evidencias/Img_Desafio/image-10.png)
 
-![alt text](image-11.png)
+![alt text](../evidencias/Img_Desafio/image-11.png)
 
 Esses gráficos mostram o Top 10 dos piores e melhores filmes com base nas menores e maiores notas, respectivamente. Eles ajudam a identificar os extremos de qualidade dentro do meu tema de comédia e animação.
 
@@ -169,7 +169,7 @@ Clareza visual: As barras tornam fácil identificar as notas e os títulos, mesm
 Insights para tendências: Esses extremos ajudam a perceber o que contribui para o sucesso ou fracasso em comédia e animação.
 
 
-![alt text](image-12.png)
+![alt text](../evidencias/Img_Desafio/image-12.png)
 
 
 Este gráfico de dispersão mostra a relação entre os valores reais e as previsões geradas pelo modelo, avaliando a precisão das previsões feitas para as notas dos filmes.
@@ -182,11 +182,11 @@ O eixo Y (vertical) representa as notas previstas pelo modelo.
 
 Uma boa correspondência entre os valores reais e as previsões é indicada por pontos próximos à linha imaginária de 45° (onde os valores reais são iguais às previsões).
 
-![alt text](image-13.png)
+![alt text](../evidencias/Img_Desafio/image-13.png)
 
 O gráfico mostra que a maioria dos pontos está concentrada perto dessa linha, indicando que o modelo fez previsões consistentes na maior parte dos casos, com algumas exceções (outliers).
 
-![alt text](image-14.png)
+![alt text](../evidencias/Img_Desafio/image-14.png)
 
 Porem esta correto, isso ocorreu porque tivemos 3 filmes com notas muito baixas fazendo com q ele se isolasse
 
@@ -205,7 +205,7 @@ Com este gráfico, consigo avaliar a performance do modelo e identificar possív
 
 Agora para criar esse grafico 
 
-![alt text](image-15.png)
+![alt text](../evidencias/Img_Desafio/image-15.png)
 
 Para criar o gráfico AE por Gênero, precisei configurar variáveis e uma fórmula personalizada para calcular a diferença absoluta entre a média das previsões e a média das notas reais. Isso me ajudou a analisar a precisão das previsões por gênero.
 
@@ -238,7 +238,7 @@ Contexto para validação: O gráfico complementa as análises gerais, fornecend
 Esse AE nada mais é do que uma forma de ver como o meu modelo de previsão está funcionando na prática. Ele mede a diferença entre as notas previstas pelo meu modelo e as notas reais de cada gênero. Quando o AE é menor, significa que as previsões estão mais próximas dos valores reais, ou seja, o modelo está mais preciso naquele gênero.
 
 
-![alt text](image-16.png)
+![alt text](../evidencias/Img_Desafio/image-16.png)
 
 Este gráfico mostra a média de notas por gênero, destacando os 10 principais gêneros analisados no meu projeto. Ele é essencial para entender quais gêneros têm o melhor desempenho geral em termos de avaliação.
 
@@ -255,6 +255,80 @@ Complemento para outras análises: Esse gráfico, combinado com o AE, mostra nã
 Com este gráfico, consigo ter uma visão geral de como cada gênero se sai em termos de avaliação média, ajudando a conectar essas informações com outros dados do meu projeto. É uma boa forma de complementar as análises de popularidade e previsões.
 
 
+# Resposta com base na minha análise.
+
+<h2>Checklist </h2>
+
+# Sobre Avaliações
+Qual foi o melhor ano em termos de notas médias para os gêneros de Comédia/Animação?
+
+O melhor ano foi 2010, com uma média de nota de 6.8.
+Qual foi o pior ano em termos de notas médias?
+
+O pior ano foi 2004, com uma média de nota de 5.08.
+Quais foram os filmes com as maiores notas entre 2000 e 2020?
+
+Filmes como "Life is Beautiful" e "Toy Story 3" alcançaram notas máximas de 8.6.
+Quais foram os filmes com as menores notas nesse período?
+
+Filmes como "The Adventures of Panda Warrior" tiveram notas baixíssimas, como 1.8.
+Qual é a evolução das notas máximas, mínimas e médias ao longo dos anos?
+
+As notas máximas tiveram picos em 2010 e 2013 (8.6).
+As mínimas oscilaram, com o ponto mais baixo em 2004 (2) e em 2012 (1.8).
+As médias gerais mostraram um crescimento entre 2005 e 2010, com uma leve oscilação após 2015.
+
+# Sobre Popularidade
+
+Quais anos registraram os picos de popularidade para os filmes analisados?
+
+Os picos de popularidade ocorreram em 2002 (81.13) e 2010 (79.21).
+Como a popularidade máxima por ano se compara com a popularidade média?
+
+A popularidade máxima foi significativamente superior à média em quase todos os anos. Por exemplo, em 2005, a popularidade máxima foi 28.78, enquanto a média ficou em 6.26.
+Qual foi o ano com a menor popularidade média?
+
+O ano de 2014 teve a menor popularidade média registrada (0.91).
+Quais gêneros específicos apresentaram maior popularidade?
+
+Gêneros híbridos como "comedy, family, musical" e "animation, drama" tiveram alta popularidade, com destaque para combinações que incluem family e musical.
+
+# Sobre Gêneros e Combinações
+
+Quais combinações de gêneros obtiveram as melhores avaliações médias?
+
+Gêneros como "comedy, drama, romance" e "animation, family, fantasy" lideraram com médias acima de 7.4.
+Quais gêneros ou subgêneros tiveram menor aceitação?
+
+Combinações como "comedy, fantasy, horror" apresentaram menores médias, em torno de 6.6.
+Como gêneros híbridos (ex.: comédia/drama ou animação/família) se destacaram em relação aos tradicionais?
+
+Gêneros híbridos tiveram melhor desempenho, indicando que combinações de elementos emocionais e familiares agregam valor às histórias.
+Sobre Previsões e Diagnósticos
+Qual é a relação entre as previsões feitas pelo modelo e os valores reais observados?
+
+O gráfico de dispersão mostra uma boa correlação entre previsões e valores reais, com alinhamento consistente na maioria dos pontos.
+Existem outliers ou discrepâncias significativas nos dados previstos versus observados?
+
+Sim, há alguns outliers, principalmente em anos de baixa popularidade ou filmes com avaliações extremas.
+Como os modelos preditivos se comportam em termos de precisão?
+
+Os modelos têm desempenho razoável, mas as métricas de erro poderiam ser refinadas, já que erros significativos aparecem em dados extremos.
+
+# Tendências Gerais
+
+Como as notas de filmes de Comédia/Animação evoluíram entre 2000 e 2020?
+
+As notas médias começaram a crescer após 2005, atingiram um pico em 2010 e estabilizaram com oscilações leves até 2020.
+Quais foram os principais anos de destaque e declínio para o gênero?
+
+Destaque: 2010 com a maior média de notas.
+Declínio: 2004, com a pior média de notas.
+Qual foi a relação entre a popularidade e a qualidade percebida ao longo do tempo?
+
+A relação nem sempre foi linear. Anos de alta popularidade (como 2005 e 2010) coincidiram com médias de notas altas, mas anos como 2002 e 2004 mostraram alta popularidade com qualidade percebida menor.
+
+
 # Conclusão
 
 Com as análises realizadas, foi possível ter uma visão ampla sobre o desempenho de filmes de comédia e animação no período de 2000 a 2020. Identifiquei quais anos foram os melhores e os piores, os filmes mais bem avaliados e os menos populares, e quais gêneros se destacaram tanto em termos de notas médias quanto de popularidade.
@@ -264,3 +338,11 @@ Além disso, usei meu modelo de previsão para avaliar a precisão das notas pre
 No geral, os gêneros comedy, family, musical e action, animation, comedy tiveram um ótimo desempenho, enquanto categorias menos específicas, como Other, mostraram um desempenho mais fraco. A análise de popularidade também revelou que alguns anos, como 2002 e 2010, tiveram destaques significativos.
 
 Essas conclusões me ajudam a entender as tendências do gênero comédia e animação e fornecem uma base sólida para explorar melhorias no modelo de previsão, além de aprofundar análises mais específicas no futuro.
+
+
+# PDF
+
+
+
+![alt text](../evidencias/img_pdf/My_dashboard.pdf)
+

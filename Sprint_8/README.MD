@@ -241,3 +241,51 @@ Para mim, a Sprint 8 foi a mais dificil até agora, e eu a avaliaria com uma not
 
 
 Por outro lado, o desafio em si foi bastante simples. O que realmente se destacou para mim foram os exercícios, novamente. A sequência de exercícios tem sido muito boa, e sinto que aprendo mais com eles do que com as videoaulas. Gostei bastante dessa dinâmica de aprendizado!
+
+
+
+# Feedback Monitoria
+
+incluir o partitionBy.
+
+csv:
+
+
+`clean_data = DynamicFrame.fromDF(df_cleaned, glueContext, "clean_data")`
+
+`df_cleaned.write.mode("overwrite").partitionBy("column_name").parquet(output_path)`
+
+Json:
+
+
+`dyf_cleaned = DynamicFrame.fromDF(df_cleaned, glueContext, "dyf_cleaned")`
+
+
+`partition_columns = ["year", "month", "day"]`
+
+
+`df_cleaned = df_cleaned.withColumn("year", lit(year_value)) \`
+                      ` .withColumn("month", lit(month_value)) \`
+                      ` .withColumn("day", lit(day_value))`
+
+`df_cleaned.write.mode("overwrite").partitionBy(*partition_columns).parquet(output_path)`
+
+
+Recomendação do uso do selec.
+
+CSV:
+
+`df_cleaned = raw_data.select([`
+   ` trim(lower(when(col(c) == "\\N", None).otherwise(col(c)))).alias(c)`
+   ` if dict(raw_data.dtypes)[c] == "string" `
+   ` else when(col(c) == "\\N", None).otherwise(col(c)).alias(c)`
+ `   for c in raw_data.columns`
+`])`
+
+JSON:
+
+`df_cleaned = df.select(["id", "title"]) \`
+   ` .dropDuplicates(["id", "title"]) \`
+   ` .na.drop()`
+
+
