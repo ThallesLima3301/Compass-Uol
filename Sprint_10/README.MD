@@ -16,9 +16,11 @@ Bom finalmente sprint 10 vou falar um pouco sobre o meu desenvolvimento.
 
 # Evidências
 
-
  
-<iframe src="../Sprint_10/evidencias/img_pdf/My_dashboard.pdf" width="100%" height="500px"></iframe>
+
+
+[Visualizar o PDF](../Sprint_10/evidencias/img_pdf/My_dashboard.pdf)
+
 
 # Feedback
 
