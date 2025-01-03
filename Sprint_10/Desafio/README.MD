@@ -335,7 +335,7 @@ Com as análises realizadas, foi possível ter uma visão ampla sobre o desempen
 
 Além disso, usei meu modelo de previsão para avaliar a precisão das notas previstas e entendi como ele performa na prática, especialmente ao analisar o AE por gênero. Essa abordagem me mostrou onde o modelo está mais alinhado com os dados reais e onde ele pode ser otimizado.
 
-No geral, os gêneros comedy, family, musical e action, animation, comedy tiveram um ótimo desempenho, enquanto categorias menos específicas, como Other, mostraram um desempenho mais fraco. A análise de popularidade também revelou que alguns anos, como 2002 e 2010, tiveram destaques significativos.
+No geral, os gêneros comedy, family, musical e action, animation, comedy tiveram um ótimo desempenho, enquanto categorias menos específicas, mostraram um desempenho mais fraco. A análise de popularidade também revelou que alguns anos, como 2002 e 2010, tiveram destaques significativos.
 
 Essas conclusões me ajudam a entender as tendências do gênero comédia e animação e fornecem uma base sólida para explorar melhorias no modelo de previsão, além de aprofundar análises mais específicas no futuro.
 
