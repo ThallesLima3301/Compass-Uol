@@ -6,35 +6,35 @@ Além disso, foi divertido aprender como construir diferentes ambientes para scr
 
 # Certificados
 
- [ Certificados](../Sprint_4/certificados/img/AWS%20Partner%20Credenciamento.pdf)
+ [ Certificados](../Sprint_04/certificados/img/AWS%20Partner%20Credenciamento.pdf)
 
 # Exercícios
 
-1. [Respostas Exercícios](../Sprint_4/exercicios/ex1.py)
+1. [Respostas Exercícios](../Sprint_04/exercicios/ex1.py)
 
-2. [Respostas Exercícios](../Sprint_4/exercicios/ex2.py)
+2. [Respostas Exercícios](../Sprint_04/exercicios/ex2.py)
 
-3. [Respostas Exercícios](../Sprint_4/exercicios/ex3.py)
+3. [Respostas Exercícios](../Sprint_04/exercicios/ex3.py)
 
-4. [Respostas Exercícios](../Sprint_4/exercicios/ex4.py)
+4. [Respostas Exercícios](../Sprint_04/exercicios/ex4.py)
 
-5. [Respostas Exercícios](../Sprint_4/exercicios/ex5.py)
+5. [Respostas Exercícios](../Sprint_04/exercicios/ex5.py)
 
-6. [Respostas Exercícios](../Sprint_4/exercicios/ex6.py)
+6. [Respostas Exercícios](../Sprint_04/exercicios/ex6.py)
 
-7. [Respostas Exercícios](../Sprint_4/exercicios/ex7.py)
+7. [Respostas Exercícios](../Sprint_04/exercicios/ex7.py)
 
 
 # Desafios
 
-[Desafio 4](../Sprint_4/Desafio/README.MD)
+[Desafio 4](../Sprint_04/Desafio/README.MD)
 
 
 # Evidências 
 
 Aqui vou colocar a prova q Exercícios foram feitos na plataforma 
 
- [Exercícios](../Sprint_4/evidencias/ex/image%20dos%20ex.png)
+ [Exercícios](../Sprint_04/evidencias/ex/image%20dos%20ex.png)
 
 acho legal comentar q eu gostei do exercícios em si, mas por ser na plataforma acaba ficando bem descantante, particularmente o 5 e 1 foram bem chatos de se fazer mas deu tudo certo no final.
 
@@ -68,11 +68,11 @@ O desafio foi dividido em três etapas principais:
 Primeiro, criei um arquivo chamado Dockerfile no mesmo diretório onde estava o script carguru.py.
 No Dockerfile, defini a imagem base e configurei a cópia do script para dentro do container.
 Após configurar o Dockerfile, construi a imagem com o comando docker build, atribuindo um nome específico para facilitar o gerenciamento.
-![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_1.png)
+![](../Sprint_04/evidencias/desafio/resultados/Desafio_resultados_1.png)
 
 **Nota: O copy esta errado na foto mas funciona igual**
 
-![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_2.png)
+![](../Sprint_04/evidencias/desafio/resultados/Desafio_resultados_2.png)
 
 Em seguida, executei um container a partir da imagem criada para garantir que tudo estava funcionando como esperado.
 
@@ -82,19 +82,19 @@ Em seguida, executei um container a partir da imagem criada para garantir que tu
 Nesta etapa, verifiquei se era possível reutilizar um container parado. 
 respondo no desafio mas de forma simples a resposta é SIM
 
-![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_17.png)
+![Desafio_resultados](../Sprint_04/evidencias/desafio/resultados/Desafio_resultados_17.png)
 
-![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_18.png)
+![Desafio_resultados](../Sprint_04/evidencias/desafio/resultados/Desafio_resultados_18.png)
 
 agora para parar ele
 
-![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_19.png)
+![Desafio_resultados](../Sprint_04/evidencias/desafio/resultados/Desafio_resultados_19.png)
 
 Executei o comando docker ps -a para listar todos os containers existentes, inclusive os que estavam parados.
 Comprovei que um container pode ser reiniciado com o comando docker start <nome_do_container>.
 Justifiquei que um container removido com docker rm não pode ser reutilizado, sendo necessário recriar a partir da imagem original.
 
-![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_20.png)
+![Desafio_resultados](../Sprint_04/evidencias/desafio/resultados/Desafio_resultados_20.png)
 
 4.3. Etapa 3: Criação de um Container Interativo
 Nesta etapa, desenvolvi um novo script Python para hash, similar ao script carguru.py, mas com funcionalidades adicionais:
@@ -102,7 +102,7 @@ Nesta etapa, desenvolvi um novo script Python para hash, similar ao script cargu
 No Dockerfile, atualizei o comando CMD para permitir que o container execute o script e aceite inputs do usuário.
 Testei o container com o comando docker run -it, garantindo que ele estivesse preparado para receber entradas durante sua execução.
 
-![Desafio_resultados](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_9.png)
+![Desafio_resultados](../Sprint_04/evidencias/desafio/resultados/Desafio_resultados_9.png)
 
 Agora criação do mascarar_dados script que recebe uma string via input.
 
@@ -110,14 +110,14 @@ Criei uma nova imagem chamada mascarar-dados e executei o container para mascara
 
 Testei o container com o comando docker run -it, garantindo que ele estivesse preparado para receber entradas durante sua execução.
 
-![](../Sprint_4/evidencias/desafio/resultados/Desafio_resultados_12.png)
+![](../Sprint_04/evidencias/desafio/resultados/Desafio_resultados_12.png)
 
 
 5. Conclusão
 Por fim, compilei todos os prints de tela, o conteúdo do Dockerfile, o script Python e os comandos de inicialização do container para compor o material de entrega.
 como sempre esta melhor documentado no meu Desafio
 
-![Desafio](../Sprint_4/Desafio/README.MD)
+![Desafio](../Sprint_04/Desafio/README.MD)
 
 
 # Feedback

@@ -8,26 +8,26 @@ Atualmente, já concluí os  cursos de AWS e estou gostando bastante da trilha. 
 # Certificados
 
 
-[1 Noções básicas de Analytics na AWS – Parte 1](../Sprint_6/certificados/img/Noções%20básicas%20de%20Analytics%20na%20AWS%20–%20Parte%201.pdf)
+[1 Noções básicas de Analytics na AWS – Parte 1](../Sprint_06/certificados/img/Noções%20básicas%20de%20Analytics%20na%20AWS%20–%20Parte%201.pdf)
 
     
-[2 Fundamentos de analytics na AWS – Parte 2](../Sprint_6/certificados/img/Fundamentos%20de%20analytics%20na%20AWS%20–%20Parte%202.pdf)
+[2 Fundamentos de analytics na AWS – Parte 2](../Sprint_06/certificados/img/Fundamentos%20de%20analytics%20na%20AWS%20–%20Parte%202.pdf)
 
     
-[3 Analytics](../Sprint_6/certificados/img/Serverless%20Analytics.pdf)
+[3 Analytics](../Sprint_06/certificados/img/Serverless%20Analytics.pdf)
  
-[4 Introduction to Amazon Athena.pdf](../Sprint_6/certificados/img/Introduction%20to%20Amazon%20Athena.pdf)
+[4 Introduction to Amazon Athena.pdf](../Sprint_06/certificados/img/Introduction%20to%20Amazon%20Athena.pdf)
 
-[5 AWS Glue Getting ](../Sprint_6/certificados/img/Amazon%20EMR%20Getting%20Started.pdf)
+[5 AWS Glue Getting ](../Sprint_06/certificados/img/Amazon%20EMR%20Getting%20Started.pdf)
 
-[6 Amazon EMR Getting Started ](../Sprint_6/certificados/img/Getting%20Started%20with%20Amazon%20Redshift.pdf)
+[6 Amazon EMR Getting Started ](../Sprint_06/certificados/img/Getting%20Started%20with%20Amazon%20Redshift.pdf)
 
-[7 Getting Started with Amazon Redshift ](../Sprint_6/certificados/img/AWS%20Glue%20Getting%20Started.pdf)
+[7 Getting Started with Amazon Redshift ](../Sprint_06/certificados/img/AWS%20Glue%20Getting%20Started.pdf)
 
-[8 AWS Amazon QuickSight - Getting Start ](../Sprint_6/certificados/img/Amazon%20QuickSight%20-%20Getting%20Start.pdf)
+[8 AWS Amazon QuickSight - Getting Start ](../Sprint_06/certificados/img/Amazon%20QuickSight%20-%20Getting%20Start.pdf)
 
 
-[9 Best Practices for Data Warehousing with Amazon Redshift ](../Sprint_6/certificados/img/Amazon%20QuickSight%20-%20Getting%20Start.pdf)
+[9 Best Practices for Data Warehousing with Amazon Redshift ](../Sprint_06/certificados/img/Amazon%20QuickSight%20-%20Getting%20Start.pdf)
 
 
 # Exercícios
@@ -72,7 +72,7 @@ Com tudo configurado, testei o endpoint do site. O index.html carregou corretame
 ![Img 20 EX](../Sprint_5/evidencias/img_resposta/img_resposta21.png)
 
 
-2. [Resposta do Lab AWS Athena](../Sprint_6/exercicios/Athena.sql)
+2. [Resposta do Lab AWS Athena](../Sprint_06/exercicios/Athena.sql)
 
 
 
@@ -86,7 +86,7 @@ Verifique se o arquivo nomes.csv está no bucket ex-labawss3.
 
 Depois de garantir que o arquivo estava no bucket, criei uma pasta chamada queries dentro dele. Essa pasta seria usada pelo Athena para armazenar os resultados das consultas.
 
-![Img ex Athena](../Sprint_6/evidencias/img_ex_Atena/img_Athena_1.png)
+![Img ex Athena](../Sprint_06/evidencias/img_ex_Atena/img_Athena_1.png)
 Em seguida, acessei o AWS Athena e cliquei em Explore the Query Editor. Para configurar o local de resultados, fiz o seguinte:
 
 Acessei View Settings e cliquei em Manage.
@@ -102,7 +102,7 @@ No editor de consultas do Athena, crie um banco de dados com a seguinte instruç
 CREATE DATABASE meubanco;
 ```
 
-![Img ex Athena ](../Sprint_6/evidencias/img_ex_Atena/img_Athena_2.png)
+![Img ex Athena ](../Sprint_06/evidencias/img_ex_Atena/img_Athena_2.png)
 
 
 Execute a consulta clicando em Run ou pressionando Ctrl+ENTER.
@@ -113,7 +113,7 @@ Etapa 3: Criar uma Tabela
 
 Agora que o banco de dados foi criado, é hora de criar uma tabela com base no arquivo nomes.csv.
 
-![Img ex Athena](../Sprint_6/evidencias/img_ex_Atena/img_Athena_3.png)
+![Img ex Athena](../Sprint_06/evidencias/img_ex_Atena/img_Athena_3.png)
 
 Execute a instrução de criação de tabela adaptada para o meu bucket:
 ```sql
@@ -148,7 +148,7 @@ Teste de Consulta
 
 Para validar os dados, execute a seguinte consulta de teste:
 
-![Img ex Athena](../Sprint_6/evidencias/img_ex_Atena/img_Athena_4.png)
+![Img ex Athena](../Sprint_06/evidencias/img_ex_Atena/img_Athena_4.png)
 
 ```sql
 SELECT nome 
@@ -157,14 +157,14 @@ WHERE ano = 1999
 ORDER BY nome 
 LIMIT 15
 ```
-![Img ex Athena](../Sprint_6/evidencias/img_ex_Atena/img_Athena_7.png)
+![Img ex Athena](../Sprint_06/evidencias/img_ex_Atena/img_Athena_7.png)
 
 usando o modelo de vc 
 ```sql
     select nome from nomedobanco.nomedatabela where ano = 1999 order by total limit 15;
 ```
 
-![Img ex Athena](../Sprint_6/evidencias/img_ex_Atena/img_Athena_8.png)
+![Img ex Athena](../Sprint_06/evidencias/img_ex_Atena/img_Athena_8.png)
 
 Desafio: Consulta Avançada
 
@@ -178,12 +178,12 @@ ORDER BY decada, total DESC
 LIMIT 3
 ```
 
-![Img ex Athena](../Sprint_6/evidencias/img_ex_Atena/img_Athena_5.png)
+![Img ex Athena](../Sprint_06/evidencias/img_ex_Atena/img_Athena_5.png)
 
 Resultado:
 
 
-![Img ex Athena](../Sprint_6/evidencias/img_ex_Atena/img_Athena_6.png)
+![Img ex Athena](../Sprint_06/evidencias/img_ex_Atena/img_Athena_6.png)
 
 
 Conclusão:
@@ -192,7 +192,7 @@ Com estas etapas, consegui configurar o ambiente no Athena, criar uma tabela bas
 
 
 
-3. [Resposta do Lab AWS Lambda](../Sprint_6/exercicios/layer_pandas/Dockerfile)
+3. [Resposta do Lab AWS Lambda](../Sprint_06/exercicios/layer_pandas/Dockerfile)
 
 
 <h1>Etapa 1: Criar a função do Lambda</h1>
@@ -203,18 +203,18 @@ Escolha Author from scratch (criar do zero).
 Em Function name (nome da função), defina o nome da função. Em Runtime, selecione Python 3.9.
 Para criar a função, clique em Create (Criar).
 
-![Img ex img_Lambda](../Sprint_6/evidencias/img_ex_Lambda/img_Lambda.png)
+![Img ex img_Lambda](../Sprint_06/evidencias/img_ex_Lambda/img_Lambda.png)
 Etapa 2: Construir o código
 
 Após criar a função, serei redirecionado para o editor de funções do console. O arquivo padrão lambda_function.py é gerado:
 
 Mudo o arquivo padrão para o seguinte codigo 
 
-![Img ex img_Lambda](../Sprint_6/evidencias/img_ex_Lambda/img_Lambda_1.png)
+![Img ex img_Lambda](../Sprint_06/evidencias/img_ex_Lambda/img_Lambda_1.png)
 
 Para testar, clico em Test e defino um nome de teste.
 
-![Img ex img_Lambda](../Sprint_6/evidencias/img_ex_Lambda/img_Lambda_2.png)
+![Img ex img_Lambda](../Sprint_06/evidencias/img_ex_Lambda/img_Lambda_2.png)
 
 
 Ao executar, aparece o erro.
@@ -225,14 +225,14 @@ Etapa 3: Criar uma Layer
 
  crio um arquivo chamado Dockerfile com o seguinte conteúdo:
 
-![Img ex img_Lambda](../Sprint_6/evidencias/img_ex_Lambda/img_Lambda_3.png)
+![Img ex img_Lambda](../Sprint_06/evidencias/img_ex_Lambda/img_Lambda_3.png)
 
 
 Executo o comando abaixo para construir a imagem:
 
 `docker build -t amazonlinuxpython39 .`
 
-![Img ex img_Lambda](../Sprint_6/evidencias/img_ex_Lambda/img_Lambda_4.png)
+![Img ex img_Lambda](../Sprint_06/evidencias/img_ex_Lambda/img_Lambda_4.png)
 
 
 `docker run -it amazonlinuxpython39 bash`
@@ -262,7 +262,7 @@ Em outra janela de terminal, copio o arquivo compactado do container para a máq
 
 Faço upload do minha-camada-pandas.zip para um bucket no S3.
 
-![Img ex img_Lambda](../Sprint_6/evidencias/img_ex_Lambda/img_Lambda_5.png)
+![Img ex img_Lambda](../Sprint_06/evidencias/img_ex_Lambda/img_Lambda_5.png)
 
 No console do Lambda, vou em Camadas, clico em Criar uma camada, dou o nome PandasLayer e seleciono Fazer upload de um arquivo do Amazon S3. Colei a URL do objeto S3.
 
@@ -270,7 +270,7 @@ No console do Lambda, vou em Camadas, clico em Criar uma camada, dou o nome Pand
 Defino x86_64 em Arquiteturas compatíveis e Python 3.9 em Tempos de execução compatíveis. Por fim, clico em Criar.
 
 
-![Img ex img_Lambda](../Sprint_6/evidencias/img_ex_Lambda/img_Lambda_6.png)
+![Img ex img_Lambda](../Sprint_06/evidencias/img_ex_Lambda/img_Lambda_6.png)
 
 
 Etapa 4: Utilizando a Layer
@@ -283,16 +283,16 @@ Escolho Custom Layers (Camadas personalizadas), seleciono a camada criada e a ve
 
 Clico em Adicionar.
 
-![Img ex img_Lambda](../Sprint_6/evidencias/img_ex_Lambda/img_Lambda_8.png)
+![Img ex img_Lambda](../Sprint_06/evidencias/img_ex_Lambda/img_Lambda_8.png)
 
 Executo o teste e vejo o resultado esperado no Response:
 
 
 
-![Img ex img_Lambda](../Sprint_6/evidencias/img_ex_Lambda/img_Lambda_9.png)
+![Img ex img_Lambda](../Sprint_06/evidencias/img_ex_Lambda/img_Lambda_9.png)
 
 eu  ajustei  o tempo limite e o tamanho da memória da Lambda para suportar operações com grandes volumes de dados.
-![Img ex img_Lambda](../Sprint_6/evidencias/img_ex_Lambda/img_Lambda_10.png)
+![Img ex img_Lambda](../Sprint_06/evidencias/img_ex_Lambda/img_Lambda_10.png)
 
 
 
@@ -302,13 +302,13 @@ eu  ajustei  o tempo limite e o tamanho da memória da Lambda para suportar oper
 
 
 
-Resultado [Resposta do Lab AWS Athena zip](../Sprint_6/exercicios/layer_pandas/minha-camada-pandas.zip)
+Resultado [Resposta do Lab AWS Athena zip](../Sprint_06/exercicios/layer_pandas/minha-camada-pandas.zip)
 
 Conclusão: Eu gostei muito desses exercícios. Eles são realmente fáceis de seguir, com todas as instruções bem detalhadas sobre o que fazer (talvez pudessem ser um pouco mais desafiadores para nos incentivar ainda mais). De modo geral, gostei bastante de trabalhar com Athena e Lambda; achei que foi simples de entender e aprender. Não tive dificuldades, e, até o momento, considero esses os melhores exercícios, junto com os da Sprint 2.
 
 # Desafios
 
-[Desafio 6](../Sprint_6/Desafio/README.MD)
+[Desafio 6](../Sprint_06/Desafio/README.MD)
 
 
 # Evidências
@@ -332,7 +332,7 @@ eu acabei subindo o csv pro git sem qeurer e deu tudo errado kkkkkkkkkkkk
 
 e para ajudar ainda dei .gitignore errado mas deu tudo certo vou dar alguns detalhes do que fiz
 
-git rm -r --cached Sprint_6/Desafio/Spritn_6/csv/ para apagar minha versao e ainda sim n estava mais subindo pro meu git
+git rm -r --cached Sprint_06/Desafio/Spritn_6/csv/ para apagar minha versao e ainda sim n estava mais subindo pro meu git
 
 usei um git log --onelin
 

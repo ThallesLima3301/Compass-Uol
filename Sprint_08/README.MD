@@ -3,21 +3,21 @@ Durante a Sprint 8, aprendi muito e aproveitei bastante a experiência. Gostei b
 
 # Certificados
 
- [ Certificados](../Sprint_8/certificados/img/texto.txt)
+ [ Certificados](../Sprint_08/certificados/img/texto.txt)
 
 # Exercícios
 
-1. [Resposta massa_dados](../Sprint_8/exercicios/massa_dados.py)
+1. [Resposta massa_dados](../Sprint_08/exercicios/massa_dados.py)
 
-2. [Resposta apache_spark](../Sprint_8/exercicios/apache_spark.py)
+2. [Resposta apache_spark](../Sprint_08/exercicios/apache_spark.py)
 
-3. [Resposta TMDB](../Sprint_8/exercicios/TMDB/tmdb/tmdb.py)
+3. [Resposta TMDB](../Sprint_08/exercicios/TMDB/tmdb/tmdb.py)
 
 
 
 # Desafios
 
-[Desafio 8](../Sprint_8/Desafio/README.MD)
+[Desafio 8](../Sprint_08/Desafio/README.MD)
 
 
 # Evidências
@@ -40,7 +40,7 @@ Imprimi o resultado.
 
 A lista gerada, agora invertida, foi exibida no console.
 
-![alt text](../Sprint_8/evidencias/massa_dados/image_massa_dados.png)
+![alt text](../Sprint_08/evidencias/massa_dados/image_massa_dados.png)
 
 Etapa 2: Lista de animais
 
@@ -60,11 +60,11 @@ Salvei a lista em um arquivo chamado animais.csv.
 
 Usei o comando open() no modo de escrita ("w") para salvar cada nome em uma linha do arquivo.
 
-![alt text](../Sprint_8/evidencias/massa_dados/image_massa_dados_1.png)
+![alt text](../Sprint_08/evidencias/massa_dados/image_massa_dados_1.png)
 
 
 
-![alt text](../Sprint_8/evidencias/massa_dados/image_massa_dados_2.png)
+![alt text](../Sprint_08/evidencias/massa_dados/image_massa_dados_2.png)
 
 Etapa 3: Geração de nomes de pessoas
 
@@ -93,11 +93,11 @@ Salvei os nomes aleatórios em um arquivo chamado nomes_aleatorios.txt.
 Usei um loop para escrever cada nome em uma linha do arquivo.
 Exibi no console a confirmação de que o arquivo foi salvo com sucesso.
 
-![alt text](../Sprint_8/evidencias/massa_dados/image_massa_dados3.png)
+![alt text](../Sprint_08/evidencias/massa_dados/image_massa_dados3.png)
 
 Txt com os nomes 
 
-![alt text](../Sprint_8/evidencias/massa_dados/image_massa_dados4.png)
+![alt text](../Sprint_08/evidencias/massa_dados/image_massa_dados4.png)
 
 
 
@@ -114,14 +114,14 @@ Usei o caminho do arquivo nomes_aleatorios.txt no Google Drive e li o conteúdo.
 
 
 
-![alt text](../Sprint_8/evidencias/Apache_Spark/image.png)
+![alt text](../Sprint_08/evidencias/Apache_Spark/image.png)
 
 Renomeando Coluna
 
 Renomeei a coluna padrão _c0 para Nome com
 
 
-![alt text](../Sprint_8/evidencias/Apache_Spark/image-1.png)
+![alt text](../Sprint_08/evidencias/Apache_Spark/image-1.png)
 
 
 Exibi o esquema atualizado do DataFrame com df_nomes.printSchema().
@@ -133,30 +133,30 @@ Médio
 Superior
 Usei a função rand() para gerar aleatoriedade
 
-![alt text](../Sprint_8/evidencias/Apache_Spark/image-2.png)
+![alt text](../Sprint_08/evidencias/Apache_Spark/image-2.png)
 
 
 Criei uma lista com os países da América do Sul e adicionei a coluna País com valores aleatórios da lista.
 Atribuí os valores utilizando a função rand() e when()
 
-![alt text](../Sprint_8/evidencias/Apache_Spark/image-3.png)
+![alt text](../Sprint_08/evidencias/Apache_Spark/image-3.png)
 
 
 Adicionei a coluna AnoNascimento com valores aleatórios entre 1945 e 2010:
 
-![alt text](../Sprint_8/evidencias/Apache_Spark/image-4.png)
+![alt text](../Sprint_08/evidencias/Apache_Spark/image-4.png)
 
 
 Filtrei os registros de pessoas nascidas a partir do ano 2000:
 
-![alt text](../Sprint_8/evidencias/Apache_Spark/image-5.png)
+![alt text](../Sprint_08/evidencias/Apache_Spark/image-5.png)
 
 
 Criei uma tabela temporária chamada pessoas
 
 Filtrei pessoas nascidas neste século usando SQL:
 
-![alt text](../Sprint_8/evidencias/Apache_Spark/image-6.png)
+![alt text](../Sprint_08/evidencias/Apache_Spark/image-6.png)
 
 
 
@@ -164,12 +164,12 @@ Filtrei as pessoas nascidas entre 1980 e 1994 (Geração Millennials):
 
 Executei a contagem via SQL:
 
-![alt text](../Sprint_8/evidencias/Apache_Spark/image-7.png)
+![alt text](../Sprint_08/evidencias/Apache_Spark/image-7.png)
 
 
 Executei uma consulta SQL para categorizar as gerações:
 
-![alt text](../Sprint_8/evidencias/Apache_Spark/image-8.png)
+![alt text](../Sprint_08/evidencias/Apache_Spark/image-8.png)
 
 
 <h1> TMDB</h1>

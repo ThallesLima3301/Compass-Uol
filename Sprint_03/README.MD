@@ -13,35 +13,35 @@ Estou ansioso pela próxima sprint e pelos novos aprendizados que ela trará �
 
 # Certificados
 
- [ Certificados](../Sprint_3/certificados/Aspectos%20econômicos%20da%20nuvem.png)
+ [ Certificados](../Sprint_03/certificados/Aspectos%20econômicos%20da%20nuvem.png)
 
 # Exercícios
 
-1. [Respostas Seção_3](../Sprint_3/exercicios/Seção_3/)
+1. [Respostas Seção_3](../Sprint_03/exercicios/Seção_3/)
 
-2. [Resposta Seção_4](../Sprint_3/exercicios/Seção_4/)
+2. [Resposta Seção_4](../Sprint_03/exercicios/Seção_4/)
 
-3. [Resposta Seção_5](../Sprint_3/exercicios/Seção_5/)
+3. [Resposta Seção_5](../Sprint_03/exercicios/Seção_5/)
 
 
 # Desafios
 
-[Desafio 3](../Sprint_3/Desafio/README.MD)
+[Desafio 3](../Sprint_03/Desafio/README.MD)
 
 
 # Evidências
 
 Minha lógica ja esta documentada nos aquivos, vou usar imagens colocando que funcionou dentro da plataforma. A ideia é mostrar de forma clara e direta os resultados
 
-1. [Respostas Seção_3](../Sprint_3/exercicios/Seção_3/)
+1. [Respostas Seção_3](../Sprint_03/exercicios/Seção_3/)
 
-![Texto alternativo](../Sprint_3/evidencias/Seção_3/Seção_3.png)
+![Texto alternativo](../Sprint_03/evidencias/Seção_3/Seção_3.png)
 
 foi bem simples de se fazer, nao tive problemas.
 
-2. [Resposta Seção_4](../Sprint_3/exercicios/Seção_4/)
+2. [Resposta Seção_4](../Sprint_03/exercicios/Seção_4/)
 
-![Texto alternativo](../Sprint_3/evidencias/Seção_4/Seção_4.png)
+![Texto alternativo](../Sprint_03/evidencias/Seção_4/Seção_4.png)
 
 Já esses exercícios eu tive problemas Principalmente com a saida dos resultado, os exercícios em sí não são difíceis.
 Eu particularmente gostei dos exercícios mas por ter que usar a udemy como forma de validação acaba se tornando um situação meio frustante, eu adotei o método  simples de se eu não fizer o exercício de primeira eu simplesmente pulava para o próximo e depois eu voltava e via oq estava acontecendo, tirando um ou outro que eu realemtne fiz com a lógica errada kkkk a maioria que deu errado foi o formato da saida esperado.
@@ -50,7 +50,7 @@ Achei que foram muitos exercícios.
 Bom ja esse exercicio (Seção_5) eu vou documentar aqui o meu passo a passo
 
 
-![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_enunciado.png)
+![Texto alternativo](../Sprint_03/evidencias/Seção_5/Seção_5_enunciado.png)
 
 Antes de começar, aqui esta uma explicação de como eu fiz para abrir o aquivo CSV.
 
@@ -62,11 +62,11 @@ Separar os valores em cada linha, já que o CSV usa vírgulas para separar os ca
 
 Guardar as informações para processá-las e descobrir qual ator tem o maior número de filmes.
 
-[Respostas Seção_5](../Sprint_3/exercicios/Seção_5/0_Exercício_ETL_Python.py)
+[Respostas Seção_5](../Sprint_03/exercicios/Seção_5/0_Exercício_ETL_Python.py)
 
 Beleza agora vamos fezer o exercício
 
-![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_enunciado_2.png)
+![Texto alternativo](../Sprint_03/evidencias/Seção_5/Seção_5_enunciado_2.png)
 
 Vamos começar pela Etapa 1, que pede para encontrar o ator ou atriz com o maior número de filmes, baseado na coluna "Number of movies". Lembrando de que não posso usar bibliotecas como Pandas ou NumPy, então vou usar a manipulação de arquivos CSV diretamente no Python.
 
@@ -85,9 +85,9 @@ Bom vale resaltar que usei o strip() me ajudou bastante.
 
  <h1>Resultado</h1>
 
-![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta1.png)
+![Texto alternativo](../Sprint_03/evidencias/Seção_5/Seção_5_resposta1.png)
 
-![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_enunciado_3.png)
+![Texto alternativo](../Sprint_03/evidencias/Seção_5/Seção_5_enunciado_3.png)
 
 Etapa 2:
 A Etapa 2 pede para apresentar a média de receita bruta de bilheteria doméstica dos principais filmes, considerando todos os atores. Eu precisa calcular a média da coluna "Gross", que representa a receita bruta.
@@ -104,7 +104,7 @@ Imprimir o resultado.
 
  <h1>Resultado</h1>
 
-![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta2.png)
+![Texto alternativo](../Sprint_03/evidencias/Seção_5/Seção_5_resposta2.png)
 
 Etapa 3:
 
@@ -140,7 +140,7 @@ Isso significa que, em média, cada filme em que Anthony Daniels participou gero
 
  <h1>Resultado</h1>
 
-![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta3.png)
+![Texto alternativo](../Sprint_03/evidencias/Seção_5/Seção_5_resposta3.png)
 
 
 Etapa 4:
@@ -175,11 +175,11 @@ Ordenação: ordenei primeiro pela quantidade (em ordem decrescente) e depois al
 Formato da saída: A saída segue o formato solicitado, com a sequência de aparição, o nome do filme e o número de vezes que ele aparece.
 
 
-![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta4.png)
+![Texto alternativo](../Sprint_03/evidencias/Seção_5/Seção_5_resposta4.png)
 
 **Nota: no meu codigo esta explciado melhor**
 
-1. [Respostas Seção_5](../Sprint_3/exercicios/Seção_5/etapa-4.py) 
+1. [Respostas Seção_5](../Sprint_03/exercicios/Seção_5/etapa-4.py) 
 aqui eu explico com mais detalahes sobre minhas abordagens e sobre minhas ideas por tras
 
 vale ressaltar que eu fiz um codigo para me dar uma ideia da minha situação 
@@ -188,7 +188,7 @@ creie um codigo que faz:
 
 "destacando os filmes que tem a mesma quantidade de aparicoes:"
 
-![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_enunciado_fim.png)
+![Texto alternativo](../Sprint_03/evidencias/Seção_5/Seção_5_enunciado_fim.png)
 
 Na última etapa, o desafio pede para para apresentar a lista dos atores ordenada pela receita bruta de bilheteria dos seus filmes (coluna "Total Gross") em ordem decrescente, e depois salvar essa lista em um arquivo seguindo o padrão:
 
@@ -213,13 +213,13 @@ Em vez de simplesmente usar split(','), que pode causar problemas se houver vír
 Verificar a integridade de cada linha: verifiquei se a linha tem a quantidade correta de colunas antes de tentar processá-la.
 
 
-![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta_5.png)
+![Texto alternativo](../Sprint_03/evidencias/Seção_5/Seção_5_resposta_5.png)
 
 
-![Texto alternativo](../Sprint_3/evidencias/Seção_5/Seção_5_resposta_5_1.png)
+![Texto alternativo](../Sprint_03/evidencias/Seção_5/Seção_5_resposta_5_1.png)
 
 
-![atores_total_gross.txt](../Sprint_3/exercicios/Seção_5/atores_total_gross.txt)
+![atores_total_gross.txt](../Sprint_03/exercicios/Seção_5/atores_total_gross.txt)
 
 deu certo!! 
 
@@ -249,7 +249,7 @@ bibliotecas Pandas e Matplotlib estejam instaladas.
 
 Etapa 2: Desenvolvimento
 
-![Texto alternativo](../Sprint_3/evidencias/Desafio/Desafio_enunciado_1.png)
+![Texto alternativo](../Sprint_03/evidencias/Desafio/Desafio_enunciado_1.png)
 
 atividades no dataset utilizando as bibliotecas Pandas e Matplotlib:
 
@@ -262,40 +262,40 @@ import matplotlib.pyplot as plt
 
 # Ler o arquivo googleplaystore.csv e remova as linhas duplicadas.
 
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_1.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Desafio_desenvolvimento_etapa_1.png)
 
 Crie um gráfico de barras com os top 5 aplicativos por número de instalações.
 
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_resultado_1.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Desafio_resultado_1.png)
 
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_resultado_1_1.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Desafio_resultado_1_1.png)
 
 Crie um gráfico de pizza para mostrar a distribuição de categorias de aplicativos.
 
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_resultado.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Desafio_desenvolvimento_resultado.png)
 
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_resultado_limpo.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Desafio_desenvolvimento_resultado_limpo.png)
 
 Identifique e exiba o aplicativo mais caro no dataset.
 
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_4_Resultado.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Desafio_desenvolvimento_etapa_4_Resultado.png)
 
 Mostre quantos aplicativos estão classificados como 'Mature 17+'.
 
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_5_Resultado.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Desafio_desenvolvimento_etapa_5_Resultado.png)
 
  top 10 aplicativos por número de avaliações (reviews).
 
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_resultado_6.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Desafio_desenvolvimento_resultado_6.png)
 
 Realizei mais dois cálculos sobre o dataset e apresente-os em formato gráfico ou de lista.
 
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_7_Resultado.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Desafio_desenvolvimento_etapa_7_Resultado.png)
 
 Criei pelo menos mais duas formas gráficas de exibição dos indicadores utilizando Matplotlib, como gráficos de linha ou dispersão.
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_8_grafico2.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Desafio_desenvolvimento_etapa_8_grafico2.png)
 
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Desafio_desenvolvimento_etapa_8_grafico1.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Desafio_desenvolvimento_etapa_8_grafico1.png)
 
 
 Desafios Enfrentados:
@@ -307,9 +307,9 @@ O desafio foi uma oportunidade para explorar ferramentas de visualização e apr
 
 
 **Notei alguns erros no meu git**
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Erro1.png)
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Erro2.png)
-![Desafio_etapa_1](../Sprint_3/evidencias/Desafio/Erro3.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Erro1.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Erro2.png)
+![Desafio_etapa_1](../Sprint_03/evidencias/Desafio/Erro3.png)
 
 entao vamos arrumar:
 

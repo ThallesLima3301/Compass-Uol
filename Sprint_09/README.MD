@@ -8,16 +8,16 @@ No geral, considero que foi uma ótima sprint!
 
 # Certificados
 
- [Pasta vazio Certificados](../Sprint_9/certificados/img/texto.txt)
+ [Pasta vazio Certificados](../Sprint_09/certificados/img/texto.txt)
 
 # Exercícios
 
-1. [Pasta vazio exercicios](../Sprint_9/exercicios/texto.txt)
+1. [Pasta vazio exercicios](../Sprint_09/exercicios/texto.txt)
 
 
 # Desafios
 
-[Desafio 9](../Sprint_9/Desafio/README.MD)
+[Desafio 9](../Sprint_09/Desafio/README.MD)
 
 
 # Evidências

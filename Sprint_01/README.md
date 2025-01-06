@@ -8,16 +8,16 @@ Atualmente, já concluí os dois cursos e estou gostando bastante da trilha. Est
 
 # Certificados
 
- [ Certificados](/Sprint_1/certificados/vazio.md)
+ [ Certificados](/Sprint_01/certificados/vazio.md)
 
 # Exercícios
 
-1. [Resposta Ex1](/Sprint_1/exercicios/vazio.md)
+1. [Resposta Ex1](/Sprint_01/exercicios/vazio.md)
 
 
 # Desafios
 
-[Desafio 1](/Sprint_1/Desafio/README.md)
+[Desafio 1](/Sprint_01/Desafio/README.md)
 
 # Evidências
 
@@ -25,11 +25,11 @@ Vou documentar aqui a lógica por trás das minhas ideas, usando imagens. A idei
 
 
 
-![Texto alternativo](../Sprint_1/evidencias/img/imagem%20desafio%201.png)
+![Texto alternativo](../Sprint_01/evidencias/img/imagem%20desafio%201.png)
 
 Primeiro, eu tive que baixar o arquivo dados_de_vendas.csv, criar um diretório chamado ecommerce no Linux, e colocar o arquivo dentro desse diretório.
 
-![Texto alternativo](../Sprint_1/evidencias/img/imagem%20desafio%202.png)
+![Texto alternativo](../Sprint_01/evidencias/img/imagem%20desafio%202.png)
 
 **Desafio:** O objetivo é processar e gerar um relatório de vendas.
 
@@ -45,7 +45,7 @@ Percebi que o objetivo é criar um script que automatize essas tarefas e prepare
 
 Ficando assim 
 
-![Texto alternativo](../Sprint_1/evidencias/img/image_3.png)
+![Texto alternativo](../Sprint_01/evidencias/img/image_3.png)
 
 # LOGICA
 
@@ -83,7 +83,7 @@ Sendo assim a lógica geral é garantir que os dados de vendas sejam organizados
 
 Passando para proxima parte
 
-![Texto alternativo](../Sprint_1/evidencias/img/imagem%20desafio%203.png)
+![Texto alternativo](../Sprint_01/evidencias/img/imagem%20desafio%203.png)
 
 Nessa parte eu tive que reler varias e varias vezes para entender, tive dificuldade de interpretação entao preferi ir por partes. Vamos la!
 
@@ -116,7 +116,7 @@ A lógica geral desta etapa é garantir que os dados de vendas sejam processados
 
 Bom vamos ao codigo
 
-![Texto alternativo](../Sprint_1/evidencias/img/image_3.2.png)
+![Texto alternativo](../Sprint_01/evidencias/img/image_3.2.png)
 
 # LOGICA 
 
@@ -155,17 +155,17 @@ Além disso, o arquivo dados_de_vendas.csv é removido do diretório vendas, poi
 
 fazendo a comparação:
 
-![Texto alternativo](../Sprint_1/evidencias/img/image_26.png)
+![Texto alternativo](../Sprint_01/evidencias/img/image_26.png)
 
 
 
 fiz um `cat vendas/backup/relatorio.txt`
 
-![Texto alternativo](../Sprint_1/evidencias/img/image_8.png)
+![Texto alternativo](../Sprint_01/evidencias/img/image_8.png)
 
 fazendo os testes
 
-![Texto alternativo](../Sprint_1/evidencias/img/image_14.png)
+![Texto alternativo](../Sprint_01/evidencias/img/image_14.png)
 
 Realizei testes em todos os aspectos necessários, incluindo a alteração da data, dos valores, e das primeiras 10 linhas. Fiz tudo o que considerei importante para garantir que estou no caminho certo. Após concluir os testes, utilizei o comando `rm` para apagar os arquivos temporários, evitando assim que os relatórios fiquem poluídos quando vocês os revisarem.
 
@@ -217,7 +217,7 @@ Fui pedir ajuda para o meu squad e o pessoal de outros grupos, mas todo mundo di
 
 Bom... vamos continuar
 
-![Texto alternativo](../Sprint_1/evidencias/img/imagem%20desafio%204.png)
+![Texto alternativo](../Sprint_01/evidencias/img/imagem%20desafio%204.png)
 
 Ja essa parte do desafio tem como objetivo a criação de um novo relatório a partir dos dados processados anteriormente. 
 
@@ -231,7 +231,7 @@ Executar manualmente o script de consolidação: Depois de ter executado o scrip
 
 Bom nessa parte do desafio, optei por usar o `for`. Eu sabia da existência do `for` e do `find`, mas sempre usei o for para esse tipo de tarefa, porque na minha cabeça fazia mais sentido iterar sobre todos os arquivos de relatório dentro do diretório de backup. Foi a parte mais complicada do desafio em termos de lógica. Vale lembrar que, na época, eu ainda não tinha concluído o curso de Linux e nem pensei em usar o `cat`. Mas mesmo que conhecesse o cat, eu teria escolhido o for porque acho mais divertido de usar e, em termos de erros, acredito que ele seja mais seguro. Como já não tinha feito o agendamento corretamente, preferi usar algo que minimizasse ao máximo as chances de erro. 
 
-![Texto alternativo](../Sprint_1/evidencias/img/image_12.1.png)
+![Texto alternativo](../Sprint_01/evidencias/img/image_12.1.png)
 
 # LOGICA
 
@@ -270,11 +270,11 @@ Resumindo: O script coleta e combina o conteúdo de vários arquivos de relatór
 
 aqui eu vou so mostrar os resultados dos relatorios, nao tenho muito oque explicar tirando o dia 27 que eu acabei fazendo uma mudança sem querer de resto foi bem tranquilo
 
-![Texto alternativo](../Sprint_1/evidencias/img/image_23.png)
+![Texto alternativo](../Sprint_01/evidencias/img/image_23.png)
 
-![Texto alternativo](../Sprint_1/evidencias/img/image_24.png)
+![Texto alternativo](../Sprint_01/evidencias/img/image_24.png)
 
-![Texto alternativo](../Sprint_1/evidencias/img/image_25.png)
+![Texto alternativo](../Sprint_01/evidencias/img/image_25.png)
 
 # Feedback
 

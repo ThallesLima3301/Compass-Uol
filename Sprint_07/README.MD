@@ -1,22 +1,22 @@
 
 # Certificados
 
- [ Certificados](../Sprint_7/certificados/img/txt.txt)
+ [ Certificados](../Sprint_07/certificados/img/txt.txt)
 
 # Exercícios
 
-1. [Contador](../Sprint_7/exercicios/Contador/contador_de_palavras.py)
+1. [Contador](../Sprint_07/exercicios/Contador/contador_de_palavras.py)
 
-2. [TMDB](../Sprint_7/exercicios/TMDB/tmdb/tmdb.py)
+2. [TMDB](../Sprint_07/exercicios/TMDB/tmdb/tmdb.py)
 
 3. [GLUE](../Sprint_2/exercicios/exportacao_Biblioteca/biblioteca2/query.sql)
 
 
 # Desafios
 
-[Desafio 7](../Sprint_7/Desafio/README.MD)
+[Desafio 7](../Sprint_07/Desafio/README.MD)
 
-[Desafio](Desafio/Sprint_7)
+[Desafio](Desafio/Sprint_07)
 
 
 # Evidências
@@ -98,11 +98,11 @@ O arquivo README.md foi processado, e consegui identificar as palavras mais freq
 A análise revelou a contagem precisa de cada palavra, com a possibilidade de expandir para remover pontuações e ordená-las.
 
 (**Nota: Considerei palavra algo com mais de 3 letras**)
-![img_evidencias Colab](../Sprint_7/evidencias/ex_1_colab/Codigo1.png)
+![img_evidencias Colab](../Sprint_07/evidencias/ex_1_colab/Codigo1.png)
 
-![img_evidencias Colab](../Sprint_7/evidencias/ex_1_colab/Codigo2.png)
+![img_evidencias Colab](../Sprint_07/evidencias/ex_1_colab/Codigo2.png)
 
-![img_evidencias Colab](../Sprint_7/evidencias/ex_1_colab/Codigo3.png)
+![img_evidencias Colab](../Sprint_07/evidencias/ex_1_colab/Codigo3.png)
 
 <h1> TMDB</h1>
 
@@ -164,7 +164,7 @@ Neste exercício, consegui integrar a API do TMDB ao meu código Python com suce
 
 Codigo completo
 
-[TMDB](../Sprint_7/exercicios/TMDB/tmdb/tmdb.py)
+[TMDB](../Sprint_07/exercicios/TMDB/tmdb/tmdb.py)
 
 
 

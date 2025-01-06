@@ -6,34 +6,34 @@ Atualmente, já concluí os dois cursos (SQL e AWS) e estou gostando bastante da
 
 # Certificados
 
- [ Certificados](../Sprint_2/certificados/img/AWS%20Partner%20Sales%20Accreditation%20(Business)(Portuguese).png)
+ [ Certificados](../Sprint_02/certificados/img/AWS%20Partner%20Sales%20Accreditation%20(Business)(Portuguese).png)
 
 # Exercícios
 
-1. [Resposta Caso de Estudo Biblioteca](../Sprint_2/exercicios/Caso_de_Estudo_Biblioteca/biblioteca/Exercicio_1_ao_7.sql)
+1. [Resposta Caso de Estudo Biblioteca](../Sprint_02/exercicios/Caso_de_Estudo_Biblioteca/biblioteca/Exercicio_1_ao_7.sql)
 
-2. [Resposta Caso de Estudo Loja](../Sprint_2/exercicios/Caso_de_Estudo_Loja/loja/Exercicio_8_ao_16.sql)
+2. [Resposta Caso de Estudo Loja](../Sprint_02/exercicios/Caso_de_Estudo_Loja/loja/Exercicio_8_ao_16.sql)
 
-3. [exportacao_Biblioteca Ex3](../Sprint_2/exercicios/exportacao_Biblioteca/biblioteca2/query.sql)
+3. [exportacao_Biblioteca Ex3](../Sprint_02/exercicios/exportacao_Biblioteca/biblioteca2/query.sql)
 
 
 
 # Desafios
 
-[Desafio 2](../Sprint_2/Desafio/README.MD)
+[Desafio 2](../Sprint_02/Desafio/README.MD)
 
 
 # Evidências
 
 Minha lógica ja esta documentada nos aquivos, vou usar imagens colocando que funcionou dentro da plataforma. A ideia é mostrar de forma clara e direta os resultados
 
-1. [Resposta Caso de Estudo Biblioteca](../Sprint_2/exercicios/Caso_de_Estudo_Biblioteca/biblioteca/Exercicio_1_ao_7.sql)
+1. [Resposta Caso de Estudo Biblioteca](../Sprint_02/exercicios/Caso_de_Estudo_Biblioteca/biblioteca/Exercicio_1_ao_7.sql)
 
-2. [Resposta Caso de Estudo Loja](../Sprint_2/exercicios/Caso_de_Estudo_Loja/loja/Exercicio_8_ao_16.sql)
+2. [Resposta Caso de Estudo Loja](../Sprint_02/exercicios/Caso_de_Estudo_Loja/loja/Exercicio_8_ao_16.sql)
 
 Bom ja esse exercicios eu vou documentar aqui o meu passo a passo
 
-3. [exportacao_Biblioteca Ex3](../Sprint_2/exercicios/exportacao_Biblioteca/biblioteca2/query.sql)
+3. [exportacao_Biblioteca Ex3](../Sprint_02/exercicios/exportacao_Biblioteca/biblioteca2/query.sql)
 
     # Seção 6: Linguagem SQL - Exercícios II
 
@@ -42,26 +42,26 @@ fiz as instalações na base de dados chamada "Biblioteca"
 
 Baixei a extensão SQL Tools no VSCode
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/SQL_Tools_1.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/SQL_Tools_1.png)
 
 fazendo a conexão
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/SQL_Tools_2.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/SQL_Tools_2.png)
 Eu tive uns probleminhas, mas resolvi
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/SQL_Tools_3.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/SQL_Tools_3.png)
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/SQL_Tools_4.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/SQL_Tools_4.png)
 
 confirmando se foi:
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/SQL_Tools_5.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/SQL_Tools_5.png)
 
 
 fazendo A Exportar os 10 livros mais caros (Etapa 1):
 SELECT * FROM sqlite_master WHERE type='table';
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image1.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image1.png)
 
 Para a Etapa 1, use o caractere ; (ponto e vírgula) como separador.
 
@@ -92,15 +92,15 @@ Um JOIN entre as tabelas LIVRO, AUTOR e EDITORA para obter os detalhes do livro,
 Os resultados são ordenados pelo valor (l.valor) de forma decrescente e limitados aos 10 livros mais caros.
 Resultado
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image2.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image2.png)
 
 Após rodar a query, opção Save Results As, depois selecionei CSV e usei o caractere ; como separador.
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image3.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image3.png)
 
 Resultado
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image4.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image4.png)
 
 **Nota: A extensão Rainbow CSV que apareceu na notificação é útil para visualização e edição de arquivos CSV, pois ela destaca automaticamente os campos. Eu optei por instalar essa extensão para facilitar o trabalho com arquivos CSV no VSCode, mas isso é opcional.**
 
@@ -114,13 +114,13 @@ Abri o assistente de importação, olhei:
 E
 `A codificação está definida como UTF-8.`
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image5.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image5.png)
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image6.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image6.png)
 
 Resultado da minha tabela
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image7.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image7.png)
 
 [Resultado](exercicios/exportacao_Biblioteca/biblioteca2/livros_caros.csv)
 
@@ -152,16 +152,16 @@ ORDER BY
     QuantidadeLivros DESC
 LIMIT 5;`
 ```
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image8.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image8.png)
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image9.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image9.png)
 
 Mesmo esquema para tranformar em arquivo.csv
 
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image5.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image5.png)
 
-![Texto alternativo](../Sprint_2/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image6.png)
+![Texto alternativo](../Sprint_02/evidencias/exportacao_Biblioteca/exportacao_Biblioteca_image6.png)
 
 [Resultado](exercicios/exportacao_Biblioteca/biblioteca2/maiores_editoras.csv)
 
@@ -204,7 +204,7 @@ vale resaltar que
 
 Modelo Relacional: Focado em eliminar redundâncias, os dados são organizados em tabelas normalizadas, divididos em várias entidades, com relações estabelecidas por chaves estrangeiras. É usado principalmente para transações (OLTP).
 
-![Texto alternativo](../Sprint_2/evidencias/Img_Desafio/Relacional.png)
+![Texto alternativo](../Sprint_02/evidencias/Img_Desafio/Relacional.png)
 
 Já o Modelo Dimensional é otimizado para consultas analíticas (OLAP). Os dados são organizados em uma tabela fato (contendo medidas) e várias tabelas dimensão (descritores). Ele é menos normalizado, facilitando a análise de grandes volumes de dados.
 
@@ -225,7 +225,7 @@ Tabela Fato: A tabela fato contém as transações de locação. Cada registro n
 Esquema Estrela (Star Schema)
 O modelo dimensional segue a estrutura de um esquema estrela, onde a tabela fato está no centro e é conectada a várias dimensões. Isso permite realizar consultas rápidas e agregações. Por exemplo, é possível consultar as locações de carros feitas por um cliente específico durante um período determinado, usando joins entre a tabela fato e as tabelas de dimensão. (modelo recomendado pela instrutora) 
 
-![Texto alternativo](../Sprint_2/evidencias/Img_Desafio/Dimensão.png)
+![Texto alternativo](../Sprint_02/evidencias/Img_Desafio/Dimensão.png)
 
 # Benefícios do Modelo Dimensional
 Facilidade nas Consultas: Com o modelo dimensional, é fácil consultar os dados para relatórios, pois as tabelas estão organizadas para permitir joins simples entre a tabela fato e as dimensões.
@@ -238,7 +238,7 @@ Agilidade nas Análises: O modelo dimensional, com seu esquema estrela, facilita
 
 criei as tabelas no sql apenas para mostrar
 
-![Texto alternativo](../Sprint_2/evidencias/Img_Desafio/Desafio0.png)
+![Texto alternativo](../Sprint_02/evidencias/Img_Desafio/Desafio0.png)
 
 Agora sobre as view eu tive difciduldade no data mas pesquisando bastante eu consegui fazer funcionar, fiquei bem feliz com o resultado.
 **(Nota: todas tabelas foram e feitas no site https://dbdiagram.io/d)**
@@ -295,7 +295,7 @@ ficando assim todas as minhas views
 
 # Resultados
 
-![Texto alternativo](../Sprint_2/evidencias/Img_Desafio/Desafio11.png)
+![Texto alternativo](../Sprint_02/evidencias/Img_Desafio/Desafio11.png)
 
 
 
