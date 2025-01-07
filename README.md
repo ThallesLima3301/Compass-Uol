@@ -17,22 +17,22 @@
 
 ## Sprints 
 
-1. [Sprint 1](Sprint_1/README.md)
+1. [Sprint 1](Sprint_01/README.md)
   
-2. [Sprint 2](Sprint_2/README.MD)
+2. [Sprint 2](Sprint_02/README.MD)
 
-3. [Sprint 3](Sprint_3/README.MD)
+3. [Sprint 3](Sprint_03/README.MD)
 
-4. [Sprint 4](Sprint_4/README.md)
+4. [Sprint 4](Sprint_04/README.md)
 
-5. [Sprint 5](Sprint_5/README.md)
+5. [Sprint 5](Sprint_05/README.md)
 
-6. [Sprint 6](Sprint_6/README.md)
+6. [Sprint 6](Sprint_06/README.md)
 
-7. [Sprint 7](Sprint_7/README.md)
+7. [Sprint 7](Sprint_07/README.md)
 
-8. [Sprint 8](Sprint_8/README.md) 
+8. [Sprint 8](Sprint_08/README.md) 
 
-9. [Sprint 9](Sprint_9/README.md) 
+9. [Sprint 9](Sprint_09/README.md) 
 
-9. [Sprint 10](Sprint-10/README.md) 
+9. [Sprint 10](Sprint_10/README.md) 
