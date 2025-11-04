@@ -342,6 +342,6 @@ Essas conclusões me ajudam a entender as tendências do gênero comédia e anim
 
 # PDF
 
-[Visualizar o PDF](../Sprint_10/evidencias/img_pdf/My_dashboard.pdf)
+[Visualizar o PDF](../evidencias/img_pdf/My_dashboard.pdf)
 
 
