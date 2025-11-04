@@ -345,4 +345,3 @@ Essas conclusões me ajudam a entender as tendências do gênero comédia e anim
 [Visualizar o PDF](../Sprint_10/evidencias/img_pdf/My_dashboard.pdf)
 
 
-
